@@ -4,16 +4,21 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.photo_url %}
+        <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+        {% endif %}
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        {% if post.description %}
+        <span class="body">{{ post.description | markdownify }}</span>
+        {% else %}
+        <span class="body">{{ post.excerpt | strip_html }}</span>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
