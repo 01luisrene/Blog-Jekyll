@@ -4,6 +4,7 @@
  body.template-no-home{
   .site-header{
     background-color:$color-bg-link-menu;
+    min-height: 50px;
   }
   .page-content{
     padding-top: 3em;
