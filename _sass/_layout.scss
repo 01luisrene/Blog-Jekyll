@@ -4,7 +4,9 @@
  body.template-no-home{
   .site-header{
     background-color:$color-bg-link-menu;
-    margin-bottom: 2em;
+  }
+  .wrapper{
+    padding-top: 3em;
   }
  }
  
