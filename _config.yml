@@ -8,7 +8,6 @@
 # Site settings
 permalink: /blog/:year/:month/:day/:title/
 title: 01luisrene
-author: "Luis Rene Mas Mas"
 email: 01luisrene@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Soy técnico en Computación e Informática con muchos años de recorrido en el mundo informático; me encanta la programación web y el desarrollo móvil.

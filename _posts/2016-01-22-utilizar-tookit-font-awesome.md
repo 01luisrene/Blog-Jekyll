@@ -3,6 +3,7 @@ layout: post
 title:  "Utilizar el Tookit Font Awesome"
 date:   2016-01-22 09:41:41 -0500
 categories: font-awesome toolkit
+tumblr_id: 01-article
 ---
 Utilizar el <strong>Toolkit Font Awesome</strong> es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
 
