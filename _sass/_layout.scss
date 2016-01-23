@@ -1,9 +1,12 @@
 /**
  * Site header
  */
- .header{
-    background-color:$bg-main;
+ body.template-no-home{
+  .site-header{
+    background-color:$color-bg-link-menu;
+  }
  }
+ 
 .site-header {
     border-top: 5px solid $color-top-head;
     min-height: 56px;
