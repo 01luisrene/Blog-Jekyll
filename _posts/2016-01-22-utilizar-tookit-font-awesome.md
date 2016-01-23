@@ -17,7 +17,7 @@ Copiamos el link dentro de la etiqueta head en nuestro archivo ya sea HTML, PHP,
 
 <h3>Mostrando los iconos</h3>
 
-Te recomiendo visitar este link <strong><a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a></strong> para ver los nombre de los iconos.
+Te recomiendo visitar este link <strong><a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a></strong> para ver los nombre de los iconos.
 
 Elige el icono que vas a emplear y dale click, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
 
@@ -74,4 +74,4 @@ Aquí un pequeño código para comprenderlo mejor.
 
 <h3>Ejemplos del toolkit Font Awesome</h3>
 
-Te recomiendo visitar esta página: <strong><a href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Ejemplo Font Awesome</a></strong>, ahí encontraras ejemplos que espero que te sirvan.
+Te recomiendo visitar esta página: <strong><a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Ejemplo Font Awesome</a></strong>, ahí encontraras ejemplos que espero que te sirvan.

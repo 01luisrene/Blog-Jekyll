@@ -67,4 +67,4 @@ Este código al ser renderizado por <strong>LESS</strong> a <strong>CSS</strong>
 
 Para aquellos que despertó su curiosidad como la mía en algún momento aquí les dejo el link de la web oficial para que puedan experimentar y profundizar sus conocimientos.
 
-<a href="http://lesscss.org/" target="_blank"><strong>Página de LESS</strong></a>
+<a class="btn btn-link" href="http://lesscss.org/" target="_blank"><strong>Página de LESS</strong></a>
