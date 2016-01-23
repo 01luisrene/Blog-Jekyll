@@ -3,12 +3,27 @@ var alegre = 'fa-smile-o',
 	serio = 'fa-meh-o',
 	triste= 'fa-frown-o',
 	alto_ventana = $( window ).height();
+
 var cerounoluisrene = (function ($) {
 
     var
 
     userAgentInit = function() {
         document.documentElement.setAttribute('data-useragent', navigator.userAgent);
+    },
+    // script para que el menu sea statico
+    menuFixed = function(){
+    	var menu = $('body.template-no-home #js-site-header');
+    	//http://bigspotteddog.github.io/ScrollToFixed/
+    	$('body.template-no-home #js-site-header').scrollToFixed();
+
+    	$(window).on('scroll', function() {
+	      if($(window).scrollTop() > 1) {
+	        menu.addClass('menu-fixed');
+	      } else {
+	        menu.removeClass('menu-fixed');
+	      }
+  });
     },
     //altura de la web
     heightHome = function(){
@@ -100,6 +115,7 @@ var cerounoluisrene = (function ($) {
  // anima javascripts initialization
     init = function () {
         userAgentInit();
+        menuFixed();
         heightHome();
         estado01luisrene();
         numerosContacto();

@@ -25,7 +25,13 @@ body {
     font-kerning: normal;
 }
 
-
+figure{
+  margin:0;
+  padding:0;
+  a > img{
+    width: 100%;
+  }
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -191,6 +197,21 @@ pre {
   margin-bottom: 15px;
   }
 }
+//menu fijo
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  -webkit-transition: all 700ms;
+  -moz-transition: all 700ms;
+  -o-transition: all 700ms;
+  padding: 0;
+  width: 100%;
+  border-top: 0 !important;
+}
+//ocultar elementos
+.hide{
+  display: none !important;
+}
 //estilos uni
 .separador{
     background:#F2F2F2;
@@ -235,7 +256,14 @@ pre {
         padding-left: 0;
     }
 }
-
+/*mediaqueries*/
+@media screen and (max-width: $on-laptop) {
+   .template-no-home .wrapper
+    {
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+}
 
 
 /**

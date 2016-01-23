@@ -1,7 +1,7 @@
 /**
  * Site header
  */
- body.template-no-home{
+body.template-no-home{
   .site-header{
     background-color:$color-bg-link-menu;
     min-height: 50px;
@@ -13,8 +13,18 @@
   //menu
   .site-nav{
     .page-link{
-      padding: 15px 10px;
+      padding: 10px 20px;
       margin: 5px 0;
+    }
+  }
+  .img-logo{
+    display: inline-block !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 44px;
+    width: 44px;
+    a{
+      display: block;
     }
   }
  }
@@ -439,21 +449,21 @@ h1.name_app:after {
         width: 100%;
 }
   a {
-    color: $text-white;
+      color: $text-color;
       display: block;
       text-align: center;
       text-decoration: none;
       padding: 50px 15px;
     }
-    a.codigomsoft:hover {
+    a.cerounoluisrene:hover {
       background: #03c579;
       text-decoration: underline;
-      color: $text-color;
+      color: $text-white;
     }
     a.masserviciosweb:hover {
       background: #e96656;
       text-decoration: underline;
-      color: $text-color;
+      color: $text-white;
     }
 }
 
@@ -544,7 +554,7 @@ h1.name_app:after {
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($on-laptop) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -554,6 +564,9 @@ h1.name_app:after {
 
 /*copy*/
 .copy{
+  clear: both;
+  display: block;
+  float: none;
     p{
         color: $text-white;
         display: block;
