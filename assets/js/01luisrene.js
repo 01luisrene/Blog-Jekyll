@@ -47,21 +47,21 @@ var cerounoluisrene = (function ($) {
 		var movistar = $('#movistar').text();
 		$('#movistar').hover(function(){
 	    	$(this).addClass('movistar');
-			replace = movistar.replace(movistar,'Movistar');
+			var replace = movistar.replace(movistar,'Movistar');
 			$(this).text(replace);
 	    }, function() {
 	    	$(this).removeClass('movistar');
-	    	replace = movistar.replace('Movistar', movistar);
+	    	var replace = movistar.replace('Movistar', movistar);
 			$(this).text(replace);
 	  	});
 		var claro = $('#claro').text();
 	  	$('#claro').hover(function(){
 	    	$(this).addClass('claro');
-	    	replace = claro.replace(claro, 'Claro');
+	    	var replace = claro.replace(claro, 'Claro');
 			$(this).text(replace);
 	    }, function() {
 	    	$(this).removeClass('claro');
-	    	replace = claro.replace('Claro', claro);
+	    	var replace = claro.replace('Claro', claro);
 			$(this).text(replace);
 	  	});
     },
