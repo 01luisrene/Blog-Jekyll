@@ -1,6 +1,11 @@
 # [01luisrene.com](http://01luisrene.com)
 
 Sitio web personal de **Luis Rene Mas Mas**
+## Generador de sitio estático
+
+[Jekyll](https://jekyllrb.com/)
+
+Mi website esta basado en este generador de contenido muy potente.
 
 ## Librerías utilizadas
 
