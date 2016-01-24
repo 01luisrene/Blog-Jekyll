@@ -5,7 +5,7 @@ Sitio web personal de **Luis Rene Mas Mas**
 
 [Jekyll](https://jekyllrb.com/)
 
-Mi website esta basado en este generador de contenido muy potente.
+Mi website esta basado en este generador de contenido estático muy potente.
 
 ## Librerías utilizadas
 
