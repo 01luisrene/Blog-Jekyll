@@ -5,9 +5,9 @@ date:   2016-01-22 09:41:41 -0500
 categories: font-awesome toolkit
 tumblr_id: 01-article
 ---
-Utilizar el <strong>Toolkit Font Awesome</strong> es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
+Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
 
-<h3>Agregar Font Awesome desde su CDN</h3>
+### Agregar Font Awesome desde su CDN
 
 Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web te lo aseguro.
 
@@ -15,17 +15,18 @@ Copiamos el link dentro de la etiqueta head en nuestro archivo ya sea HTML, PHP,
 <pre><code>&#60;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"&#62;
 </code></pre>
 
-<h3>Mostrando los iconos</h3>
+### Mostrando los iconos
 
-Te recomiendo visitar este link <strong><a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a></strong> para ver los nombre de los iconos.
+Te recomiendo visitar este link **<a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
 Elige el icono que vas a emplear y dale click, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
 
 Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
-<h3>Uso en tu proyecto web</h3>
+### Uso en tu proyecto web
 
 Aquí un pequeño código para comprenderlo mejor.
+
 <pre><code>&#60;!DOCTYPE html&#62;
 &#60;html lang="es-PE"&#62;
 &#60;head&#62;
@@ -72,6 +73,6 @@ Aquí un pequeño código para comprenderlo mejor.
 &#60;/body&#62;
 &#60;/html&#62;</code></pre>
 
-<h3>Ejemplos del toolkit Font Awesome</h3>
+### Ejemplos del toolkit Font Awesome
 
-Te recomiendo visitar esta página: <strong><a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Ejemplo Font Awesome</a></strong>, ahí encontraras ejemplos que espero que te sirvan.
+Te recomiendo visitar esta página: **<a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Ejemplo Font Awesome</a>**, ahí encontraras ejemplos que espero que te sirvan.

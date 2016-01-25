@@ -162,6 +162,7 @@ h1.name_app:after {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: -3px;
+  z-index: 0;
 }
 .contenedor_text_pasion p {
   font-size: 1em;
@@ -581,7 +582,9 @@ h1.name_app:after {
  * Page content
  */
 .page-content {
+    position: relative;
     background: $bg-main;
+    z-index: 2;
 }
 
 .page-heading {
