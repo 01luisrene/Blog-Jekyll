@@ -15,8 +15,8 @@
 
     {% include autoreload-in-debug.html %}
     
-    <script src="{{ site.url }}/assets/js/libs/vegas.js"></script>
-    <script src="{{ site.url }}/assets/js/appVegas.js"></script>
+    <script src="{{ "/assets/js/libs/vegas.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/appVegas.js" | prepend: site.baseurl }}"></script>
   </body>
 
 </html>
