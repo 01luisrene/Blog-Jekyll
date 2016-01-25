@@ -1,5 +1,6 @@
 var agente = navigator.userAgent,
-    dispositivos = /(Android|webOS|Phone|iPad|iPod|Iphone|BlackBerry|Windows Phone|opera mini|iemobile|mobile)/i;
+    dispositivos = /(Android|webOS|Phone|iPad|iPod|Iphone|BlackBerry|Windows Phone|opera mini|iemobile|mobile)/i,
+    timer = true;
 
     if(agente.search(dispositivos) > -1)
     {
