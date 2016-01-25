@@ -16,8 +16,7 @@ $(function(){
         shuffle: true,
         transitionDuration: 1000,
         overlay: true,
-        slides: [
-            { src: "/assets/images/bg/bg1.jpg" },        
+        slides: [        
             { src: "/assets/images/bg/bg2.jpg" },
             { src: "/assets/images/bg/bg3.jpg" },
             { src: "/assets/images/bg/bg4.jpg" },
