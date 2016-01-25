@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+header, article, section, aside, footer, figure, hgroup, nav, details,figcaption{
+  display: block;
+}
 
 /**
  * Basic styling
@@ -25,12 +27,8 @@ body {
     font-kerning: normal;
 }
 
-figure{
-  margin:0;
-  padding:0;
-  a > img{
+figure a > img{
     width: 100%;
-  }
 }
 
 /**

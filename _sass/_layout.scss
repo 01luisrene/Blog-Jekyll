@@ -17,8 +17,9 @@ body.template-no-home{
       margin: 5px 0;
     }
   }
+ 
   .img-logo{
-    display: inline-block !important;
+    display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     height: 44px;
@@ -50,7 +51,9 @@ body.template-no-home{
         color: $grey-color-dark;
     }
 }
-
+.img-logo{
+  display: none;
+}
 .site-nav {
     float: right;
     background-color: $color-bg-link-menu;
@@ -488,9 +491,11 @@ h1.name_app:after {
  * Site footer
  */
 .site-footer {
+    position:relative;
     background-color: #383838;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0 0 0;
+    z-index: 2;
 }
 
 .footer-heading {
@@ -582,7 +587,7 @@ h1.name_app:after {
  * Page content
  */
 .page-content {
-    position: relative;
+    position:relative;
     background: $bg-main;
     z-index: 2;
 }
