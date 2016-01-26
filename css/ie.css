@@ -53,34 +53,34 @@
   background: #4D7BC1;
   background-image: url(/assets/images/redes/facebook.png);
 }
-.facebook:hover{
-  background-image: inherit;
-}
+.facebook:hover{background-image: url(/assets/images/redes/facebook.png) !important;}
 .google{
   background: #E05C52;
   background-image: url(/assets/images/redes/google.png);
 }
-.google:hover{
-
-  background-image: url(/assets/images/redes/google.png) !important;
-}
+.google:hover{background-image: url(/assets/images/redes/google.png) !important;}
 .twitter{
   background: #3C8DE8;
   background-image: url(/assets/images/redes/twitter.png);
 }
+.twitter:hover{background-image: url(/assets/images/redes/twitter.png) !important;}
 .whatsapp{
   background: #119D14;
   background-image: url(/assets/images/redes/whatsapp.png);
 }
+.whatsapp:hover{background-image: url(/assets/images/redes/whatsapp.png) !important;}
 .youtube{
   background: #E6282D;
   background-image: url(/assets/images/redes/youtube.png);
 }
+.youtube:hover{background-image: url(/assets/images/redes/youtube.png) !important;}
 .escribeme{
   background: #FFEF2B;
   background-image: url(/assets/images/redes/mail.png);
 }
-.facebook, .google, .twitter, .whatsapp, .youtube, .escribeme{
+.escribeme:hover{ background-image: url(/assets/images/redes/mail.png) !important;}
+
+.facebook, .facebook:hover, .google, .google:hover, .twitter, .twitter:hover, .whatsapp, .whatsapp:hover, .youtube, .youtube:hover, .escribeme, .escribeme:hover{
   background-repeat: no-repeat;
   background-position: center;
 }
