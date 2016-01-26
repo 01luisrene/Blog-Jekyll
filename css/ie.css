@@ -1,3 +1,6 @@
+div, p{
+	display: block;
+}
 body{
 	background-image: url("http://01luisrene.com/assets/images/fondo-ie.jpg");
 	background-color: #313131;
@@ -19,4 +22,14 @@ body{
   padding-bottom: 10px;
   margin-bottom: -3px;
   z-index: 100;
+}
+.contenedor_text_pasion p{
+  display: block;
+  font-size: 1em;
+  color: #FEFF27;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
