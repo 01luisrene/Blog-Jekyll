@@ -29,7 +29,7 @@ var cerounoluisrene = (function ($) {
     heightHome = function(){
     	if(alto_ventana > 150){
 			$('#contenedor_front_main').css({
-				height: alto_ventana - 32
+				height: alto_ventana - 36
 			});
 		}
 		else
@@ -42,7 +42,7 @@ var cerounoluisrene = (function ($) {
 			var alto_ventana = $(this).height();
 			if(alto_ventana > 150){
 				$('#contenedor_front_main').css({
-					height: alto_ventana - 32
+					height: alto_ventana - 36
 				});
 			}
 			else{
