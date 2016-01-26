@@ -1,3 +1,6 @@
+.page-content{
+  margin-bottom: 0;
+}
 .contenedor_front_main{
 	display: block;
 	background-color: green;
