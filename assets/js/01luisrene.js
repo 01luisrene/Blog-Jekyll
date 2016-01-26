@@ -156,7 +156,7 @@ var cerounoluisrene = (function ($) {
 			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.js"></script>');
 		}
     },
- // anima javascripts initialization
+ // 01luisrene javascripts initialization
     init = function () {
         userAgentInit();
         menuFixed();
