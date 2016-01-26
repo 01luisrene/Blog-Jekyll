@@ -159,7 +159,7 @@ h1.name_app:after {
   text-shadow: none;
 }
 .contenedor_text_pasion {
-  background: #2A2A2A;
+  background: $bg-pasion;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -359,52 +359,51 @@ h1.name_app:after {
         width: 49%;
     }
     a{
-      color: #B2E4E8;
       display: block;
       text-decoration: none;
       padding: 1em 0;
       width: 100%;
     }
     a.facebook {
-        color: #3864a3;
+        color: $facebook;
         &:hover{
-            background: #3864a3;
-            color: white;
+            background: $facebook;
+            color: $text-white;
         }
     }
     a.google {
-        color: #db4437;
+        color: $google;
         &:hover {
-          background: #db4437;
-          color: white;
+          background: $google;
+          color: $text-white;
         }
     }
     a.twitter {
-        color: #4391e8;
+        color: $twitter;
         &:hover {
-          background: #4391e8;
-          color: white;
+          background: $twitter;
+          color: $text-white;
         }
     }
     a.whatsapp {
-      color: #13ad17;
+      color: $whatsapp;
         &:hover {
-          background: #13ad17;
-          color: white;
+          background: $whatsapp;
+          color: $text-white;
         }
     }
     a.youtube {
-      color: #cc181e;
+      color: $youtube;
         &:hover {
-          background: #cc181e;
-          color: white;
+          background: $youtube;
+          color: $text-white;
         }
     }
     a.escribeme {
-      color: #ffee2b;
+      color: $mail;
         &:hover {
-          background: #ffee2b;
-          color: white;
+          background: $mail;
+          color: $text-white;
         }
     }
 }
@@ -626,6 +625,9 @@ h1.name_app:after {
 }
 
 .post-title {
+    font: 3em "Noto Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: left;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -637,7 +639,6 @@ h1.name_app:after {
 
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 32px;
 
@@ -648,6 +649,7 @@ h1.name_app:after {
 
     h3 {
         font-size: 26px;
+        margin-bottom: 15px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -661,6 +663,8 @@ h1.name_app:after {
             font-size: 18px;
         }
     }
+    p{display: block;}
+  
 }
 
 /*about*/
