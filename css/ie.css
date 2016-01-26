@@ -28,6 +28,7 @@
 .page-content {
     position: relative;
     overflow: hidden;
+    margin-bottom: 0;
 }
 /** Site footer */
 .site-footer { 
