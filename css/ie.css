@@ -4,8 +4,6 @@
 }
 .contenedor_front_main{
 	display: block;
-	background-color: green;
-	height:480px !important;
 	z-index: 100;
 }
 .contenedor_text_pasion {
@@ -56,7 +54,7 @@
   background-image: url(/assets/images/redes/facebook.png);
 }
 .facebook:hover{
-  background: white;
+  background: white !important;
   background-image: url(/assets/images/redes/facebook.png);
 }
 .google{
