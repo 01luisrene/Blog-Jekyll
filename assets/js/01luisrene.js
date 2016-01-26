@@ -141,10 +141,10 @@ var cerounoluisrene = (function ($) {
 		}
 		if(agente.indexOf("rv:11")>-1)
 		{
-			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
+			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.js"></script>');
 		}else if(versionIE=="10.")
 		{
-			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
+			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.js"></script>');
 		}else if(versionIE=="9.0")
 		{
 			document.write('<script src="/assets/js/libs/vegas.js"></script>');
