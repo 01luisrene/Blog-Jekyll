@@ -34,7 +34,7 @@
   background-image: url(/assets/images/redes/smile.png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 42px;
+  height: 45px;
   width: 100%;
 }
 
@@ -94,8 +94,8 @@
 .escribeme:hover{ background-image: url(/assets/images/redes/mail.png) !important;}
 
 .facebook, .facebook:hover, .google, .google:hover, .twitter, .twitter:hover, .whatsapp, .whatsapp:hover, .youtube, .youtube:hover, .escribeme, .escribeme:hover{
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 /** Site footer */
 .site-footer { 
