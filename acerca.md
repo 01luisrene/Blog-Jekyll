@@ -14,7 +14,7 @@ permalink: /acerca/
 		<li><p>El bit es la unidad mínima de información empleada en informática. Con él, podemos representar dos valores cuales quiera, basta con asignar uno de esos valores al estado de "apagado" (0), y el otro al estado de "encendido" (1).</p></li>
 	</ol>
 		
-	<img src="{{ site.url }}/assets/images/familia_mas.jpg" alt="Familia Mas" class='img_familia'>
+	<img src="{{ "/assets/images/familia_mas.jpg" | prepend: site.baseurl }}" alt="Familia Mas">
 	
 	<p class="text-foo">Plaza de armas  de la ciudad de Trujillo - La Libertad - Per&uacute;</p>
 
