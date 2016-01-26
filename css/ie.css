@@ -13,6 +13,7 @@ body{
     width: 100%;
 }
 .contenedor_front_main{
+	position: relative;
 	background-color: green;
 	z-index: 99;
 }
