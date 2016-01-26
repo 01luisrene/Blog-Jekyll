@@ -10,6 +10,7 @@ body{
     width: 100%;
 }
 .contenedor_text_pasion {
+  display: block;
   background-color: #2A2A2A;
   position: absolute;
   bottom: 0;
