@@ -12,6 +12,10 @@ body{
     overflow: hidden;
     width: 100%;
 }
+.contenedor_front_main{
+	background-color: green;
+	z-index: 99;
+}
 .contenedor_text_pasion {
   display: block;
   background-color: #2A2A2A;
