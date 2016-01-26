@@ -23,20 +23,65 @@
   text-transform: uppercase;
   margin: 0;
 }
-
-/*page*/
-.page-content {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 0;
+/*redes sociales*/
+.redes_sociales{
+  background: #98AAEF;
+  overflow: hidden;
+}
+.lista_redes_sociales{
+  list-style-type: none;
+  width: 100%;
+}
+.lista_redes_sociales li{
+  background: red;
+  float: left;
+  text-align: center;
+  display: block;
+  width: 50%;
+}
+.lista_redes_sociales li a{
+  display: block;
+  margin: 0 auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  height: 42px;
+  width: 100%;
+}
+.facebook{
+  background: #4D7BC1;
+  background-image: url(../images/redes/facebook.png);
+}
+.google{
+  background: #E05C52;
+  background-image: url(../images/redes/google.png);
+}
+.twitter{
+  background: #3C8DE8;
+  background-image: url(../images/redes/twitter.png);
+}
+.whatsapp{
+  background: #119D14;
+  background-image: url(../images/redes/whatsapp.png);
+}
+.youtube{
+  background: #E6282D;
+  background-image: url(../images/redes/youtube.png);
+}
+.escribeme{
+  background: #FFEF2B;
+  background-image: url(../images/redes/mail.png);
+}
+.facebook, .google, .twitter, .whatsapp, .youtube, .escribeme{
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /** Site footer */
 .site-footer { 
   display: block;
   background-color: #383838; 
   border-top: 1px solid #e8e8e8; 
-  padding: 30px 0 0 0;
   overflow: hidden;
+  padding: 30px 0 0 0; 
   z-index: 2;
 }
 .site-footer:before,
@@ -81,7 +126,7 @@
     display: block;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 .copy a{
     color: #fff;
@@ -137,4 +182,4 @@
   .footer-col { 
     float: none;
     width: 100%; } 
-  }
+}
