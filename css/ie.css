@@ -24,6 +24,11 @@
   margin: 0;
 }
 
+/*page*/
+.page-content {
+    position: relative;
+    overflow: hidden;
+}
 /** Site footer */
 .site-footer { 
   display: block;
