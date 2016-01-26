@@ -25,10 +25,10 @@
 }
 /*redes sociales*/
 .redes_sociales{
-  background: #98AAEF;
   overflow: hidden;
 }
 .lista_redes_sociales{
+  list-style-type: none;
   list-style-type: none;
   width: 100%;
 }
@@ -49,7 +49,7 @@
 }
 .facebook{
   background: #4D7BC1;
-  background-image: url(../images/redes/facebook.png);
+  background-image: url(/images/redes/facebook.png);
 }
 .google{
   background: #E05C52;
