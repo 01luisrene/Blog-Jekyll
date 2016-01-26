@@ -1,17 +1,6 @@
 div{
 	display: block;
 }
-body{
-	background-image: url("http://01luisrene.com/assets/images/fondo-ie.jpg");
-	background-color: #313131;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top;
-    position: relative;
-    opacity: 0.8;
-    overflow: hidden;
-    width: 100%;
-}
 .contenedor_front_main{
 	display: block;
 	background-color: green;
