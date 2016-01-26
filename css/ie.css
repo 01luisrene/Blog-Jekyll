@@ -54,8 +54,14 @@
   background: #4D7BC1;
   background-image: url(/assets/images/redes/facebook.png);
 }
+.facebook:hover{
+  background-image: url(/assets/images/redes/facebook.png);
+}
 .google{
   background: #E05C52;
+  background-image: url(/assets/images/redes/google.png);
+}
+.google:hover{
   background-image: url(/assets/images/redes/google.png);
 }
 .twitter{
