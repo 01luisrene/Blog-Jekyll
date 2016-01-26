@@ -10,11 +10,3 @@ body{
     overflow: hidden;
     width: 100%;
 }
-body.template-no-home{
-	.page-content{
-		padding-top: 54px;
-	}
-}
-.site-header{
-	background: tomato;
-}
