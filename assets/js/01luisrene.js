@@ -153,8 +153,7 @@ var cerounoluisrene = (function ($) {
 			document.write('<script src="/assets/js/libs/vegas-ie.js">x3C/script>');
 			vegas_ie();
 		}else{
-
-			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
+			document.write('<script src="http://localhost:4000/assets/js/libs/vegas.js"></script>');
 		}
     },
  // anima javascripts initialization
