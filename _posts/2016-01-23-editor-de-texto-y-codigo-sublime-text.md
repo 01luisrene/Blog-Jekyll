@@ -38,10 +38,10 @@ Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>
 
 Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el Package Control.
 
-![Sublime Text Package Control]({{site.url}}/assets/images/posts/sublime-text-package-control.jpg "Sublime Text Package Control")
+![Sublime Text Package Control]({{ "/assets/images/posts/sublime-text-package-control.jpg" | prepend: site.baseurl }} "Sublime Text Package Control")
 
 Ahora elegimos la opción <kbd>Install Package</kbd>, escribimos el nombre del plugin y elegimos el que deseamos instalar.
 
-![Install Package]({{site.url}}/assets/images/posts/install-package.jpg "Install Package")
+![Install Package]({{ "/assets/images/posts/install-package.jpg" | prepend: site.baseurl }} "Install Package")
 
 Bueno amigos ahora pueden instalar los plugin que deseen.
