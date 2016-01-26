@@ -62,7 +62,7 @@
 }
 .google:hover{
 
-  background-image: url(/assets/images/redes/google.png);
+  background-image: url(/assets/images/redes/google.png) !important;
 }
 .twitter{
   background: #3C8DE8;
