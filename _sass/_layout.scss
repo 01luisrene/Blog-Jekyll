@@ -633,6 +633,7 @@ h1.name_app:after {
     line-height: 1;
 
     @include media-query($on-laptop) {
+        text-align: center;
         font-size: 36px;
     }
 }
