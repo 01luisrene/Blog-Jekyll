@@ -2,7 +2,8 @@
 <html lang="es-PE">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="{{ "/assets/css/libs/vegas.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/libs/vegas.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/assets/css/libs/vegas-ie.css" | prepend: site.baseurl }}"/>
 </head>
 
   <body>
@@ -14,15 +15,7 @@
     {% include footer.html %}
 
     {% include autoreload-in-debug.html %}
-    
-    <script src="{{ "/assets/js/libs/vegas.js" | prepend: site.baseurl }}"></script>
-  
-    <script src="{{ "/assets/js/libs/vegas-ie.js" | prepend: site.baseurl }}"></script>
-    <script>
-        if ( $.browser.msie <= 8 ) {
-        alert( $.browser.version );
-      }
-    </script>
+
     <script src="{{ "/assets/js/appVegas.js" | prepend: site.baseurl }}"></script>
   </body>
 

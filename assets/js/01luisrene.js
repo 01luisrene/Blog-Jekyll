@@ -2,7 +2,8 @@
 var alegre = 'fa-smile-o',
 	serio = 'fa-meh-o',
 	triste= 'fa-frown-o',
-	alto_ventana = $( window ).height();
+	alto_ventana = $( window ).height(),
+	agente = navigator.userAgent.toLowerCase();
 
 var cerounoluisrene = (function ($) {
 
@@ -112,6 +113,44 @@ var cerounoluisrene = (function ($) {
             hljs.highlightBlock(block);
         });
     },
+
+    loadVegas = function(){
+    	var posicionIE, versionIE, navegador;
+		posicionIE = agente.indexOf("msie");
+		versionIE = agente.substring(posicionIE+5, posicionIE+8);
+		function vegas_ie(){
+			$(function() {
+				$.vegas('slideshow', {
+				  delay:6000,
+				  loading: false,
+				  backgrounds:[
+				    { src: "images/bg/bg2.jpg", fade:1000 },
+				    { src: "images/bg/bg3.jpg", fade:1000 },
+				    { src: "images/bg/bg8.jpg", fade:1000 }
+				  ]
+				})('overlay', {
+				  src:'overlays/02.png',
+				  opacity:0.5
+				});
+			});
+		}
+		if(agente.indexOf("rv:11")>-1)
+		{
+			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+		}else if(versionIE=="10.")
+		{
+			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+		}else if(versionIE=="9.0")
+		{
+			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+		}else if(versionIE=="8.0" || versionIE=="7.0" || versionIE=="6.0")
+		{
+			document.write('<script src="/assets/js/libs/vegas-ie.js">x3C/script>');
+			vegas_ie();
+		}else{
+			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+		}
+    },
  // anima javascripts initialization
     init = function () {
         userAgentInit();
@@ -121,6 +160,7 @@ var cerounoluisrene = (function ($) {
         numerosContacto();
         setInterval(function(){ slider01luisrene() }, 10000);
         syntaxHighlighter();
+        loadVegas();
     };
 
     return {
