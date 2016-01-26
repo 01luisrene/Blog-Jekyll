@@ -54,8 +54,7 @@
   background-image: url(/assets/images/redes/facebook.png);
 }
 .facebook:hover{
-  background: white !important;
-  background-image: url(/assets/images/redes/facebook.png);
+  background-image: inherit;
 }
 .google{
   background: #E05C52;
