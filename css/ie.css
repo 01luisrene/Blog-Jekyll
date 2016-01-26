@@ -22,8 +22,6 @@ body{
 .contenedor_text_pasion {
   display: block;
   background-color: #2A2A2A;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
