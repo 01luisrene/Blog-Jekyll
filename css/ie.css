@@ -52,27 +52,27 @@
 }
 .facebook{
   background: #4D7BC1;
-  background-image: url(/images/redes/facebook.png);
+  background-image: url(/assets/images/redes/facebook.png);
 }
 .google{
   background: #E05C52;
-  background-image: url(../images/redes/google.png);
+  background-image: url(/assets/images/redes/google.png);
 }
 .twitter{
   background: #3C8DE8;
-  background-image: url(../images/redes/twitter.png);
+  background-image: url(/assets/images/redes/twitter.png);
 }
 .whatsapp{
   background: #119D14;
-  background-image: url(../images/redes/whatsapp.png);
+  background-image: url(/assets/images/redes/whatsapp.png);
 }
 .youtube{
   background: #E6282D;
-  background-image: url(../images/redes/youtube.png);
+  background-image: url(/assets/images/redes/youtube.png);
 }
 .escribeme{
   background: #FFEF2B;
-  background-image: url(../images/redes/mail.png);
+  background-image: url(/assets/images/redes/mail.png);
 }
 .facebook, .google, .twitter, .whatsapp, .youtube, .escribeme{
   background-repeat: no-repeat;
