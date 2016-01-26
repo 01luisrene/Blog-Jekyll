@@ -141,20 +141,20 @@ var cerounoluisrene = (function ($) {
 		}
 		if(agente.indexOf("rv:11")>-1)
 		{
-			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
 		}else if(versionIE=="10.")
 		{
-			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
 		}else if(versionIE=="9.0")
 		{
-			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			document.write('<script src="/assets/js/libs/vegas.js"></script>');
 		}else if(versionIE=="8.0" || versionIE=="7.0" || versionIE=="6.0")
 		{
 			document.write('<script src="/assets/js/libs/vegas-ie.js">x3C/script>');
 			vegas_ie();
 		}else{
-			
-			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
+
+			$("body").append('<script src="/assets/js/libs/vegas.js"></script>');
 		}
     },
  // anima javascripts initialization
