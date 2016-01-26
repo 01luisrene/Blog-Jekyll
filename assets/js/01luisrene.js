@@ -124,9 +124,14 @@ var cerounoluisrene = (function ($) {
 				  delay:6000,
 				  loading: false,
 				  backgrounds:[
-				    { src: "images/bg/bg2.jpg", fade:1000 },
-				    { src: "images/bg/bg3.jpg", fade:1000 },
-				    { src: "images/bg/bg8.jpg", fade:1000 }
+				    { src: "/assets/images/bg/bg2.jpg" },
+		            { src: "/assets/images/bg/bg3.jpg" },
+		            { src: "/assets/images/bg/bg4.jpg" },
+		            { src: "/assets/images/bg/bg5.jpg" },
+		            { src: "/assets/images/bg/bg6.jpg" },
+		            { src: "/assets/images/bg/bg7.jpg" },
+		            { src: "/assets/images/bg/bg8.jpg" },
+		            { src: "/assets/images/bg/bg9.jpg" }
 				  ]
 				})('overlay', {
 				  src:'overlays/02.png',
