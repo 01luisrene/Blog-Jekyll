@@ -141,10 +141,10 @@ var cerounoluisrene = (function ($) {
 		}
 		if(agente.indexOf("rv:11")>-1)
 		{
-			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
 		}else if(versionIE=="10.")
 		{
-			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
 		}else if(versionIE=="9.0")
 		{
 			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
@@ -153,7 +153,8 @@ var cerounoluisrene = (function ($) {
 			document.write('<script src="/assets/js/libs/vegas-ie.js">x3C/script>');
 			vegas_ie();
 		}else{
-			document.write('<script src="/assets/js/libs/vegas.js">x3C/script>');
+			
+			$("body").append('<script src="/assets/js/libs/vegas.js">x3C/script>');
 		}
     },
  // anima javascripts initialization
