@@ -25,6 +25,19 @@
   text-transform: uppercase;
   margin: 0;
 }
+/**carita feliz**/
+.estado_01luisrene{
+  background: #98AAEF;
+  overflow: hidden;
+}
+#img_estado{
+  background-image: url(/assets/images/redes/smile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 42px;
+  width: 100%;
+}
+
 /*redes sociales*/
 .redes_sociales{
   overflow: hidden;
