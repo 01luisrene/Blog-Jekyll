@@ -4,6 +4,8 @@ title:  "Codear con LESS"
 date:   2016-01-23 09:41:41 -0500
 categories: LESS Preprocesador
 tumblr_id: 02-article
+photo_url : "/assets/images/portadas/less.jpg"
+description: "La mayoría de programadores a utilizado por decadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web..."
 ---
 La mayoría de programadores a utilizado por decadas las hojas de estilo __CSS__, que sirven para dar estilos, apariencia de como se vera su web.
 
@@ -11,7 +13,9 @@ El problema se da cuando hay la necesidad de crear variables para poder usarlos 
 
 ### Ejemplo con CSS
 Tenemos las siguintes variables ( `.contenedor`, `.text`, `.link`, `#main` ).
-<pre><code>#main{
+
+{% highlight css %}
+#main{
 	background: #000;
 	color: #fff;
 	font-size: 20px;
@@ -28,19 +32,22 @@ Tenemos las siguintes variables ( `.contenedor`, `.text`, `.link`, `#main` ).
 .link{
 	color: #000;
 	font-size: 14px;
-}</code></pre>
+}
+{% endhighlight %}
 
 Este es un pequeño ejemplo, pero que pasaría si tenemos un mega proyecto ahí es donde **LESS** seria de gran ayuda.
 
 ### Ejemplo con LESS
 
-<pre><code>/* 
+{% highlight css %}
+
+/* 
 Variables LESS 
 */
-
 @bg: #fff;
 @color-black: #000;
 @font-size-base: 16px;
+
 #main{
 	background: @color-black;
 	color: @bg;
@@ -58,7 +65,8 @@ Variables LESS
 .link{
 	color: @color-black;
 	font-size: @font-size-base - 2;
-}</code></pre>
+}
+{% endhighlight %}
 
 Este código al ser renderizado por **LESS** a **CSS** nos daría el mismo estilo que del ejemplo anterior, solo que nos deja con mas expectativas.
 
@@ -66,4 +74,4 @@ Este código al ser renderizado por **LESS** a **CSS** nos daría el mismo estil
 
 Para aquellos que despertó su curiosidad como la mía en algún momento aquí les dejo el link de la web oficial para que puedan experimentar y profundizar sus conocimientos.
 
-<a class="btn btn-link" href="http://lesscss.org/" target="_blank">**Página de LESS**</a>
+<a class="btn btn-link" href="http://lesscss.org/" title="LESS">**Página de LESS**</a>

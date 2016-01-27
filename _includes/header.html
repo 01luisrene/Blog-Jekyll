@@ -14,13 +14,9 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="/"><i class="fa fa-home"></i> Home</a>
-        <a class="page-link" href="{{site.baseurl}}/blog/">Blog</a>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a href="/" title="Home"><i class="fa fa-home"></i> Home</a>
+        <a href="/blog/"{% if page.url contains "/blog/" %}class="active"{% endif %} title="Blog">Blog</a>
+        <a href="/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Blog">Acerca</a>
       </div>
     </nav>
 

@@ -8,14 +8,24 @@ body.template-no-home{
     vertical-align: top;
   }
   .page-content{
-    padding-top: 3em;
+    padding-top: 2.5em;
     padding-bottom: 2em;
   }
-  //menu
+//menu
   .site-nav{
-    .page-link{
+    .trigger a{
+      vertical-align: middle;
       padding: 10px 20px;
       margin: 5px 0;
+    }
+
+    .active{
+      border-left: 1px solid inherit;
+      border-top: thin dotted $text-white;
+      border-right: 1px solid $text-white;
+      border-bottom: thin dotted $text-white;
+      text-decoration: underline;
+      padding: 9px 20px !important;
     }
   }
  
@@ -63,7 +73,7 @@ body.template-no-home{
         display: none;
     }
 
-    .page-link {
+    .trigger a {
         background-color: $color-bg-link-menu;
         color: $text-white;
         line-height: $base-line-height;
@@ -121,7 +131,7 @@ body.template-no-home{
             padding-bottom: 5px;
         }
 
-        .page-link {
+        .trigger a {
             border:thin dotted transparent;
             display: block;
             padding: 5px 20px;
@@ -595,26 +605,61 @@ h1.name_app:after {
 .page-heading {
     font-size: 20px;
 }
+.portada-post{
+  background-color: #373737;
+  background-size:100%;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  background-size:cover;
+  margin-bottom: 2em;
+  height: 400px;
+  width: 100%;
+}
+.image{
+  display: block;
+  background-size: 100%;
+  background-size: cover;
+  margin: 0;
+  height: 150px;
+  width: 100%;
+}
 
 .post-list {
+    display: inline-block;
     margin-left: 0;
     list-style: none;
-
     > li {
-        margin-bottom: $spacing-unit;
+        display: inline-block;
+        margin: 0 2% $spacing-unit 0;
+        overflow: hidden;
+        vertical-align: top;
+        width: 31.7%;
+        @extend %clearfix;
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
     }
 }
 
+
 .post-meta {
+    display: block;
     font-size: $small-font-size;
     color: $grey-color;
+    margin-bottom: 15px;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
 }
-
+.body{
+  width: 56%;
+  > p{
+    display: block;
+    width: 100%;
+  }
+}
 
 
 /**
@@ -670,6 +715,10 @@ h1.name_app:after {
 
 /*about*/
 .about{
+  .lista-about{
+    padding-left:25px;
+    margin:0;
+  }
     img{
         display: block;
         margin: 0 auto;

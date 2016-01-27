@@ -4,6 +4,8 @@ title:  "Utilizar el Tookit Font Awesome"
 date:   2016-01-22 09:41:41 -0500
 categories: font-awesome toolkit
 tumblr_id: 01-article
+photo_url : "/assets/images/portadas/font-awesome.jpg"
+description: "Utilizar el Toolkit Font Awesome es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor..."
 ---
 Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
 
@@ -12,8 +14,10 @@ Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo
 Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web te lo aseguro.
 
 Copiamos el link dentro de la etiqueta head en nuestro archivo ya sea HTML, PHP, etc.
-<pre><code>&#60;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"&#62;
-</code></pre>
+
+{% highlight bash %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+{% endhighlight %}
 
 ### Mostrando los iconos
 
@@ -27,52 +31,34 @@ Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
 Aquí un pequeño código para comprenderlo mejor.
 
-<pre><code>&#60;!DOCTYPE html&#62;
-&#60;html lang="es-PE"&#62;
-&#60;head&#62;
-	&#60;meta charset="UTF-8"&#62;
-	&#60;title&#62;Uso de Font Awesome&#60;/title&#62;
-	&#60;!-- link de font awesome--&#62;
-	&#60;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"&#62;
-	&#60;style&#62;
-		ul
-		{
-			list-style-type: none;
-		}
-		ul li
-		{
-			margin-bottom: 10px;
-		}
-		.fa
-		{
-			color:tomato;
-		}
-	&#60;/style&#62;
-&#60;/head&#62;
-&#60;body&#62;
-	&#60;h1&#62;Ejemplo de uso de los iconos Font Awesome&#60;/h1&#62;
-	
-	&#60;h2&#62;Descargar navegadores web&#60;/h2&#62;
-		&#60;ul&#62;
-		&#60;li&#62;
-			&#60;i class="fa fa-firefox fa-2x"&#62;&#60;/i&#62; &#60;a href="#"&#62;Firefox&#60;/a&#62;
-		&#60;/li&#62;
-		&#60;li&#62;
-			&#60;i class="fa fa-internet-explorer fa-2x"&#62;&#60;/i&#62; &#60;a href="#"&#62;Internet Explorer&#60;/a&#62;
-		&#60;/li&#62;
-		&#60;li&#62;
-			&#60;i class="fa fa-chrome fa-2x"&#62;&#60;/i&#62; &#60;a href="#"&#62;Google Crhome&#60;/a&#62;
-		&#60;/li&#62;
-		&#60;li&#62;
-			&#60;i class="fa fa-safari fa-2x"&#62;&#60;/i&#62; &#60;a href="#"&#62;Safari&#60;/a&#62;
-		&#60;/li&#62;
-		&#60;li&#62;
-			&#60;i class="fa fa-opera fa-2x"&#62;&#60;/i&#62; &#60;a href="#"&#62;Opera&#60;/a&#62;
-		&#60;/li&#62;
-	&#60;/ul&#62;
-&#60;/body&#62;
-&#60;/html&#62;</code></pre>
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<title>Uso de Font Awesome</title>
+<!-- link de font awesome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+  ul{ list-style-type: none;}
+  ul li{ margin-bottom: 10px;}
+  .fa{ color:tomato;}
+</style>
+</head>
+<body>
+<h1>Ejemplo de uso de los iconos Font Awesome</h1>
+<h2>Descargar navegadores web</h2>
+<ul>
+  <li><i class="fa fa-firefox fa-2x"></i> <a href="#">Firefox</a></li>
+  <li><i class="fa fa-internet-explorer fa-2x"></i> <a href="#">Internet Explorer</a></li>
+  <li><i class="fa fa-chrome fa-2x"></i> <a href="#">Google Crhome</a></li>
+  <li><i class="fa fa-safari fa-2x"></i> <a href="#">Safari</a></li>
+  <li><i class="fa fa-opera fa-2x"></i> <a href="#">Opera</a></li>
+</ul>
+</body>
+</html>
+{% endhighlight %}
 
 ### Ejemplos del toolkit Font Awesome
 
-Te recomiendo visitar esta página: **<a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Ejemplo Font Awesome</a>**, ahí encontraras ejemplos que espero que te sirvan.
+Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">**Ejemplo Font Awesome**</a>, ahí encontraras ejemplos que espero que te sirvan.

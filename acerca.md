@@ -5,7 +5,7 @@ permalink: /acerca/
 ---
 
 <article class="about">
-	<ol>
+	<ol class="lista-about">
 		<li>
 		<p>Este sitio web fue creado más que todo por un hobbie, y para practicar un poco con Jekyll (generador estático diseñado para blogs).</p></li>
 		<li>

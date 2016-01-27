@@ -108,11 +108,11 @@ var cerounoluisrene = (function ($) {
     },
 
     // https://highlightjs.org/
-    syntaxHighlighter = function () {
-        $('pre code').each(function(i, block) {
-            hljs.highlightBlock(block);
-        });
-    },
+    //syntaxHighlighter = function () {
+    //   $('pre code').each(function(i, block) {
+    //        hljs.highlightBlock(block);
+    //   });
+    //},
 
     loadVegas = function(){
     	var posicionIE, versionIE, navegador;
@@ -164,7 +164,7 @@ var cerounoluisrene = (function ($) {
         estado01luisrene();
         numerosContacto();
         setInterval(function(){ slider01luisrene() }, 10000);
-        syntaxHighlighter();
+        //syntaxHighlighter();
         loadVegas();
     };
 
