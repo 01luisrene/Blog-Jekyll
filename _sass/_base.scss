@@ -212,6 +212,9 @@ pre {
     margin: .5em 0;
     height: 4px;
     width: 95%;
+    @include media-query($on-palm){
+      width: 100%;
+    }
 }
  /*titulo seccion */
 .titulo_seccion {

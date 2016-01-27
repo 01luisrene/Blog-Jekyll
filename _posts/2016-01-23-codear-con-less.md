@@ -7,6 +7,8 @@ tumblr_id: 02-article
 photo_url : "/assets/images/portadas/less.jpg"
 description: "La mayoría de programadores a utilizado por decadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web..."
 ---
+![LESS]({{"/assets/images/portadas/less.jpg" | prepend: baseurl }} )
+
 La mayoría de programadores a utilizado por decadas las hojas de estilo __CSS__, que sirven para dar estilos, apariencia de como se vera su web.
 
 El problema se da cuando hay la necesidad de crear variables para poder usarlos en múltiples **clases e id** por ejemplo.

@@ -7,7 +7,11 @@ tumblr_id: 01-article
 photo_url : "/assets/images/portadas/font-awesome.jpg"
 description: "Utilizar el Toolkit Font Awesome es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor..."
 ---
+![Font Awesome]({{"/assets/images/portadas/font-awesome.jpg" | prepend: baseurl }} )
+
 Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
+
+**Toolkit Font Awesome** son fuentes en forma de iconos como  el logo de **Facebook**, **Twitter**, **Google Plus**, **HTML5**, **CSS3**, **GitHub**, **WordPress**, etc.
 
 ### Agregar Font Awesome desde su CDN
 
