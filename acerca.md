@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Acerca
+description: "Este sitio web fue creado más que todo por un hobbie, y para practicar un poco con Jekyll (generador estático diseñado para blogs)."
 permalink: /acerca/
 ---
 
