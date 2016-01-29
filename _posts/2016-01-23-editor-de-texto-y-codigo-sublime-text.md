@@ -7,7 +7,7 @@ tumblr_id: 03-article
 photo_url : "/assets/images/portadas/sublime-text.jpg"
 description: "Sublime Text es un potente editor de texto y código, en mi opinión es agradable,  fácil de configurar y lo mejor de todo es que cuenta con múltiples plugins..."
 ---
-![Sublime Text]({{"/assets/images/portadas/sublime-text.jpg" | prepend: baseurl }} )
+![Sublime Text]({{"/assets/images/portadas/sublime_text.jpg" | prepend: baseurl }} )
 
 **Sublime Text** es un potente editor de texto y código, en mi opinión es agradable,  fácil de configurar y lo mejor de todo es que cuenta con múltiples **plugins**.
 

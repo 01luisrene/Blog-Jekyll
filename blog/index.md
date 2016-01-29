@@ -2,7 +2,7 @@
 layout: default
 title: BLog
 description: "Este es mi blog diseñado para publicar contenido relacionado a HTML5, CSS3, Javascript, etc. Para compartirlo con ustedes."
-portada_url: "/assets/images/portadas/bg-post.png"
+portada_url: "/assets/images/portadas/bg_post.png"
 ---
 
 <div class="home">
