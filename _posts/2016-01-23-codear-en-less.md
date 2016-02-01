@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Codear con LESS"
+title:  "Codear en LESS"
 date:   2016-01-23 09:41:41 -0500
 categories: LESS Preprocesador
 tumblr_id: 02-article

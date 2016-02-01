@@ -1,20 +1,19 @@
 ---
-layout: default
+layout: blog
 title: BLog
 description: "Este es mi blog diseñado para publicar contenido relacionado a HTML5, CSS3, Javascript, etc. Para compartirlo con ustedes."
 portada_url: "/assets/images/portadas/bg_post.png"
 ---
 
-<div class="home">
-  {% if page.portada_url%}
-    <div class="portada-post" style="background-image:url('{{ page.portada_url }}')"></div>
-  {% endif %}
-  <ul class="post-list">
+<section class="post-list">
     {% for post in site.posts limit:15 %}
-      <li>
+      <article class="post">
         {% if post.photo_url %}
-        <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+        <header>
+          <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+        </header>
         {% endif %}
+        <section>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
@@ -24,11 +23,12 @@ portada_url: "/assets/images/portadas/bg_post.png"
         {% else %}
         <span class="body">{{ post.excerpt | strip_html }}</span>
         {% endif %}
+        </section>
+        <footer>
         <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}">Leer m&aacute;s <i class="fa fa-angle-double-right"></i></a>
-      </li>
+        </footer>
+      </article>
     {% endfor %}
-  </ul>
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</section>

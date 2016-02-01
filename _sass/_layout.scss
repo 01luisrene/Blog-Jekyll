@@ -612,10 +612,9 @@ h1.name_app:after {
   background-color: #232323;
   background-size:100%;
   background-size:cover;
-  background-position: center;
+  background-position:center;
   opacity: 0.7;
   filter: alpha(opacity=70);
-  margin-bottom: 2em;
   height: 400px;
   width: 100%;
   @include media-query($on-palm) {
@@ -646,7 +645,7 @@ h1.name_app:after {
     display: inline-block;
     margin-left: 0;
     list-style: none;
-    > li {
+    > .post {
         display: inline-block;
         margin: 0 2% $spacing-unit 0;
         overflow: hidden;
@@ -695,7 +694,9 @@ h1.name_app:after {
     width: 100%;
   }
 }
-
+.rss-subscribe{
+  display: block;
+}
 
 /**
  * Posts
