@@ -6,7 +6,7 @@ permalink: /acerca/
 ---
 <ol class="lista-about">
 	<li>
-	<p>Este sitio web fue creado más que todo por un hobbie, y para practicar un poco con Jekyll (generador estático diseñado para blogs).</p></li>
+	<p>Este sitio web fue creado más que todo por un hobbie, y para practicar un poco con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> (generador estático diseñado para blogs).</p></li>
 	<li>
 		<p>El nombre <strong>01luisrene</strong> es un alias que uso en las redes sociales y en mi correo <strong>Gmail</strong>, para mi representa los bit 0 &oacute; 1 y luisrene que es mi nombre unido.</p>
 	</li>
