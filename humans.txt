@@ -14,7 +14,7 @@ App Name: 01luisrene v1.0
                           
 Webmaster: Luis Rene Mas Mas.
                             
-Site: 01luisrene[at]gmail.com, enlace a formulario de contacto,...
+Site: 01luisrene[at]gmail.com, http://01luisrene.com/contacto/,...
                             
 Twitter: 01luisrene
                           
