@@ -9,7 +9,7 @@ description: "Muchas veces deseamos compartir códigos con nuestros usuarios y p
 ---
 ![highlight.js]({{"/assets/images/portadas/highlight_js.jpg" | prepend: baseurl}})
 
-Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar [highlight.js](https://highlightjs.org/"highlight.js"), esta librería **JavaScript** es asombrosa.
+Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar [highlight.js](https://highlightjs.org/ "highlight.js"), esta librería **JavaScript** es asombrosa.
 
 ### Descargar librería highlight.js
 
