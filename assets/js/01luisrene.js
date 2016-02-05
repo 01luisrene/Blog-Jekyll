@@ -107,6 +107,13 @@ var cerounoluisrene = (function ($) {
 		});
     },
 
+    // https://highlightjs.org/
+    //syntaxHighlighter = function () {
+    //   $('pre code').each(function(i, block) {
+    //        hljs.highlightBlock(block);
+    //   });
+    //},
+
     loadVegas = function(){
     	var posicionIE, versionIE, navegador;
 		posicionIE = agente.indexOf("msie");
@@ -127,7 +134,7 @@ var cerounoluisrene = (function ($) {
 		            { src: "/assets/images/bg/bg9.jpg" }
 				  ]
 				})('overlay', {
-				  src:'/assets/images/overlays/02.png',
+				  src:'overlays/02.png',
 				  opacity:0.5
 				});
 			});
@@ -157,6 +164,7 @@ var cerounoluisrene = (function ($) {
         estado01luisrene();
         numerosContacto();
         setInterval(function(){ slider01luisrene() }, 10000);
+        //syntaxHighlighter();
         loadVegas();
     };
 
