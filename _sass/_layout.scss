@@ -160,6 +160,7 @@ body.template-no-home{
   text-align: center;
   font-size: 3em;
   font-family:'Lobster Two', Helvetica, Arial, sans-serif;
+  line-height: 48px;
 }
 h1.name_app:before {
   content: '{';
@@ -183,7 +184,7 @@ h1.name_app:after {
 }
 .contenedor_text_pasion p {
   font-size: 1em;
-  color: #FEFF27;
+  color: $text-color-pasion;
   display: block;
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   text-align: center;
@@ -238,8 +239,8 @@ h1.name_app:after {
 .lista_datos_personales tr td {
   padding: .5em .5em;
 }
-.name {
-  color: $color-ico-name;
+.traje {
+  color: $color-ico-traje;
 }
 .sexo {
   color: $color-ico-sexo;
@@ -291,7 +292,7 @@ h1.name_app:after {
     position:relative;
   }
   .lista_estudios_realizados li {
-    padding-left: 3em;
+    padding-left: 3.5em;
     display: block;
     line-height: 2em;
     &:not(:last-child) {
@@ -304,7 +305,7 @@ h1.name_app:after {
     font-family: "fontawesome";
     font-size: 30px;
     position: absolute;
-    left: 0;
+    left: 11px;
   }
   .lista_estudios_realizados li.graduacion_instituto:before {
     content: "\f19d";
@@ -312,7 +313,7 @@ h1.name_app:after {
     font-family: "fontawesome";
     font-size: 30px;
     position: absolute;
-    left: 0;
+    left: 11px;
   }
 
   /*conocimientos*/
@@ -321,16 +322,17 @@ h1.name_app:after {
 }
 .conocimientos .wrap > p {
   display: block;
-  padding: 1em 0;
+  padding: 0 0 1em 11px;
   margin: 0;
 }
 .tecnologias_web {
   display: inline-block;
   vertical-align: top;
-  width: 49.5%;
-    @include media-query($on-palm) {
-        width: 100%;
-    }
+  width: 46.5%;
+  margin-left: 2%;
+  @include media-query($on-palm) {
+      width: 100%;
+  }
 }
 .tecnologias_web ul li {
   margin: 1em 0;
