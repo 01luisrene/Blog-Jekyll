@@ -84,25 +84,22 @@ h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 h1{
-    background: transparent;
-    display: block;
-    font: 3em 'Lobster Two', Helvetica, Arial, sans-serif;
-    text-align: center;
+    font-size: 3em;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: normal;
 }
 h2 {
-  display: block;
-  font: 2em "Noto Sans", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-align: left;
   text-transform: uppercase;
 }
 h3 {
-  color: #000000;
-  font: 1.3em "Noto Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-align: left;
   text-transform: uppercase;
-  margin-bottom: 0;
 }
 p {
   display: inline;

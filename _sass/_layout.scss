@@ -49,6 +49,7 @@ body.template-no-home{
     position: relative;
 }
 
+/*
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -62,6 +63,7 @@ body.template-no-home{
         color: $grey-color-dark;
     }
 }
+*/
 .img-logo{
   display: none;
 }
@@ -155,16 +157,17 @@ body.template-no-home{
 .name_app {
   color: #e81a5c;
   text-shadow: 3px 1px 0px #ffffff;
+  text-align: center;
+  font-size: 3em;
+  font-family:'Lobster Two', Helvetica, Arial, sans-serif;
 }
 h1.name_app:before {
   content: '{';
-  color: #a51140;
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
   text-shadow: none;
 }
 h1.name_app:after {
   content: '}';
-  color: #a51140;
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
   text-shadow: none;
 }
