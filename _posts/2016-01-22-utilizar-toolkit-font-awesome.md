@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Utilizar el Tookit Font Awesome"
+title:  "Utilizar el Toolkit Font Awesome"
 date:   2016-01-22 09:41:41 -0500
 categories: font-awesome toolkit
 tumblr_id: 01-article
