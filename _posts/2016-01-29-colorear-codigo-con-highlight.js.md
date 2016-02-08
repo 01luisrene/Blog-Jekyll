@@ -7,7 +7,7 @@ tumblr_id: 04-article
 photo_url : "/assets/images/portadas/highlight_js.jpg"
 description: "Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar highlight.js esta librería JavaScript es asombrosa..."
 ---
-![highlight.js]({{"/assets/images/portadas/highlight_js.jpg" | prepend: baseurl}})
+![highlight.js]({{"/assets/images/portadas/highlight_js.jpg" | prepend: domain}})
 
 Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar [highlight.js](https://highlightjs.org/ "highlight.js"), esta librería **JavaScript** es asombrosa.
 

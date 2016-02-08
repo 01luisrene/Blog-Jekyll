@@ -7,7 +7,7 @@ tumblr_id: 02-article
 photo_url : "/assets/images/portadas/less.jpg"
 description: "La mayoría de programadores a utilizado por decadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web..."
 ---
-![LESS]({{"/assets/images/portadas/less.jpg" | prepend: baseurl }} )
+![LESS]({{"/assets/images/portadas/less.jpg" | prepend: domain }} )
 
 La mayoría de programadores a utilizado por decadas las hojas de estilo __CSS__, que sirven para dar estilos, apariencia de como se vera su web.
 

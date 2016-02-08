@@ -6,7 +6,6 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-domain: 01luisrene.com
 permalink: /articles/:title
 title: 01luisrene
 email: 01luisrene@gmail.com
@@ -14,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Soy técnico en Computación e Informática con muchos años de recorrido en el mundo informático; me encanta la programación web y el desarrollo móvil.
 
 #baseurl: "http://01luisrene.com" # the subpath of your site, e.g. /blog
-
+domain: http://01luisrene.com
 url: http://localhost:4000 # the base hostname & protocol for your site
 
 twitter_username: 01luisrene
@@ -22,3 +21,5 @@ github_username:  01luisrene
 
 # Build settings
 markdown: kramdown
+
+google_analytics_id: UA-73408981-1
