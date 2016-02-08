@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contacto
-description: "Página de contacto de 01luisrene."
+description: "Pónganse en contacto para proponerme algún tipo de trabajo relacionado con las tecnologías web."
 permalink: /contacto/
 ---
 Si tienes algo que contarme, proponerme algún tipo de trabajo relacionado con las tecnologías web; puedes contactarte con migo de múltiples formas.
