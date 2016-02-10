@@ -6,7 +6,7 @@ permalink: /contacto/
 ---
 Si tienes algo que contarme, proponerme algún tipo de trabajo relacionado con las tecnologías web; puedes contactarte con migo de múltiples formas.
 
-Una vez que me escribas al correo electrónico o redes sociales te estaré respondiendo lo mas pronto posible.
+Una vez que me escribas al correo electrónico o redes sociales, te estaré respondiendo lo mas pronto posible.
 
 #### Correo electrónico
 
