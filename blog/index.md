@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: BLog
-description: "Este es mi blog diseñado para publicar contenido relacionado a HTML5, CSS3, Javascript, etc. Para compartirlo con ustedes."
+description: "Este es mi blog diseñado para publicar contenido relacionado con HTML5, CSS3, Javascript, etc. Para poder compartirlo con ustedes."
 portada_url: "/assets/images/portadas/bg_post.png"
 ---
 
