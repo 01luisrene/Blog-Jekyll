@@ -32,7 +32,7 @@ layout: null
     <loc>{{ site.domain }}{{ page.url }}</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
   {% endfor %}
 </urlset>
