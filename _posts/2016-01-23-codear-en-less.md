@@ -3,7 +3,7 @@ layout: post
 title:  "Codear en LESS"
 date:   2016-01-23 09:41:41 -0500
 categories: LESS Preprocesador
-tumblr_id: 02-article
+tumblr_id: articulo-02
 photo_url : "/assets/images/portadas/less.jpg"
 description: "La mayoría de programadores a utilizado por decadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web..."
 ---

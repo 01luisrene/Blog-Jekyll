@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca
-description: "Este sitio web fue creado más que todo por un hobbie, y para practicar un poco con Jekyll (generador estático diseñado para blogs)."
+description: "Acerca 01luisrene: espero ser conciso para poder dar a conocer un poco de mi persona, y por que utilice el nombre 01luisrene para en nombre de mi página web."
 permalink: /acerca/
 ---
 <ol class="lista-about">

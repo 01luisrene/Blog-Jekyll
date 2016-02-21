@@ -3,7 +3,7 @@ layout: post
 title: "Colorear código con highlight.js"
 date: 2016-01-29 10:38:00 -0500
 categories: highlight colorear-codigo
-tumblr_id: 04-article
+tumblr_id: articulo-04
 photo_url : "/assets/images/portadas/highlight_js.jpg"
 description: "Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar highlight.js esta librería JavaScript es asombrosa..."
 ---
