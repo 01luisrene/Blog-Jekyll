@@ -10,7 +10,7 @@ Una vez que me escribas al correo electrónico o redes sociales, te estaré resp
 
 #### Correo electrónico
 
-<a href="mailto:01luisrene@gmail.com">01luisrene@gmail.com</a>
+<a href="mailto:01luisrene@gmail.com">01luisrene[at]gmail.com</a>
 
 #### Redes sociales
 
