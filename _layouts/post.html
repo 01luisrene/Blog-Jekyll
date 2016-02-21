@@ -11,7 +11,27 @@ layout: default
   <section class="post-content" itemprop="articleBody">
     {{ content }}
   </section>
-  
+  <footer class="post-footer">
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/assets/images/author.jpg)"><span class="hidden">Luis Rene Mas Mas Picture</span></a>
+    </figure>
+
+    <section class="author">
+      <h3><a href="/">Luis Rene Mas Mas</a></h3>
+        <p>{{ site.description }}</p>
+      <div class="author-meta">
+        <span class="author-location">
+          <i class="fa fa-map-marker"></i>
+          Trujillo, Perú
+        </span>
+        &nbsp;
+        <span class="author-link">
+          <i class="fa fa-link"></i>
+          <a href="http://01luisrene.com">http://01luisrene.com</a>
+        </span>
+      </div>
+    </section>
+  </footer>
 	<h2>Déjanos tu opinión</h2>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
