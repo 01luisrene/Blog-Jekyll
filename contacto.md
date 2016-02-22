@@ -32,6 +32,4 @@ Destino: LOS 4 SUYOS.
 
 Coordenadas: no disponible por el momento.
 
-<div id="map"></div>
-
-<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15802.075705598745!2d-79.0606078!3d-8.0484291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3e5c10b8092d%3A0xca4a1ec853027f47!2sLos+4+Suyos%2C+Distrito+de+La+Esperanza!5e0!3m2!1ses-419!2spe!4v1454893389360" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15802.075705598745!2d-79.0606078!3d-8.0484291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3e5c10b8092d%3A0xca4a1ec853027f47!2sLos+4+Suyos%2C+Distrito+de+La+Esperanza!5e0!3m2!1ses-419!2spe!4v1454893389360" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
