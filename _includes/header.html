@@ -2,7 +2,7 @@
 
   <div class="wrapper">
     <figure class="img-logo">
-      <a href="{{ site.domain }}"><img src="{{ "/assets/images/ico.png" prepend: site.domain }}" alt="Logo"></a>
+      <a href="{{ site.url }}"><img src="{{ "/assets/images/ico.png" prepend: site.url }}" alt="Logo"></a>
     </figure>
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,7 +14,7 @@
       </a>
 
       <div class="trigger">
-        <a href="{{ site.domain }}" title="Home"><i class="fa fa-home"></i> Home</a>
+        <a href="{{ site.url }}" title="Home"><i class="fa fa-home"></i> Home</a>
         <a href="/blog/"{% if page.url contains "/blog/" %}class="active"{% endif %} title="Blog">Blog</a>
         <a href="/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
         <a href="/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>

@@ -31,7 +31,7 @@
       </div>
 
       <div class="footer-col copy">
-        <p><i class="fa fa-copyright"></i> copyright 2015 ( Todos los Derechos Reservados ) - Web Master: <a href="/"><img class="ico-luisrene" src="{{ "/assets/images/01luisrene.png" | preppend: site.domain }}" alt="Ico"> 01luisrene</a>
+        <p><i class="fa fa-copyright"></i> copyright 2015 ( Todos los Derechos Reservados ) - Web Master: <a href="/"><img class="ico-luisrene" src="{{ "/assets/images/01luisrene.png" | preppend: site.url }}" alt="Ico"> 01luisrene</a>
         </p>
       </div>
       
@@ -39,8 +39,9 @@
   </div>
 </footer>
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="{{ "/assets/js/libs/jquery-scrolltofixed-min.js" | prepend: site.domain }}"></script>
-<script src="{{ "/assets/js/01luisrene.js" | prepend: site.domain }}"></script>
+<script src="{{ "/assets/js/libs/prefixfree.min.js" | prepend: site.url }}"></script>
+<script src="{{ "/assets/js/libs/jquery-scrolltofixed-min.js" | prepend: site.url }}"></script>
+<script src="{{ "/assets/js/01luisrene.js" | prepend: site.url }}"></script>
 
 {% include analytics.html %}
 

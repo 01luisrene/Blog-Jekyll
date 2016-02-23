@@ -15,7 +15,7 @@ portada_url: "/assets/images/portadas/bg_post.png"
         {% endif %}
         <section>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.domain }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
         </h2>
         <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.description %}
@@ -25,10 +25,10 @@ portada_url: "/assets/images/portadas/bg_post.png"
         {% endif %}
         </section>
         <footer>
-        <a class="btn btn-primary" href="{{ post.url | prepend: site.domain }}">Leer m&aacute;s <i class="fa fa-angle-double-right"></i></a>
+        <a class="btn btn-primary" href="{{ post.url | prepend: site.url }}">Leer m&aacute;s <i class="fa fa-angle-double-right"></i></a>
         </footer>
       </article>
     {% endfor %}
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.domain }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.url }}">via RSS</a></p>
 
 </section>

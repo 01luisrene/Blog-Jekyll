@@ -17,7 +17,7 @@ Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo
 
 Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web te lo aseguro.
 
-Copiamos el link dentro de la etiqueta head en nuestro archivo ya sea HTML, PHP, etc.
+Copiamos el link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**, **PHP**, etc.
 
 {% highlight bash %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -27,7 +27,7 @@ Copiamos el link dentro de la etiqueta head en nuestro archivo ya sea HTML, PHP,
 
 Te recomiendo visitar este link **<a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
-Elige el icono que vas a emplear y dale click, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
+Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
 
 Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
@@ -37,7 +37,7 @@ Aquí un pequeño código para comprenderlo mejor.
 
 {% highlight html %}
 <!DOCTYPE html>
-<html lang="es-PE">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>Uso de Font Awesome</title>

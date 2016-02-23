@@ -20,6 +20,7 @@ En esta página podemos seleccionar los estilos **CSS** para los lenguajes que d
 ### Uso
 
 Aquí un pequeño código de uso en un archivo **html**.
+
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="es">
@@ -93,4 +94,4 @@ h1{
 </html>
 {% endhighlight %}
 
-Ahora todo el código que se encuentre dentro de las etiquetas <kbd>pre</kbd> > <kbd>code</kbd>, tendran una mejor presentación.
+Ahora todo el código que se encuentre dentro de las etiquetas <kbd>pre</kbd> > <kbd>code</kbd>, tendrán una mejor presentación.

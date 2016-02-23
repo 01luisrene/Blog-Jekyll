@@ -37,7 +37,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 {% endhighlight %}
 
-Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el Package Control.
+Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el **Package Control**.
 
 ![Sublime Text Package Control]({{ "/assets/images/posts/sublime-text-package-control.jpg" | prepend: site.domain }} "Sublime Text Package Control")
 
