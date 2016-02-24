@@ -628,7 +628,7 @@ h1.name_app:after {
 
 
 /**
- * Page content
+ post
  */
 .page-content {
     position:relative;
@@ -652,23 +652,26 @@ h1.name_app:after {
     height: 250px;    
   }
 }
-.image{
+.image_post{
   display: block;
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  margin: 0 0 10px 0;
+  margin: 0 -5px 10px -5px;
   height: 200px;
-  width: 100%;
-  @include media-query($content-width) {
-    height: 250px;    
+  width: 105%;
+  @include media-query($content-width) { //1000px
+    height: 250px; 
   }
-  @include media-query($on-laptop) {
+  @include media-query($on-laptop) { //800px
     height: 350px;    
   }
-  @include media-query($on-palm) {
-    height: 200px !important;    
+  @include media-query($on-palm) {//600px
+    height:300px !important;   
+  }
+  @include media-query(480px) {//600px
+    height: 180px !important;
   }
 }
 
@@ -677,8 +680,12 @@ h1.name_app:after {
     margin-left: 0;
     list-style: none;
     > .post {
+        background-color: darken($bg-main, 3%);
+        box-sizing: border-box;
+        box-shadow: 6px 4px 11px 0px rgba(41,40,41,1);
         display: inline-block;
         margin: 0 2% $spacing-unit 0;
+        padding: 0 5px 5px 5px;
         overflow: hidden;
         vertical-align: top;
         width: 31.7%;
