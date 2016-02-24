@@ -670,7 +670,7 @@ h1.name_app:after {
   @include media-query($on-palm) {//600px
     height:300px !important;   
   }
-  @include media-query(480px) {//600px
+  @include media-query($on-smartphone) {//600px
     height: 180px !important;
   }
 }
