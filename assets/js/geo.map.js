@@ -3,7 +3,6 @@
 
     $(document).ready(function() {
         localizame(); /*Cuando cargue la página, cargamos nuestra posición*/ 
-        navigator.geolocation.getCurrentPosition(success, errores); 
     });
 
     function localizame() {
@@ -12,13 +11,11 @@
 
     function coordenadas(position) {
         latitud = position.coords.latitude; /*Guardamos nuestra latitud*/
-        longitud = position.coords.longitude; /*Guardamos nuestra longitud*/				
+        longitud = position.coords.longitude; /*Guardamos nuestra longitud*/    
         cargarMapa();
-    }
-    function success(pos){
-        var crd = pos.coords;
-        document.getElementById('lat').innerHTML = crd.latitude; 
-        document.getElementById('lng').innerHTML = crd.longitude; 
+        //imprimo las coordenadas del usuario
+        $('#lat').text(latitud); 
+        $('#lng').text(longitud);
     }
     function errores(err) {
     /*Controlamos los posibles errores */
