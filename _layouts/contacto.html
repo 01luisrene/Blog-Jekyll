@@ -17,8 +17,9 @@
 
           <section class="post-content">
             {{ content }}
-            <!-- app geolocation -->
+            <!-- app geolocation 
             <div id="map"></div>
+            -->
 
           </section>
         </article>
@@ -27,6 +28,7 @@
     
     {% include footer.html %}
 
+<!--  
     <script>
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -62,9 +64,9 @@
                               'Error: Your browser doesn\'t support geolocation.');
       }
     </script>
-    <script async defer
+   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrgEtxpo-GpA-W_PZWL3jl6COIDtPcZYs&signed_in=true&callback=initMap">
-    </script>
+    </script> -->
 
     {% include autoreload-in-debug.html %}
     
