@@ -11,6 +11,7 @@ body.template-no-home{
     padding-top: 2.5em;
     padding-bottom: 2em;
   }
+
 //menu
   .site-nav{
     .trigger a{
@@ -41,6 +42,30 @@ body.template-no-home{
     }
   }
  }
+
+ //para ie antiguos
+.browser-antiguo{
+  background-color:#363636;
+  position: fixed;
+  z-index: 99999999999;
+  text-align: center;
+  padding: 0 5%;
+  height: 100%;
+  width: 90%;
+  .browserupgrade{
+    font-size: 2.5em;
+    color: #A7A7A7;
+    vertical-align: middle;
+    position:relative;
+    top: 30%;
+    a{
+      color: #1A5FBB;
+      &:hover{
+        color: darken(#1A5FBB, 10%);
+      }
+    }
+  }
+}
  
 .site-header {
     border-top: 5px solid $color-top-head;
