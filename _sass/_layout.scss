@@ -857,8 +857,16 @@ h1.name_app:after {
   vertical-align: top;
   display: inline-block;
   width: 49%;
+  @include media-query($on-laptop){
+    width: 100%
+  }
   &:last-child{
     padding: 0 10px 10px 10px;
+    @include media-query($on-laptop){
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: thin dotted rgba(63, 63,63,.7);
+    }
   }
 }
 /*acerca*/
