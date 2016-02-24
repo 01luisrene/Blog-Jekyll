@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="{{ "/assets/css/libs/vegas.min.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/assets/css/libs/vegas.min.css" | prepend: site.url }}"/>
 </head>
 
   <body>
@@ -13,7 +13,7 @@
 
     {% include footer.html %}
 	<script src="http://01luisrene.com/assets/js/libs/vegas.min.js"></script>
-    <script async src="{{ "/assets/js/appVegas.js" | prepend: site.baseurl }}"></script>
+    <script async src="{{ "/assets/js/appVegas.js" | prepend: site.url }}"></script>
 
     {% include autoreload-in-debug.html %}
     
