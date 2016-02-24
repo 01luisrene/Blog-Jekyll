@@ -827,10 +827,39 @@ h1.name_app:after {
     }
 }
 /*contacto*/
-#map{
-  background-color: #C3C3C3;
-  height: 300px;
+#map_canvas{
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 20px solid rgba(0, 187, 94, .3);
+  height: 315px;
   width: 100%;
+  -webkit-box-shadow: 5px 3px 31px 2px #fbebff;
+          box-shadow: 5px 3px 31px 2px #fbebff;
+}
+
+#map_canvas img{
+  height: 315px;
+  background-color: rgb(229, 227, 223);
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+#message{
+  margin-top: 1em;
+}
+.container-geo{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+.secc-geo{
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+  &:last-child{
+    padding: 10px;
+  }
 }
 /*acerca*/
 
