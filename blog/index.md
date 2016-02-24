@@ -10,7 +10,7 @@ portada_url: "/assets/images/portadas/bg_post.png"
       <article class="post">
         {% if post.photo_url %}
         <header>
-          <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+          <div class="image_post" style="background-image:url('{{ post.photo_url }}')"></div>
         </header>
         {% endif %}
         <section>
