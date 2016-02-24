@@ -17,14 +17,17 @@
 
           <section class="post-content">
             {{ content }}
+            <!-- app geolocation -->
+            <div id="map"></div>
+
           </section>
         </article>
-
       </div>
     </div>
-
+    
     {% include footer.html %}
-   <!--  <script>
+
+    <script>
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 150.644},
@@ -52,16 +55,17 @@
         }
       }
 
-    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-      infoWindow.setPosition(pos);
-      infoWindow.setContent(browserHasGeolocation ?
-                            'Error: The Geolocation service failed.' :
-                            'Error: Your browser doesn\'t support geolocation.');
-    }
-
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+      }
     </script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrgEtxpo-GpA-W_PZWL3jl6COIDtPcZYs&callback=initMap"
-  type="text/javascript"></script> -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrgEtxpo-GpA-W_PZWL3jl6COIDtPcZYs&signed_in=true&callback=initMap">
+    </script>
+
     {% include autoreload-in-debug.html %}
     
   </body>
