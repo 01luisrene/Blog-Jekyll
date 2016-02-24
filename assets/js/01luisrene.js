@@ -106,49 +106,6 @@ var cerounoluisrene = (function ($) {
 				}
 		});
     },
-
-    loadVegas = function(){
-    	var posicionIE, versionIE, navegador;
-		posicionIE = agente.indexOf("msie");
-		versionIE = agente.substring(posicionIE+5, posicionIE+8);
-		function vegas_ie(){
-			$(function() {
-				$.vegas('slideshow', {
-				  delay:6000,
-				  loading: false,
-				  backgrounds:[
-				    { src: "/assets/images/bg/bg2.jpg" },
-		            { src: "/assets/images/bg/bg3.jpg" },
-		            { src: "/assets/images/bg/bg4.jpg" },
-		            { src: "/assets/images/bg/bg5.jpg" },
-		            { src: "/assets/images/bg/bg6.jpg" },
-		            { src: "/assets/images/bg/bg7.jpg" },
-		            { src: "/assets/images/bg/bg8.jpg" },
-		            { src: "/assets/images/bg/bg9.jpg" }
-				  ]
-				})('overlay', {
-				  src:'/assets/images/overlays/02.png',
-				  opacity:0.5
-				});
-			});
-		}
-		if(agente.indexOf("rv:11")>-1)
-		{
-			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.min.js"></script>');
-		}else if(versionIE=="10.")
-		{
-			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.min.js"></script>');
-		}else if(versionIE=="9.0")
-		{
-			document.write('<script src="/assets/js/libs/vegas.min.js"></script>');
-		}else if(versionIE=="8.0" || versionIE=="7.0" || versionIE=="6.0")
-		{
-			document.write('<script src="/assets/js/libs/vegas-ie.js">x3C/script>');
-			vegas_ie();
-		}else{
-			document.write('<script src="http://01luisrene.com/assets/js/libs/vegas.min.js"></script>');
-		}
-    },
  // 01luisrene javascripts initialization
     init = function () {
         userAgentInit();
@@ -157,7 +114,6 @@ var cerounoluisrene = (function ($) {
         estado01luisrene();
         numerosContacto();
         setInterval(function(){ slider01luisrene() }, 10000);
-        loadVegas();
     };
 
     return {
