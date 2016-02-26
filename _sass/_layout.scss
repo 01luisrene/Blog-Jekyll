@@ -837,19 +837,23 @@ h1.name_app:after {
 #map_canvas{
   box-sizing: border-box;
   border-radius: 12px;
-  border: 20px solid rgba(0, 187, 94, .3);
+  border: 20px solid rgba(0, 128, 128, .3) !important;
   height: 315px;
   width: 100%;
-  -webkit-box-shadow: 5px 3px 31px 2px #fbebff;
-          box-shadow: 5px 3px 31px 2px #fbebff;
+  -webkit-box-shadow: 5px 3px 15px 2px #fbebff;
+  box-shadow: 5px 3px 31px 2px #fbebff;
+  overflow: hidden;
 }
 
 #map_canvas img{
-  height: 315px;
+  display: block;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   background-color: rgb(229, 227, 223);
+  margin: 0 auto;
   overflow: hidden;
-  position: relative;
-  width: 100%;
+  height: 315px;
 }
 #message{
   margin-top: 1em;
@@ -858,23 +862,6 @@ h1.name_app:after {
   box-sizing: border-box;
   display: block;
   width: 100%;
-}
-.secc-geo{
-  box-sizing: border-box;
-  vertical-align: top;
-  display: inline-block;
-  width: 49%;
-  @include media-query($on-laptop){
-    width: 100%
-  }
-  &:last-child{
-    padding: 0 10px 10px 10px;
-    @include media-query($on-laptop){
-      margin-top: 1em;
-      padding-top: 1em;
-      border-top: thin dotted rgba(63, 63,63,.7);
-    }
-  }
 }
 /*acerca*/
 

@@ -20,19 +20,10 @@
             <div class="container-geo">
               <h3>Google Maps</h3> 
               <p>Si desea hacerme una visita, se puede guiar con el siguiente mapa.</p>
-              <div class="secc-geo">
-                <div id="map_canvas">Coogle Maps</div>
-                <div id="message"></div>
-              </div>
-              <div class="secc-geo">
-                 <p>Destino: LOS 4 SUYOS.</p>
-                <p>Mi coordenadas (Lat, Lng): -8.049154699999999, -79.0586348</p>
-                <p>Tu coordenadas (Lat, Lng): <span id="lat"></span>, <span id="lng"></span></p>
-               
-                <p>Al abrir el <a href="https://www.google.com.pe/maps/dir///@-8.0495415,-79.0638881,15z" target="_blank" rel="no-follow">mapa de google</a> verán en la esquina izquierda de su monitor la siguiente imagen, que es la aplicación de google maps.</p>
-                <img src="{{"/assets/images/como-llegar.png" | prepend: site.url}} " alt="Como llegar segun el mapa de google.">
-                <p>ahí colocaran mis coordenadas en el punto <strong>A</strong>, y tus coordenadas en el punto <strong>B</strong> y por ultimo clic en la lupa.</p>
-              </div>
+              <p>Destino: LOS 4 SUYOS.</p>
+              <p>Mi coordenadas (Lat, Lng): -8.049154699999999, -79.0586348</p>
+              <div id="map_canvas"></div>
+              <div id="message"></div>
             </div>
           </section>
         </article>
@@ -40,13 +31,13 @@
     </div>
     
     {% include footer.html %}
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="{{"/assets/js/libs/jquery.gmap.min.js" | prepend: site.url}}"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
     <!-- Llamo a mi script -->
-    <script src="{{"/assets/js/geo.map.js" | prepend: site.url}}"></script>
+    <script src="{{"/assets/js/geo.HTML5.js" | prepend: site.url}}"></script>
     <script>
       if (Modernizr.geolocation) {
         $('#message').text('Felicidades tu navegador soporta geolocalización ^.^');
+        $('#img_canvas').html('<img src="/assets/images/gatito.jpg">');  
       } else {
         $('#message').text('Oops! Tu navegador no soporta Geolocalización. Bájate Chrome, que es gratis!');
         $('#map_canvas').html('<img src="/assets/images/gatito.jpg">');        
