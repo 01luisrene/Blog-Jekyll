@@ -1,7 +1,4 @@
-﻿#LISTA DE SPIDERS http://www.robotstxt.org/db.html
-
-#BLOQUEAR UNA CARPETA PARA GOOGLEBOT
-User-agent: *
+﻿User-agent: *
 Disallow:/recursos/
 Disallow:/bg/
 Disallow:/overlays/
