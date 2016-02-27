@@ -1,8 +1,6 @@
-﻿#BLOQUEAR UNA CARPETA PARA GOOGLEBOT
-User-agent: Googlebot
+﻿User-agent: Googlebot
 Disallow:/recursos/
 
-#BLOQUEAR CARPETAS PARA Googlebot-Image
 User-agent: Googlebot-Image
 Disallow:/bg/
 Disallow:/overlays/
