@@ -1,6 +1,6 @@
 ﻿User-agent: Googlebot
-Disallow:/recursos/
+Disallow: /recursos/
 
 User-agent: Googlebot-Image
-Disallow:/bg/
-Disallow:/overlays/
+Disallow: /bg/
+Disallow: /overlays/
