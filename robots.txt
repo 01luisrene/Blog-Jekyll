@@ -1,13 +1,15 @@
 ﻿User-agent: *
 Allow: /
-Disallow: /recursos
+Disallow: /recursos/
 Disallow: /*.js$
 Disallow: /*.css$
 Disallow: /*.scss$
 Disallow: /robots.txt
-Disallow: /assets/fonts
+Disallow: /assets/fonts/
 Disallow: /*.md$
 
 User-agent: Googlebot-Image
-Disallow: /assets/images/bg
-Disallow: /assets/images/overlays
+Disallow: /assets/images/bg/
+Disallow: /assets/images/overlays/
+
+Sitemap: http://01luisrene.com/sitemap.xml
