@@ -15,9 +15,9 @@
 
       <div class="trigger">
         <a href="{{ site.url }}" title="Home"><i class="fa fa-home"></i> Home</a>
-        <a href="/blog/"{% if page.url contains "/blog/" %}class="active"{% endif %} title="Blog">Blog</a>
-        <a href="/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
-        <a href="/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>
+        <a href="{{ site.url }}/blog/"{% if page.url contains "/blog/" %}class="active"{% endif %} title="Blog">Blog</a>
+        <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
+        <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>
       </div>
     </nav>
 
