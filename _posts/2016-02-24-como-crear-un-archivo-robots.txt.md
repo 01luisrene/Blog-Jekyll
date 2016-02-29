@@ -160,7 +160,7 @@ Sitemap: http://www.ejemplo.com/sitemap.xml
 
 El archivo esta alojado en mi cuenta de GitHub
 
-Descargar [robots.txt](https://github.com/01luisrene/robots.txt/archive/master.zip)
+Descargar [robots.txt](https://github.com/01luisrene/robots.txt)
 
 ### Info
 
