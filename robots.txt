@@ -1,6 +1,13 @@
-﻿User-agent: Googlebot
-Disallow: /recursos/
+﻿User-agent: *
+Allow: /
+Disallow: /recursos
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.scss$
+Disallow: /robots.txt
+Disallow: /assets/fonts
+Disallow: /*.md$
 
 User-agent: Googlebot-Image
-Disallow: /bg/
-Disallow: /overlays/
+Disallow: /assets/images/bg
+Disallow: /assets/images/overlays
