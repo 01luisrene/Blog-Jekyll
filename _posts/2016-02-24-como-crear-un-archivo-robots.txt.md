@@ -155,4 +155,13 @@ Disallow: /assets/images/overlays/
 
 Sitemap: http://www.ejemplo.com/sitemap.xml
 {% endhighlight %}
+
+### Descargar archivo robots.txt
+
+El archivo esta alojado en mi cuenta de GitHub
+
+Descargar [robots.txt](https://github.com/01luisrene/robots.txt/archive/master.zip)
+
+###Info
+
 Para mayor información consulte la ayuda en Google, [cómo bloquear URLs con robots.txt](https://support.google.com/webmasters/answer/6062596)
