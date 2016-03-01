@@ -7,7 +7,7 @@ tumblr_id: articulo-05
 photo_url : "/assets/images/portadas/robots.txt.jpg"
 description: "Crear un archivo robots.txt sirve para poder controlar, a que partes de tu sitio web, no quieres que accedan los rastreadores como (Googlebot, Googlebot-Image)..."
 ---
-![Como crear un robots.txt]({{"/assets/images/portadas/robots.txt.jpg" | prepend: domain }} )
+![Como crear un robots.txt]({{"/assets/images/portadas/robots.txt.jpg" | prepend: url }} )
 
 Crear un archivo **robot** sirve para poder controlar, a que partes de tu sitio web, no quieres que accedan los rastreadores como (Googlebot, Googlebot-Image).
 
