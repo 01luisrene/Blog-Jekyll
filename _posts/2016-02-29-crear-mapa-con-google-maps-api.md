@@ -121,6 +121,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
  
  Este mapa es personalizado, y así como este mapa se puede crear muchos más a nuestra medida.
 
+ Puedes ver el mapa personalizado que implemente en mi [página](http://01luisrene.com/contacto/).
+
  {% highlight html linenos%}
 <!DOCTYPE html>
 <html>
