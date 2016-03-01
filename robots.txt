@@ -3,7 +3,7 @@ User-agent: Mediapartners-Google
 Disallow: 
 
 User-agent: Googlebot-Image
-Allow: 
+Allow: /
 Disallow: /assets/images/bg/
 Disallow: /assets/images/overlays/
 
