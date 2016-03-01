@@ -9,7 +9,6 @@ Disallow: /assets/images/overlays/
 
 User-agent: *
 Allow: /
-Crawl-delay: 60
 Disallow: /recursos/
 Disallow: /*.js$
 Disallow: /*.css$
