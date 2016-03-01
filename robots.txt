@@ -1,12 +1,15 @@
-﻿User-agent: Mediapartners-Google
+﻿# robots.txt
+User-agent: Mediapartners-Google
 Disallow: 
 
 User-agent: Googlebot-Image
+Allow: 
 Disallow: /assets/images/bg/
 Disallow: /assets/images/overlays/
 
 User-agent: *
 Allow: /
+Crawl-delay: 60
 Disallow: /recursos/
 Disallow: /*.js$
 Disallow: /*.css$
