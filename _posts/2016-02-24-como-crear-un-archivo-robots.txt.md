@@ -158,7 +158,7 @@ Sitemap: http://www.ejemplo.com/sitemap.xml
 
 ### Descargar archivo robots.txt
 
-El archivo esta alojado en mi cuenta de GitHub
+El archivo esta alojado en GitHub Gist.
 
 Descargar [robots.txt](https://gist.github.com/01luisrene/29a2ce9ee6da0fce98e3)
 
