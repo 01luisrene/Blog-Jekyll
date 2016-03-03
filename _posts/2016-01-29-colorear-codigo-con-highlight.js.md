@@ -28,29 +28,30 @@ Aquí un pequeño código de uso en un archivo **html**.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="Uso de highlight.js para colorear nuestros códigos.">
-  <title>HIGHLIGHT.JS</title>
+  <title>HIGHLIGHT.js</title>
   <!--Este estilo CSS se encuentra en el archivo zip descargado anteriormente; carpeta styles.-->
-  <link rel="stylesheet" href="styles/github.css">
+  <link rel="stylesheet" href="styles/monokai-sublime.css">
   <style>
-	html{
-	  margin:0;
-	  padding:0;
-	  overflow:hidden;
-	}
-	body{
-	  background: #fff;
-	  color: #1A1A1A;
-	  font-size: 16px;
-	  font-weight: normal;
-	  margin:0;
-	  padding:0;
-	}
-	h1{
-	  font-size: 3em;
-	  font-weight: 700;
-	  margin-top: 1.5em;
-	  line-height:normal;
-	}
+    html{
+      margin:0;
+      padding:0;
+      overflow:hidden;
+    }
+    body{
+      background: #fff;
+      color: #1A1A1A;
+      font-size: 16px;
+      font-weight: normal;
+      margin:0;
+      padding:0 10px;
+    }
+    h1{
+      color: #ff6262;
+      font-size: 3em;
+      font-weight: 700;
+      margin-top: 10px;
+      line-height:normal;
+    }
   </style>
 </head>
 <body>
@@ -93,5 +94,9 @@ h1{
 </body>
 </html>
 {% endhighlight %}
+
+### Ver ejemplo en CodePen
+
+<p data-height="268" data-theme-id="0" data-slug-hash="GZJYmO" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/GZJYmO/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 Ahora todo el código que se encuentre dentro de las etiquetas <kbd>pre</kbd> > <kbd>code</kbd>, tendrán una mejor presentación.
