@@ -31,7 +31,7 @@ Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrar
 
 Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
-### Uso en un proyecto web
+### uso en un proyecto web
 
 Aquí un pequeño código para comprenderlo mejor.
 
@@ -78,4 +78,4 @@ Aquí un pequeño código para comprenderlo mejor.
 
 ### Ejemplos del toolkit Font Awesome
 
-Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">**Ejemplo Font Awesome**</a>, ahí encontraras ejemplos que espero que te sirvan.
+Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">**Ejemplos Font Awesome**</a>.
