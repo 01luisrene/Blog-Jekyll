@@ -55,7 +55,7 @@ Aquí un pequeño código de uso en un archivo **html**.
   </style>
 </head>
 <body>
-<h1>Código CSS</h1>
+<h1>Código CSS formateado con highlight.js</h1>
 <!--Nuestro código debe ir dentro de la etiqueta pre + code-->
 <pre><code>
 html{
@@ -97,6 +97,6 @@ h1{
 
 ### Ver ejemplo en CodePen
 
-<p data-height="268" data-theme-id="0" data-slug-hash="GZJYmO" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/GZJYmO/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="550" data-theme-id="0" data-slug-hash="GZJYmO" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/GZJYmO/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 Ahora todo el código que se encuentre dentro de las etiquetas <kbd>pre</kbd> > <kbd>code</kbd>, tendrán una mejor presentación.
