@@ -31,7 +31,7 @@ Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrar
 
 Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
-### uso en una página web
+### uso en una página
 
 Aquí un pequeño código para comprenderlo mejor.
 
