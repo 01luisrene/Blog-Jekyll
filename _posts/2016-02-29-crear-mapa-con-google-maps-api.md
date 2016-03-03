@@ -16,7 +16,7 @@ En este tutorial vamos a realizar algunos ejemplos de uso de Google Maps API.
 Primero nos averiguamos nuestras coordenadas en [la siguiente página](http://www.coordenadas-gps.com/), yo voy a usar las coordenadas al azar de la capital del Perú.
 
 ### Mapa básico
-Este es un ejemplo básico de como mostrar un mapa, como verán no es tan exacto pero veremos mas adelante como colocar un marcador.
+Este es un ejemplo básico de como mostrar un mapa, como verán el resultado no es tan exacto pero veremos mas adelante como colocar un marcador.
 
 {% highlight html linenos %}
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ Este es un ejemplo básico de como mostrar un mapa, como verán no es tan exacto
 <style>
 	/*Estilos para el contenedor del mapa*/
 	#map_lima{
-		width:500px;
+		width:100%px;
 		height:380px;
 	}
 </style>
@@ -58,6 +58,10 @@ google.maps.event.addDomListener(window, 'load', inicializar);
 </html>
 {% endhighlight %}
 
+### Ver resultado
+
+<p data-height="430" data-theme-id="0" data-slug-hash="MywdZW" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/MywdZW/">MAPA BÁSICO</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
 ### Colocar un marcador en el mapa
 
 En este ejemplo se mostrara un marcador en las coordenadas que hemos indicado.
@@ -71,7 +75,7 @@ En este ejemplo se mostrara un marcador en las coordenadas que hemos indicado.
 <style>
 	/*Estilos para el contenedor del mapa*/
 	#map_lima{
-		width:500px;
+		width:100%;
 		height:380px;
 	}
 </style>
@@ -117,11 +121,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </html>
 {% endhighlight %}
 
+### Ver resultado
+
+<p data-height="430" data-theme-id="0" data-slug-hash="pyJmmz" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/pyJmmz/"> COLOCAR UN MARCADOR EN EL MAPA</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
 ### Mapa personalizado
  
  Este mapa es personalizado, y así como este mapa se puede crear muchos más a nuestra medida.
-
- Puedes ver el mapa personalizado que implemente en mi [página](http://01luisrene.com/contacto/).
 
  {% highlight html linenos%}
 <!DOCTYPE html>
@@ -132,7 +138,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <style>
 	/*Estilos para el contenedor del mapa*/
 	#map_lima{
-		width:500px;
+		width:100%;
 		height:380px;
 	}
 </style>
@@ -150,7 +156,7 @@ var mapProp = {
   //Muestra las coordenadas al centro del mapa
   center:direccion_lima,
   //Zoom del mapa 
-  zoom:5,
+  zoom:10,
  // Tipo de mapa: ROADMAP, SATELLITE, HYBRID, TERRAIN 
   mapTypeId:google.maps.MapTypeId.ROADMAP
   };
@@ -162,7 +168,7 @@ var myCity = new google.maps.Circle({
   //Muestra las coordenadas al centro del mapa
   center:direccion_lima,
   //Especifica el radio del círculo, en metros
-  radius:100,
+  radius:2000,
   //Especifica un color hexadecimal para la línea alrededor del círculo (formato: "#FFFFFF")
   strokeColor:"#0080FF",
   //Especifica la opacidad del color del trazo (un valor entre 0,0 y 1,0)
@@ -208,6 +214,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </html>
  {% endhighlight %}
 
-Aquí puedes encontrar todo lo relacionado con [Google Maps API](http://www.w3schools.com/googleapi/default.asp).
+### Ver resultado
 
-Puedes descargar los [archivos](https://gist.github.com/01luisrene/eee62d63fbe07c42ac3c) que están alojados en Gist de mi cuenta GitHub.
+<p data-height="430" data-theme-id="0" data-slug-hash="GZJabB" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/GZJabB/">MAPA PERSONALIZADO</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+### Descargar archivos
+
+Puedes descargar los [archivos](https://gist.github.com/01luisrene/eee62d63fbe07c42ac3c) que están alojados en GitHub Gist.
+
+### Info
+
+Aquí puedes encontrar todo lo relacionado con [Google Maps API](http://www.w3schools.com/googleapi/default.asp).
