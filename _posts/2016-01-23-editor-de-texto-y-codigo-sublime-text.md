@@ -88,7 +88,7 @@ Ejemplo: escribir cinco links.
 
 `a*5` + <kbd>Tab</kbd>
 
-Aquí un tutorial [pdf](https://drive.google.com/file/d/0B3HDGXa3Vd-EbGo0YndHNW5OMkE/view?usp=sharing), es de Zen Coding 0.6 (el nombre que tenia anteriormente); pero funciona correctamente.
+Aquí un manual [pdf](https://drive.google.com/file/d/0B3HDGXa3Vd-EbGo0YndHNW5OMkE/view?usp=sharing), es de Zen Coding 0.6 (el nombre que tenia anteriormente); pero funciona correctamente.
 
 Repositorio [Emmet](https://github.com/emmetio/emmet) en GitHub.
 
