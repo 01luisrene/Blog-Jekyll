@@ -23,7 +23,7 @@ Personalmente lo uso para escribir código como ( **CSS3**, **JavaScript**, **HT
 
 La instalación de **Sublime Text** es como toda aplicación, pero para poder instalar los **plugins**, primero tenemos que instalar el **Package Control**.
 
-Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código.
+Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código y presionamos la tecla <kbd>Enter</kbd>.
 
 #### Código para Sublime Text 2
 {% highlight bash %}
@@ -41,8 +41,84 @@ Esperamos a que se instale y si todo salio bien al realizar la combinación de t
 
 ![Sublime Text Package Control]({{ "/assets/images/posts/sublime-text-package-control.jpg" | prepend: site.url }} "Sublime Text Package Control")
 
-Ahora elegimos la opción <kbd>Install Package</kbd>, escribimos el nombre del plugin y elegimos el que deseamos instalar.
+Ahora elegimos la opción <kbd>Install Package</kbd>.
+
+Para instalar un plugin escribimos el nombre en la caja de texto y elegimos el que deseamos instalar.
 
 ![Install Package]({{ "/assets/images/posts/install-package.jpg" | prepend: site.url }} "Install Package")
 
-Bueno amigos ahora pueden instalar los plugin que deseen.
+### Configuración de Sublime Text
+
+ La configuración que realizaremos sera suficiente para poder trabajar de manera eficiente.
+
+Para poder realizar la configuración de usuario nos dirigimos al menú de **Sublime Text**, la opción <kbd>Preferences</kbd> + <kbd>Settings&nbsp;-&nbsp;User</kbd>.
+
+Una vez realizado los pasos de manera correcta se abrirá la siguiente ventana.
+
+![Install Package]({{ "/assets/images/posts/settings-user.png" | prepend: site.url }} "Install Package")
+
+Pegar este código en la ventana anterior.
+
+{% highlight json %}
+{
+	//font_size: tamaño de fuente
+	"font_size": 13,
+	//highlight_line: este código hace que se remarque la linea donde te encuentras
+	"highlight_line": true,
+	//highlight_modified_tabs: este código da un color naranja al 
+	//nombre del archivo que se muestra en el tab superior, cuando las modificaciones no han sido guardadas
+	"highlight_modified_tabs": true,
+	//save_on_focus_lost: este código guarda los cambios una vez que el foco del mouse se posiciona en otra parte
+	"save_on_focus_lost": true,
+	//tab_size: este código sirve para dar el número de espacios blancos que equivale un tabulador
+	"tab_size": 2
+}
+{% endhighlight %}
+
+Si existe lineas de código solo lo agregan en la parte inferior dentro de las llaves ( `{ }` ); quiero decir que lo copiarían sin las llaves, para que funcione.
+
+No olviden agregar una coma antes de pegar el código.
+
+### Algunos plugins
+
+#### **Emment**
+Este es un excelente plugin, sirve para poder escribir código de forma rápida; usa snippets pre construidos.
+
+Ejemplo: escribir cinco links.
+
+`a*5` + <kbd>Tab</kbd>
+
+Aquí un tutorial [pdf](https://drive.google.com/file/d/0B3HDGXa3Vd-EbGo0YndHNW5OMkE/view?usp=sharing), es de Zen Coding 0.6 (el nombre que tenia anteriormente); pero funciona correctamente.
+
+Repositorio [Emmet](https://github.com/emmetio/emmet) en GitHub.
+
+#### **YUI Compressor**
+
+Esta herramienta es excelente para comprimir nuestros archivos **CSS** y archivos **JavaScript**.
+
+Para su funcionamiento requiere que tenga instalado [Java](https://www.java.com/es/download/).
+
+Para comprimir tus archivos solo debes abrirlo y realizar la combinación de teclas <kbd>Ctrl</kbd> + <kbd>B</kbd>.
+
+Repositorio [YUI-Compressor](https://github.com/leon/YUI-Compressor) en GitHub.
+
+
+#### **SideBarEnhancements**
+
+Proporciona mejoras en las operaciones en la barra lateral de archivos y carpetas para Sublime Text.
+
+No funciona en **Sublime Text 2**.
+
+Repositorio  [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) en GitHub.
+
+<br>
+
+***
+
+<br>
+
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Existen múltiples plugin para diferentes usos, solo es cuestión de buscar el que se ajusta a nuestras necesidades.
+
+<br>
+
+Bueno amigos si les interesa este editor solo tienen que leer la documentación de [Sublime text 3](https://www.sublimetext.com/docs/3/) o [ublime text 2](https://www.sublimetext.com/docs/2/).
