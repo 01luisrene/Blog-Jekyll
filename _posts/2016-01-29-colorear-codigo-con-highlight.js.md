@@ -95,7 +95,7 @@ h1{
 </html>
 {% endhighlight %}
 
-### Ver ejemplo en CodePen
+### Ver resultado
 
 <p data-height="550" data-theme-id="0" data-slug-hash="GZJYmO" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/GZJYmO/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
