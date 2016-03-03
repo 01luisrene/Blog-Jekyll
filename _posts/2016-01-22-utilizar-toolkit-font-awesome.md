@@ -23,7 +23,7 @@ Copiamos el link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 {% endhighlight %}
 
-### Mostrando los iconos
+### Iconos Font Awesome
 
 Te recomiendo visitar este link **<a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
@@ -31,7 +31,7 @@ Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrar
 
 Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
-### Uso en tu proyecto web
+### Uso en un proyecto web
 
 Aquí un pequeño código para comprenderlo mejor.
 
@@ -72,7 +72,7 @@ Aquí un pequeño código para comprenderlo mejor.
 </html>
 {% endhighlight %}
 
-### Ver resultado del ejemplo anterior en CodePen
+### Ver resultado en CodePen
 
 <p data-height="365" data-theme-id="0" data-slug-hash="oxXEGZ" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/oxXEGZ/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
