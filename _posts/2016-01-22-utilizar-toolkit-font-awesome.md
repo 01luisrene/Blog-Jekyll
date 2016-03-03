@@ -74,7 +74,7 @@ Aquí un pequeño código para comprenderlo mejor.
 
 ### Ver resultado en CodePen
 
-<p data-height="365" data-theme-id="0" data-slug-hash="oxXEGZ" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/oxXEGZ/">highlight.js</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="365" data-theme-id="0" data-slug-hash="oxXEGZ" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/oxXEGZ/">Utilizar el Toolkit Font Awesome</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ### Ejemplos del toolkit Font Awesome
 
