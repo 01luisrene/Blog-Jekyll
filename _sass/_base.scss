@@ -1,16 +1,9 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
+body, h1, h2, h3, h4, h5, h6,p, blockquote, pre, hr,dl, dd, ol, ul, figure {margin: 0;padding: 0;}
 
-div, header, article, section, aside, footer, figure, hgroup, nav, details,figcaption{
-  display: block;
-}
+div, header, article, section, aside, footer, figure, hgroup, nav, details,figcaption{display:block;}
 
 /**
  * Basic styling
@@ -35,37 +28,21 @@ figure a > img{
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+h1, h2, h3, h4, h5, h6,p, blockquote, pre,ul, ol, dl, figure,%vertical-rhythm {
+margin-bottom: $spacing-unit / 2;
 }
 
 /**
  * Images
  */
-img {
-    border:none;
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
-
+img {border:none;max-width: 100%;vertical-align: middle;}
 /**
  * Figures
  */
-figure > img {
-    display: block;
-}
-
+figure > img {display: block;}
 figcaption {
-    font-size: $small-font-size;
+  font-size: $small-font-size;
 }
-
-
-
 /**
  * Lists
  */
@@ -75,9 +52,6 @@ li {
          margin-bottom: 0;
     }
 }
-
-
-
 /**
  * Headings
  */
@@ -132,9 +106,6 @@ a {
         text-decoration: underline;
     }
 }
-
-
-
 /**
  * Blockquotes
  */
@@ -150,9 +121,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
-
-
 /**
  * Code formatting
  */
@@ -164,7 +132,6 @@ kbd{
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
  }
-
 pre,
 code {
     font-size: 15px;
@@ -187,7 +154,6 @@ pre {
         padding-left: 0;
     }
 }
-
 //menu fijo
 .menu-fixed {
   position: fixed;
@@ -271,7 +237,6 @@ pre {
     top:1px;
   }
 }
-
 .btn-primary {
   background-color:#44c767;
   -moz-border-radius:28px;
@@ -291,8 +256,6 @@ pre {
    top:1px;
   }
 }
-
-
 /**
  * Wrapper
  */
@@ -323,8 +286,6 @@ pre {
       padding-left: $spacing-unit / 2;
     }
 }
-
-
 /**
  * Clearfix
  */
@@ -336,14 +297,10 @@ pre {
         clear: both;
     }
 }
-
-
-
 /**
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;

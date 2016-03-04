@@ -1,15 +1,9 @@
 /**
  * Syntax highlighting styles
  */
-.highlight {
-    background: #eef;
-    max-width: 100%;
-    @extend %vertical-rhythm;
-
-    .highlighter-rouge & {
-      background: #eef;
-    }
-
+.highlight {background: #eef;max-width: 100%;
+@extend %vertical-rhythm;
+.highlighter-rouge & {background: #eef;}
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
     .k     { font-weight: bold } // Keyword

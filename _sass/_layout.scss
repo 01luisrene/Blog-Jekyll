@@ -11,7 +11,6 @@ body.template-no-home{
     padding-top: 2.5em;
     padding-bottom: 2em;
   }
-
 //menu
   .site-nav{
     .trigger a{
@@ -29,7 +28,6 @@ body.template-no-home{
       padding: 9px 20px !important;
     }
   }
- 
   .img-logo{
     display: inline-block;
     margin-top: 5px;
@@ -42,7 +40,6 @@ body.template-no-home{
     }
   }
  }
-
  //para ie antiguos
 .browser-antiguo{
   background-color:#363636;
@@ -66,29 +63,12 @@ body.template-no-home{
     }
   }
 }
- 
 .site-header {
     border-top: 5px solid $color-top-head;
     height: 34px;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
-/*
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-*/
 .img-logo{
   display: none;
 }
@@ -116,7 +96,6 @@ body.template-no-home{
             border-right: thin solid;
         }
     }
-
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -172,7 +151,6 @@ body.template-no-home{
         }
     }
 }
-
 /*front page home*/
 .contenedor_name_app {
   position: absolute;
@@ -606,7 +584,6 @@ h1.name_app:after {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
 /*copy*/
 .copy{
   clear: both;
@@ -625,8 +602,6 @@ h1.name_app:after {
       height: 25px;
     }
 }
-
-
 /**
  post
  */
@@ -712,8 +687,6 @@ h1.name_app:after {
 
     }
 }
-
-
 .post-meta {
     display: block;
     font-size: $small-font-size;
@@ -742,7 +715,6 @@ h1.name_app:after {
 .post-header {
     margin-bottom: $spacing-unit;
 }
-
 .post-title {
     font: 3em "Noto Sans", Helvetica, Arial, sans-serif;
     font-weight: 700;
