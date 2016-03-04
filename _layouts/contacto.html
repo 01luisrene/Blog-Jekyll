@@ -33,7 +33,7 @@
     {% include footer.html %}
     <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
     <!-- Llamo a mi script -->
-    <script src="{{"/assets/js/geo.HTML5.js" | prepend: site.url}}"></script>
+    <script src="{{"/assets/js/geo.HTML5.min.js" | prepend: site.url}}"></script>
     <script>
       if (Modernizr.geolocation) {
         $('#message').text('Felicidades tu navegador soporta geolocalización ^.^');
