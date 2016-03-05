@@ -756,7 +756,7 @@ h1.name_app:after {
         }
     }
     p{display: block;}
-    div{margin-bottom: 1em;}
+    div iframe {margin-bottom: 1em;}
 }
 .post-footer {
     position: relative;
@@ -807,6 +807,7 @@ h1.name_app:after {
 }
 /*contacto*/
 #map_canvas{
+  background: transparent !important;
   box-sizing: border-box;
   border-radius: 12px;
   border: 20px solid rgba(0, 128, 128, .3) !important;
