@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Lista de cursos de ultima generación a llevar el 2016"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700' rel='stylesheet' type='text/css'/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<title>Cursos a llevar 2016</title>
+	<style>
+	body{
+		background: transparent;
+		box-sizing: border-box;
+		padding: 0 2%;
+	}
+	h1{
+		border-bottom: thin solid #464646;
+		margin-top: 20px;
+		font-size: 4em;
+		font-family: 'Open Sans', sans-serif;
+		color:#171717;
+	}
+	h2{
+		border-bottom: thin solid #464646;
+		margin-top: 15px;
+		font-size: 2.5em;
+		font-family: 'Open Sans', sans-serif;
+		color:#171717;
+	}
+	a{
+		color: #006C6C;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	span{
+		box-sizing: border-box;
+		display: inline-block;
+		font-family: 'Roboto', sans-serif;
+	}
+	.name{
+		font-size: 1.5em;
+		font-weight: 700;
+		width: 15%;
+	}
+	.description{
+		font-size: 1.2em;
+		width: 60%;
+	}
+	.estado::after{
+		content: "";
+  	display: table;
+  	clear: both;
+	}
+	.estado{
+		background: #DDDDDD;
+		border: 2px dotted #1F1F1F;
+		text-align: center;
+		font-size: 1.2em;
+		height: 30px;
+		width:15%;
+	}
+	.estado::before{
+	content: attr(data-estado);
+  vertical-align: middle;
+	}
+	.fa{
+		color:#FF46A3;
+	}
+	footer{
+		text-align: center; 
+		font-size: 1.5em;
+		font-family: 'Open Sans', sans-serif;
+		margin-top: 2em;
+	}
+	</style>
+</head>
+<body>
+	<h1>Cursos a llevar 2016</h1>
+	<div id="listCursos"></div>
+	<h2>Cursos futuros</h2>
+	<div id="listCursosFuturos"></div>
+	<div id="proyecto">
+		<h2>Fecha inicio de proyecto</h2>
+		<i class="fa fa-calendar-times-o fa-2x"></i>: <span class="fecha">2016-11-01</span>
+	</div>
+	<footer>
+		&copy; <a href="http://01luisrene.com">01luisrene</a> - cursos 2016
+	</footer>
+	<script>
+	// estado: Pendiente o Culminado
+	var cursos = [
+		{	"name" : "Docker",
+			"url" : "https://www.docker.com/",
+			"description": "Automatiza el despliegue de aplicaciones dentro de contenedores de software.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "Ruby",
+			"url" : "https://www.ruby-lang.org/es/",
+			"description": "Lenguaje de programación.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "NODE.js",
+			"url" : "https://nodejs.org/en/",
+			"description": "Lenguaje de programación.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "Socket.io",  
+			"url" : "http://socket.io/",
+			"description" : "Sirve para implementar aplicaciones de tiempo real.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "Ruby on Rails",
+			"url" : "http://rubyonrails.org/",
+			"description": "Framework favorito.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "SASS",
+			"url" : "http://sass-lang.com/"	,
+			"description": "Preprocesador elegido para mis sitios web.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "JavaScript",
+			"url" : "http://www.w3schools.com/js/",
+			"description": "Lenguaje de programación del lado cliente.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "CoffeScript",
+			"url" : "http://coffeescript.org/",
+			"description": "Es un lenguaje que se compila a JS.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "React",
+			"url" : "https://facebook.github.io/react/",
+			"description": "Librería JS de facebook para mi front end.",
+			"estado" : "Pendiente"
+		},
+		{	"name" : "jQuery",
+			"url" : "https://jquery.com/",
+			"description": "librería JS para facilitar el código JavaScript.",
+			"estado" : "Pendiente"
+		}
+	];
+
+var cursosFuturos = [
+		{	"name" : "Go",
+			"url" : "https://golang.org/",
+			"description": "Lenguaje de programación desarrollado por Google.",
+			"estado" : "Pendiente"}
+	];
+
+	listaCursos(cursos);
+	listaCursosFuturos(cursosFuturos);
+	function listaCursos(arr) {
+	    var out = "";
+	    var i;
+	    for(i = 0; i < arr.length; i++) {
+	        out += "<span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado'data-estado="+arr[i].estado+"></span><br/>";
+	    }
+	    document.getElementById("listCursos").innerHTML = out;
+	}
+	function listaCursosFuturos(arr) {
+	    var out = "";
+	    var i;
+	    for(i = 0; i < arr.length; i++) {
+	        out += "<span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado' data-estado='"+arr[i].estado+"'></span><br/>";
+	    }
+	    document.getElementById("listCursosFuturos").innerHTML = out;
+	}
+	</script>
+</body>
+</html>
