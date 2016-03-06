@@ -34,10 +34,21 @@
 	a:hover{
 		text-decoration: underline;
 	}
+	.list{
+		box-sizing: border-box;
+		display: block;
+		vertical-align: top;
+		padding: 5px;
+		margin: 5px 0;
+		width: 100%;
+	}
+	.list:nth-child(odd) { background: #BCBCBC;}
+	.list:nth-child(even) { background: #fff;}
 	span{
 		box-sizing: border-box;
 		display: inline-block;
 		font-family: 'Roboto', sans-serif;
+		vertical-align: top;
 	}
 	.name{
 		font-size: 1.5em;
@@ -46,7 +57,7 @@
 	}
 	.description{
 		font-size: 1.2em;
-		width: 60%;
+		width: 65%;
 	}
 	.estado::after{
 		content: "";
@@ -58,6 +69,7 @@
 		border: 2px dotted #1F1F1F;
 		text-align: center;
 		font-size: 1.2em;
+		float: right;
 		height: 30px;
 		width:15%;
 	}
@@ -98,27 +110,27 @@
 		},
 		{	"name" : "Ruby",
 			"url" : "https://www.ruby-lang.org/es/",
-			"description": "Lenguaje de programación.",
+			"description": "<strong>Ruby</strong> es un lenguaje de programación interpretado, reflexivo y orientado a objetos, creado por el programador japonés Yukihiro 'Matz' Matsumoto.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "NODE.js",
 			"url" : "https://nodejs.org/en/",
-			"description": "Lenguaje de programación.",
+			"description": "Node.js es un entorno de programación en la capa del servidor basado en el lenguaje de programación Javascript.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "Socket.io",  
 			"url" : "http://socket.io/",
-			"description" : "Sirve para implementar aplicaciones de tiempo real.",
+			"description" : "Es una librería que nos permite manejar eventos en tiempo real mediante una conexión TCP y todo ello en JavaScript.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "Ruby on Rails",
 			"url" : "http://rubyonrails.org/",
-			"description": "Framework favorito.",
+			"description": "<strong>Ruby on Rails</strong> es una plataforma de trabajo para realizar desarrollos web.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "SASS",
 			"url" : "http://sass-lang.com/"	,
-			"description": "Preprocesador elegido para mis sitios web.",
+			"description": "Sass es un meta-lenguaje en la parte superior de la CSS que se utiliza para describir el estilo de un documento de manera limpia y estructural..",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "JavaScript",
@@ -126,19 +138,19 @@
 			"description": "Lenguaje de programación del lado cliente.",
 			"estado" : "Pendiente"
 		},
-		{	"name" : "CoffeScript",
+		{	"name" : "CoffeeScript",
 			"url" : "http://coffeescript.org/",
-			"description": "Es un lenguaje que se compila a JS.",
+			"description": "CoffeeScript es un lenguaje que se compila a JavaScript y que se ha vuelto muy popular dentro de la comunidad Node.js y Rails.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "React",
 			"url" : "https://facebook.github.io/react/",
-			"description": "Librería JS de facebook para mi front end.",
+			"description": "React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.",
 			"estado" : "Pendiente"
 		},
 		{	"name" : "jQuery",
 			"url" : "https://jquery.com/",
-			"description": "librería JS para facilitar el código JavaScript.",
+			"description": "jQuery es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web.",
 			"estado" : "Pendiente"
 		}
 	];
@@ -156,7 +168,7 @@ var cursosFuturos = [
 	    var out = "";
 	    var i;
 	    for(i = 0; i < arr.length; i++) {
-	        out += "<span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado'data-estado="+arr[i].estado+"></span><br/>";
+	        out += "<div class='list'><span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado'data-estado="+arr[i].estado+"></span></div>";
 	    }
 	    document.getElementById("listCursos").innerHTML = out;
 	}
@@ -164,7 +176,7 @@ var cursosFuturos = [
 	    var out = "";
 	    var i;
 	    for(i = 0; i < arr.length; i++) {
-	        out += "<span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado' data-estado='"+arr[i].estado+"'></span><br/>";
+	        out += "<div class='list'><span class='name'><a href='"+arr[i].url+"' target='_blank'>"+arr[i].name+"</a></span> : <span class='description'>"+arr[i].description+"</span>"+" "+ "<span class='estado' data-estado='"+arr[i].estado+"'></span></div>";
 	    }
 	    document.getElementById("listCursosFuturos").innerHTML = out;
 	}
