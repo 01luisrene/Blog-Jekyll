@@ -2,7 +2,7 @@
 layout: blog
 title: BLog
 description: "Blog 01luisrene: diseñado para publicar contenidos relacionado con HTML5, CSS3, Javascript, etc. Y así poder compartirlo con los múltiples usuarios que están listos para aprender algo nuevo todos los días."
-portada_url: "/assets/images/portadas/bg_post.png"
+photo_url: "/assets/images/portadas/bg_post.png"
 ---
 
 <section class="post-list">
