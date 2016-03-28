@@ -156,6 +156,9 @@ body.template-no-home{
   font-size: 3em;
   font-family:'Lobster Two', Helvetica, Arial, sans-serif;
   line-height: 48px;
+  @include media-query($on-smartphone) {
+      font-size: 1.5em;
+  }
 }
 h1.name_app:before {
   content: '{';
@@ -176,6 +179,10 @@ h1.name_app:after {
   padding-bottom: 10px;
   margin-bottom: -3px;
   z-index: -1;
+  @include media-query($on-smartphone) {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
 }
 .contenedor_text_pasion p {
   font-size: 1em;
@@ -186,6 +193,9 @@ h1.name_app:after {
   text-transform: uppercase;
   text-shadow: 5px 1px 4px #3f3f3f;
   margin: 0;
+  @include media-query($on-smartphone) {
+      font-size: 10px;
+  }
 }
 
 /*refranes*/
