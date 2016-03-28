@@ -24,7 +24,19 @@ var cerounoluisrene = (function ($) {
 	      } else {
 	        menu.removeClass('menu-fixed');
 	      }
-  });
+  		});
+    },
+    displayMenu = function(){
+    	$('#js-menu-icon').on('click', function(e) {
+    		e.preventDefault();
+    		$('.trigger').slideToggle();
+    	});
+    	$(window).resize(function(){
+		    var w = $(window).width();
+		    if(w>320 && $('.trigger').is(':hidden')){
+		      $('.trigger').removeAttr('style');     
+		    }
+		  });
     },
     //altura de la web
     heightHome = function(){
@@ -110,6 +122,7 @@ var cerounoluisrene = (function ($) {
     init = function () {
         userAgentInit();
         menuFixed();
+        displayMenu();
         heightHome();
         estado01luisrene();
         numerosContacto();
