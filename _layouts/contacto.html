@@ -31,10 +31,9 @@
     <script src="{{"/assets/js/geo.HTML5.min.js" | prepend: site.url}}"></script>
     <script>
       if (Modernizr.geolocation) {
-        $('#message').text('Felicidades tu navegador soporta geolocalización ^.^');
-        $('#img_canvas').html('<img src="/assets/images/gatito.jpg">');  
+        $('#message').text('Felicidades tu navegador soporta geolocalización ^.^'); 
       } else {
-        $('#message').text('Oops! Tu navegador no soporta Geolocalización. Bájate Chrome, que es gratis!');
+        $('#message').html('Oops! Tu navegador no soporta Geolocalización. Bájate <a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a>, que es gratis!');
         $('#map_canvas').html('<img src="/assets/images/gatito.jpg">');        
       }
     </script>
