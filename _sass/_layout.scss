@@ -834,10 +834,10 @@ h1.name_app:after {
   background-color:#363636;
   position: fixed;
   text-align: center;
-  padding: 0 5%;
-  height: 110%;
+  height: 100%;
   width: 90%;
-  z-index: 9999999999999999999;
+  padding: 0 5%;
+  z-index: 999999;
   .browserupgrade{
     font-size: 2.5em;
     color: #A7A7A7;
