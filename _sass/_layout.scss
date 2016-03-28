@@ -39,29 +39,6 @@ body.template-no-home{
     }
   }
  }
- //para ie antiguos
-.browser-antiguo{
-  background-color:#363636;
-  position: fixed;
-  text-align: center;
-  padding: 0 5%;
-  height: 110%;
-  width: 90%;
-  z-index: 99999999999;
-  .browserupgrade{
-    font-size: 2.5em;
-    color: #A7A7A7;
-    vertical-align: middle;
-    position:relative;
-    top: 30%;
-    a{
-      color: #1A5FBB;
-      &:hover{
-        color: darken(#1A5FBB, 10%);
-      }
-    }
-  }
-}
 .site-header {
     border-top: 5px solid $color-top-head;
     height: 34px;
@@ -852,3 +829,26 @@ h1.name_app:after {
       text-align: center;
       margin-top: 15px;
   }
+//para ie antiguos
+.browser-antiguo{
+  background-color:#363636;
+  position: fixed;
+  text-align: center;
+  padding: 0 5%;
+  height: 110%;
+  width: 90%;
+  z-index: 99999999999;
+  .browserupgrade{
+    font-size: 2.5em;
+    color: #A7A7A7;
+    vertical-align: middle;
+    position:relative;
+    top: 30%;
+    a{
+      color: #1A5FBB;
+      &:hover{
+        color: darken(#1A5FBB, 10%);
+      }
+    }
+  }
+}
