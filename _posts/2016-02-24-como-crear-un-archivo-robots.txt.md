@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "como crear un archivo robots.txt"
+title:  "Como crear un archivo robots.txt"
 date:   2016-02-24 07:40:00
 categories: robots.txt seo
 tumblr_id: articulo-05
