@@ -42,18 +42,18 @@ var cerounoluisrene = (function ($) {
     heightHome = function(){
     	var navInfo = window.navigator.appVersion.toLowerCase(),
     	so = null;
-				if(navInfo.indexOf('win') != -1)
-				{
-					so = 'Windows';
-				}
-				else if(navInfo.indexOf('linux') != -1)
-				{
-					so = 'Linux';
-				}
-				else if(navInfo.indexOf('mac') != -1)
-				{
-					so = 'Macintosh';
-				}
+			if(navInfo.indexOf('win') != -1)
+			{
+				so = 'Windows';
+			}
+			else if(navInfo.indexOf('linux') != -1)
+			{
+				so = 'Linux';
+			}
+			else if(navInfo.indexOf('mac') != -1)
+			{
+				so = 'Macintosh';
+			}
 
 			if(so == 'Windows' || so == 'Linux' || so == 'Macintosh'){
 				$('#contenedor_front_main').css({
