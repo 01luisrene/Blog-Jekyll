@@ -53,8 +53,6 @@ var cerounoluisrene = (function ($) {
 				else if(navInfo.indexOf('mac') != -1)
 				{
 					so = 'Macintosh';
-				}else{
-					so = 'desconocido';
 				}
 
 			if(so == 'Windows' || so == 'Linux' || so == 'Macintosh'){
@@ -72,7 +70,6 @@ var cerounoluisrene = (function ($) {
 					height: 202 // 240 - 38
 				});
 		 	}
-			
     	
 		$(window).resize(function() {
 			var alto_ventana = $(this).height();
