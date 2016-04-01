@@ -40,29 +40,51 @@ var cerounoluisrene = (function ($) {
     },
     //altura de la web
     heightHome = function(){
-    	if(alto_ventana > 150){
-			$('#contenedor_front_main').css({
-				height: alto_ventana - 36
-			});
-		}
-		else
-		{
-			$('#contenedor_front_main').css({
-				height: 92
-			});
-		}
+    	var navInfo = window.navigator.appVersion.toLowerCase(),
+    	so = null;
+				if(navInfo.indexOf('win') != -1)
+				{
+					so = 'Windows';
+				}
+				else if(navInfo.indexOf('linux') != -1)
+				{
+					so = 'Linux';
+				}
+				else if(navInfo.indexOf('mac') != -1)
+				{
+					so = 'Macintosh';
+				}else{
+					so = 'desconocido';
+				}
+
+			if(so == 'Windows' || so == 'Linux' || so == 'Macintosh'){
+				$('#contenedor_front_main').css({
+					height: 606
+				});
+			}
+
+			if(alto_ventana >= 240){
+				$('#contenedor_front_main').css({
+					height: alto_ventana - 38
+				});
+			}else{
+				$('#contenedor_front_main').css({
+					height: 202 // 240 - 38
+				});
+		 	}
+			
+    	
 		$(window).resize(function() {
 			var alto_ventana = $(this).height();
-			if(alto_ventana > 150){
+			if(alto_ventana >= 240){
 				$('#contenedor_front_main').css({
-					height: alto_ventana - 36
+					height: alto_ventana - 38
 				});
-			}
-			else{
+			}else{
 				$('#contenedor_front_main').css({
-					height: 92
+					height: 202 // 240 - 38
 				});
-			}
+		 	}
 		});
     },
     estado01luisrene = function(){
