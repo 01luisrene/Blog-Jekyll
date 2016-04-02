@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Editor de texto y código Sublime Text"
-date: 2016-01-23 10:49:00 -0500
+date: 2016-01-24 10:49:00 -0500
 categories: sublime-text editor
 tumblr_id: articulo-03
 photo_url : "/assets/images/portadas/sublime_text.jpg"
