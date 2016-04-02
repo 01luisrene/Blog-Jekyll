@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script>
 var tumblr_urls = {
-"articulo-01": "blog/2016/01/22/utilizar-toolkit-font-awesome.htm"
-"articulo-02": "blog/2016/01/23/codear-en-less.htm",
-"arituclo-03": "blog/2016/01/23/editor-de-texto-y-codigo-sublime-text.htm",
-"articulo-04": "blog/2016/01/29/colorear-codigo-con-highlight.js.htm",
-"articulo-05": "blog/2016/02/24/como-crear-un-archivo-robots.txt.htm",
-"articulo-06": "blog/2016/02/29/crear-mapa-con-google-maps-api.htm",
+"articulo-01": "blog/2016/01/22/utilizar-toolkit-font-awesome/"
+"articulo-02": "blog/2016/01/23/codear-en-less/",
+"arituclo-03": "blog/2016/01/23/editor-de-texto-y-codigo-sublime-text/",
+"articulo-04": "blog/2016/01/29/colorear-codigo-con-highlight.js/",
+"articulo-05": "blog/2016/02/24/como-crear-un-archivo-robots.txt/",
+"articulo-06": "blog/2016/02/29/crear-mapa-con-google-maps-api/",
 };
 
 var m, path = document.location.pathname;
 var dst_path = gitblog_urls[path.substr(1)];
-if (!dst_path && (m = path.match(/^\/post\/([0-9]+)\//)) ) {
+if (!dst_path && (m = path.match(/^\/blog\/([0-9]+)\//)) ) {
   dst_path = tumblr_urls[m[1]];
 }
 if (dst_path) {
