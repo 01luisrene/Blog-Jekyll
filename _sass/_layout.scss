@@ -3,9 +3,11 @@
  */
 body.template-no-home{
   .site-header{
+    display: table;
     background-color:$color-bg-link-menu;
     height: 54px;
     vertical-align: top;
+    width: 100%;
   }
   .page-content{
     padding-top: 2.5em;
@@ -28,6 +30,9 @@ body.template-no-home{
       border-top: thin dotted $text-white !important;
       border-bottom: thin dotted $text-white !important;
       text-decoration: underline;
+    }
+    &:last-child .active{
+      border-right: thin solid #fff;
     }
   }
   .img-logo{
