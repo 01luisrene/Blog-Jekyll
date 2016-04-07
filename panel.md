@@ -2,7 +2,7 @@
 layout: other
 title: Panel Admin
 description: "Un pequeño tablero para el control de páginas que no figuran en la web."
-permalink: /tablero/
+permalink: /panel/
 ---
 <ul class="tablero">
 	<li>

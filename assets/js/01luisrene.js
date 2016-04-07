@@ -1,9 +1,5 @@
 'use strict';
-var alegre = 'fa-smile-o',
-	serio = 'fa-meh-o',
-	triste= 'fa-frown-o',
-	alto_ventana = $( window ).height(),
-	agente = navigator.userAgent.toLowerCase();
+var agente = navigator.userAgent.toLowerCase();
 
 var cerounoluisrene = (function ($) {
 
@@ -12,140 +8,117 @@ var cerounoluisrene = (function ($) {
     userAgentInit = function() {
         document.documentElement.setAttribute('data-useragent', navigator.userAgent);
     },
-    // script para que el menu sea statico
-    menuFixed = function(){
-    	var menu = $('body.template-no-home #js-site-header');
-    	//http://bigspotteddog.github.io/ScrollToFixed/
-    	$('body.template-no-home #js-site-header').scrollToFixed();
-
-    	$(window).on('scroll', function() {
-	      if($(window).scrollTop() > 1) {
-	        menu.addClass('menu-fixed');
-	      } else {
-	        menu.removeClass('menu-fixed');
-	      }
-  		});
-    },
     displayMenu = function(){
-    	$('#js-menu-icon').on('click', function(e) {
+    	$('#js_icon_menu').on('click', function(e) {
     		e.preventDefault();
-    		$('.trigger').slideToggle();
+    		$('#js_main_menu').css({
+    			display: 'block'
+    		});
+    		$('#js_main_menu').addClass('animated slideInRight');
     	});
-    	$(window).resize(function(){
-		    var w = $(window).width();
-		    if(w>320 && $('.trigger').is(':hidden')){
-		      $('.trigger').removeAttr('style');     
-		    }
-		  });
+    },
+    closeMenu = function(){
+    	$('#js_icon_cerrar').on('click', function(e) {
+    		e.preventDefault();
+    		$('#js_main_menu').removeAttr('style');
+    	});
     },
     //altura de la web
-    heightHome = function(){
-    	var navInfo = window.navigator.appVersion.toLowerCase(),
-    	so = null;
-			if(navInfo.indexOf('win') != -1)
-			{
-				so = 'Windows';
-			}
-			else if(navInfo.indexOf('linux') != -1)
-			{
-				so = 'Linux';
-			}
-			else if(navInfo.indexOf('mac') != -1)
-			{
-				so = 'Macintosh';
+    search_articles = function(){
+			  $('#js_campo_buscador').ghostHunter({
+			    results             : '#js_resultados',
+			    onKeyUp             : !0,
+			    rss                 : '/rss.xml',
+			    displaySearchInfo   : true
+			  });
+			  $('#js_campo_buscador').on('keyup', function() {
+			  	var $caja_buscar = $('#js_campo_buscador').val().length;
+			  	$('#text').text($caja_buscar);
+				  if($caja_buscar > 0){
+			  		$('#js_lista_articulos').css({
+			  			display: 'none'
+			  		});
+				  }
+				  if($caja_buscar == 0){
+				  	$('#js_lista_articulos').css({
+		  				display: 'block'
+		  			});
+				  }
+			  });
+    },
+    politica_cookies = function(){
+    	function setCookie(cname,cvalue,exdays) {
+			    var d = new Date();
+			    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			    var expires = "expires=" + d.toGMTString();
+			    document.cookie = cname+"="+cvalue+"; "+expires + "; path=/";
 			}
 
-			if(so == 'Windows' || so == 'Linux' || so == 'Macintosh'){
-				$('#contenedor_front_main').css({
-					height: 606
-				});
+			function getCookie(cname) {
+			    var name = cname + "=";
+			    var ca = document.cookie.split(';');
+			    for(var i=0; i<ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0)==' ') c = c.substring(1);
+			        if (c.indexOf(name) == 0) {
+			            return c.substring(name.length, c.length);
+			        }
+			    }
+			    return "";
 			}
 
-			if(alto_ventana >= 240){
-				$('#contenedor_front_main').css({
-					height: alto_ventana - 38
-				});
-			}else{
-				$('#contenedor_front_main').css({
-					height: 202 // 240 - 38
-				});
-		 	}
-    	
-		$(window).resize(function() {
-			var alto_ventana = $(this).height();
-			if(alto_ventana >= 240){
-				$('#contenedor_front_main').css({
-					height: alto_ventana - 38
-				});
-			}else{
-				$('#contenedor_front_main').css({
-					height: 202 // 240 - 38
-				});
-		 	}
-		});
+	    var user=getCookie("_01lr");
+	    if (user == "") {
+	        $('#js_barra_aceptacion_cookie').css({
+	          display: 'block'
+	        });
+	     }
+			$('#js_btn_cookie').on('click', function(e) {
+			  e.preventDefault();
+			  user = '01luisrene';
+			  if (user != "" && user != null) {
+			    setCookie("_01lr", user, 30);
+			    $('#js_barra_aceptacion_cookie').css({
+	          display: 'none'
+	        });
+			    console.log("cookie creada: " + user);
+			   }
+			});
+			
+			console.log("cookie actual: " + user);
     },
-    estado01luisrene = function(){
-    	// función para cargar estado de animo
-		$('#img_estado .fa').addClass(alegre);
+    botonUp = function(){
+      $(window).scroll(function(){
+        if($(this).scrollTop() > 300){
+          $("#js_up").show(); //fadeIn
+        }else{
+          $("#js_up").fadeOut(); //fadeOut
+        }
+      });
+      $("#js_up i").on('click', function (e) {
+        e.preventDefault();
+          $("body,html").animate({
+          scrollTop: 0
+        },700);
+        return false;
+      });
     },
-    //script para num cel
-    numerosContacto = function(){
-    	//código para mis números de celulares
-		var movistar = $('#movistar').text();
-		$('#movistar').hover(function(){
-	    	$(this).addClass('movistar');
-			var replace = movistar.replace(movistar,'Movistar');
-			$(this).text(replace);
-	    }, function() {
-	    	$(this).removeClass('movistar');
-	    	var replace = movistar.replace('Movistar', movistar);
-			$(this).text(replace);
-	  	});
-		var claro = $('#claro').text();
-	  	$('#claro').hover(function(){
-	    	$(this).addClass('claro');
-	    	var replace = claro.replace(claro, 'Claro');
-			$(this).text(replace);
-	    }, function() {
-	    	$(this).removeClass('claro');
-	    	var replace = claro.replace('Claro', claro);
-			$(this).text(replace);
-	  	});
-    },
-    //slider
-    slider01luisrene = function(){
-    	var size = $('.slider').find('.s_element').size();
-		$('.slider').find('.s_element').each(
-			function(index, value){
-				if($(value).hasClass('s_visible'))
-				{
-					$(value).slideUp();
-					$(value).removeClass('s_visible');
-
-					if(index+1 < size)
-					{
-						$($('.slider').find('.s_element').get(index+1)).slideDown();
-						$($('.slider').find('.s_element').get(index+1)).addClass('s_visible');
-						return false;
-					}
-					else
-					{
-						$($('.slider').find('.s_element').get(0)).slideDown();
-						$($('.slider').find('.s_element').get(0)).addClass('s_visible');
-						return false;
-					}
-				}
-		});
+    imprimirCurriculum = function(){
+    		$('#js_imprimir_curriculum').on('click', function(e) {
+    			e.preventDefault();
+    			window.print();
+    			return false;
+    		});
     },
  // 01luisrene javascripts initialization
     init = function () {
         userAgentInit();
-        menuFixed();
         displayMenu();
-        heightHome();
-        estado01luisrene();
-        numerosContacto();
-        setInterval(function(){ slider01luisrene() }, 10000);
+        closeMenu();
+        search_articles();
+        politica_cookies();
+        botonUp();
+        imprimirCurriculum();
     };
 
     return {

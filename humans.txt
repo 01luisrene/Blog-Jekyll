@@ -6,7 +6,7 @@ Name dominio: http://01luisrene.com
 
 /*NOMBRE DE LA APLICACIÓN*/
 
-App Name: 01luisrene v1.0
+App Name: 01luisrene v2.0
 
 						[...]
 
@@ -68,11 +68,12 @@ From: 		Chachapoyas, Amazonas, Perú
                                                     
 /* SITE */
                           
-Last update: 2016/02/04                      
+Last update: 2016/06/04                      
 Standards: HTML5, CSS3, JavaScript, ...                        
-Components: html5.js, jQuery, vegas.js, etc.
+Components: html5.js, jQuery, etc.
 Framework: Jekyll.
-Software: Sublime Tex 3, Google Chrome, GitHub.
+Software: Sublime Tex 3, Google Chrome.
+Sistema de Veersionado: GitHub.
 
 /* 
 Leyenda: [at] es representación del arroba para evitar span.

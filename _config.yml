@@ -1,20 +1,31 @@
 # Site settings
 permalink: /blog/:year/:month/:day/:title/
-title: 01luisrene
-email: 01luisrene[at]gmail.com
+title: 01LuisRene
+email: 01luisrene@gmail.com
+01luisrene_version: 2.0
+autor_name: Luis Rene Mas Mas
+
 description: > # this means to ignore newlines until "baseurl:"
   01luisrene: es el nombre de usuario que utilizo en las redes sociales (Twitter, Facebook, Google+); este sitio web a sido desarrollado para poder compartir contenidos de algunos lenguajes de programación (HTML5, CSS3, JAVASCRIPT, RUBY), PREPROCESADORES y mucho más.
 description_author: > # description author
-  Hola, soy Técnico Computación e Informática, me gusta el desarrollo Front End (HTM5, CSS3, JAVASCRIPT), me encanta aprender programación web ya que es el futuro.
-
+  Hola, soy Técnico en Computación e Informática, me gusta el desarrollo Front End (<b>HTM5</b>, <b>CSS3</b>, <b>JAVASCRIPT</b>, <b>Responsive Design</b>), me encanta aprender programación web ya que es el futuro.
 
 domain: ""
 url: http://01luisrene.com # the base hostname & protocol for your site
 
-twitter_username: 01luisrene
-github_username:  01luisrene
 
 # Build settings
 markdown: kramdown
 
+#analítica
 google_analytics_id: UA-73408981-1
+
+#usuarios de redes sociales
+twitter: https://twitter.com/01luisrene
+github:  https://github.com/01luisrene
+facebook: https://www.facebook.com/01luisrene
+google_plus: https://plus.google.com/+01LuisRene/posts
+youtube: https://www.youtube.com/user/01luisrene
+
+#celular
+celular: +051 954336108

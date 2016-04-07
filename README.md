@@ -1,14 +1,35 @@
-# [01luisrene.com](http://01luisrene.com)
+# [Luis Rene Mas Mas](http://01luisrene.com)
 
-Sitio web personal de **Luis Rene Mas Mas**
-## Generador de sitio estático
+Sitio web personal.
+
+## Generador estático para blogs
 
 [Jekyll](https://jekyllrb.com/)
 
-Mi website esta basado en este generador de contenido estático muy potente.
+Mi sitio web esta basado en este generador de contenido estático muy potente, que por cierto no necesita **base de datos**.
+
+## Lenguajes de programación
+
+[JAVASCRIPT](http://www.w3schools.com/js/default.asp)
+
+## Estandares
+
+[HTML5](http://www.w3schools.com/html/html5_intro.asp)
+
+[CSS3](http://www.w3schools.com/css/css3_intro.asp)
 
 ## Librerías utilizadas
 
-[jQuery](https://jquery.com/download/)
+[JQUERY](https://jquery.com/download/)
 
-[ScrollToFixed](https://github.com/bigspotteddog/ScrollToFixed)
+[ADDTHIS](https://addthis.com/)
+
+[CODEPEN](http://codepen.io/)
+
+## Analítica web
+
+[Google Analytics](https://www.google.com/analytics/)
+
+## Discusiones
+
+[DISQUS](https://disqus.com/)

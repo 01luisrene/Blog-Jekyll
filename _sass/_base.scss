@@ -3,7 +3,7 @@
  */
 body, h1, h2, h3, h4, h5, h6,p, blockquote, pre, hr,dl, dd, ol, ul, figure {margin: 0;padding: 0;}
 
-div, header, article, section, aside, footer, figure, hgroup, nav, details,figcaption{display:block;}
+p, div, header, article, section, aside, footer, figure, hgroup, nav, details,figcaption{display:block;}
 
 /**
  * Basic styling
@@ -19,6 +19,7 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     position: relative;
+    padding-top: 47px;
 }
 
 figure a > img{
@@ -76,9 +77,6 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
 }
-p {
-  display: inline;
-}
 address {
   display: inline;
   font-style: inherit;
@@ -98,7 +96,7 @@ a {
     -webkit-transition: 1s;
     transition: 1s;
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($brand-color, 6%);
     }
 
     &:hover {
@@ -154,17 +152,6 @@ pre {
         padding-left: 0;
     }
 }
-//menu fijo
-.menu-fixed {
-  position: fixed;
-  top: 0;
-  -webkit-transition: all 700ms;
-  -moz-transition: all 700ms;
-  -o-transition: all 700ms;
-  padding: 0;
-  width: 100%;
-  border-top: 0 !important;
-}
 //ocultar elementos
 .hidden{
   display: none !important;
@@ -180,20 +167,6 @@ pre {
       width: 100%;
     }
 }
- /*titulo seccion */
-.titulo_seccion {
-  background: $text-color-title-seccion;
-  color: $text-white;
-  margin:0;
-  padding-top: 10px;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 10px;
-  text-align: left;
-  @include media-query($on-palm) {
-    padding-left: 2%;
-  }
-}
 
 .btn{
   display: inline-block;
@@ -201,7 +174,6 @@ pre {
   -moz-border-radius:6px;
   -webkit-border-radius:6px;
   border-radius:6px;
-  display:inline-block;
   cursor:pointer;
   color:#333333;
   font-size:15px;
@@ -259,9 +231,6 @@ pre {
 /**
  * Wrapper
  */
- .wrap{
-  margin: 1em 0;
- }
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -274,15 +243,7 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-/*mediaqueries*/
-@media screen and (max-width: $on-laptop) {
-   .template-no-home .wrapper
-    {
-      padding-right: $spacing-unit / 2;
+        padding-right: $spacing-unit / 2;
       padding-left: $spacing-unit / 2;
     }
 }

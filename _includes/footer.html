@@ -4,40 +4,53 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li><h3>{{ site.title }}</h3></li>
+          <li><h3 class="name-app">{{ site.title }}</h3></li>
           <div class="separador"></div>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+        <h3 class="title-footer">Redes Sociales</h3>
         <ul class="social-media-list">
-          {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <i class="fa fa-twitter"></i> <a href="{{ site.twitter}}">Twitter</a>
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+          <i  class="fa fa-google-plus"></i> <a href="{{ site.google_plus}}">Google Plus</a>
           </li>
-          {% endif %}
+          <li>
+          <i class="fa fa-facebook"></i> <a href="{{ site.youtube}}">Facebook</a>
+          </li>
         </ul>
       </div>
       <div class="footer-col footer-col-3">
+        <h3 class="title-footer">Descripción</h3>
         <p>{{ site.description }}</p>
       </div>
 
       <div class="footer-col copy">
-        <p><i class="fa fa-copyright"></i> copyright 2015 ( Todos los Derechos Reservados ) - Web Master: <a href="/"><img class="ico-luisrene" src="{{ "/assets/images/01luisrene.png" | preppend: site.url }}" alt="Ico"> 01luisrene</a>
+        <p><i class="fa fa-copyright"></i> copyright 2015 - {{ site.time | date: '%Y' }} ( Todos los Derechos Reservados ) - Web Master: <b>01luisrene</b></a>
         </p>
       </div>
-      
     </div>
   </div>
 </footer>
-<script src="{{ "/assets/js/libs/jquery.js" | prepend: site.url }}"></script>
-<script src="{{ "/assets/js/libs/jquery-scrolltofixed-min.js" | prepend: site.url }}"></script>
-<script async src="{{ "/assets/js/01luisrene.min.js" | prepend: site.url }}"></script>
+<!-- Política de cookies  -->
+<div class="barra-aceptacion-cookie" id="js_barra_aceptacion_cookie" style="display: none;">
+  <p> Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies. 
+  <a href="/politica-cookies/"  class="info-cookie" target="_blank">Más información</a>
+  <button id="js_btn_cookie" class="btn-cookie btn-link">Ok</button>
+  </p>
+</div>
 
+<!-- Botón up -->
+<a href="#" id="js_up" class="boton-subir">
+  <i class="fa fa-angle-double-up"></i>
+</a>
+
+<script src="{{ "/assets/js/libs/jquery.js" | prepend: site.url }}"></script>
+<script async src="{{ "/assets/js/01luisrene.min.js" | prepend: site.url }}"></script>
+<script src="{{ "/assets/js/libs/jquery.ghostHunter.min.js" | prepend: site.url }}"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57004124cf559f51"></script>
