@@ -5,7 +5,7 @@ description: "Esta página da ha conocer algunas de mis habilidades y conocimien
 permalink: /habilidades-conocimientos/
 ---
 
-Hola soy **Freelance** (trabajador autónomo) y mi pasión es el desarrollo web.
+Hola, soy **Freelance** (trabajador autónomo) y mi pasión es el desarrollo web.
 
 Domino algunos lenguajes de programación **Front-End** (**HTML5**, **CSS3**, **JAVASCRIPT**), filosofías de diseño (**RESPONSIVE DESIGN**).
 
@@ -25,7 +25,7 @@ Estos son algunos de los **frameworks** con los que he trabajado hasta el moment
 
 ### Librerías JS
 
-Estos son algunos de los **librerías** con los que he trabajado hasta el momento.
+Estos son algunos de las **librerías** con los que he trabajado hasta el momento.
 
 <i class="fa fa-code"></i> [jQuery](https://jquery.com/download/)
 
@@ -63,14 +63,12 @@ Domino estos increíbles sistemas operativos...!
 
 ### Editor de Código
 
-Este es mi editor preferido y eso que he comenzado a usar múltiples entornos de desarrollo como (**Dreamweaver**&nbsp;,**NetBeans**, **Notepad ++**).
-
-Pero nadie le gana en **sencillez** y el **poder** a la hora de escribir código.
+**Sublime Text** es mi editor preferido y eso que utilice múltiples entornos de desarrollo como (**Dreamweaver** ,**NetBeans**, **Notepad ++**, **Brackets**). Pero nadie le gana en **sencillez** y el **poder** a la hora de escribir código.
 
 <i class="fa fa-pencil"></i> [Sublime Text](https://www.sublimetext.com/)
 
 ### Plataforma de control de versiones
 
-**GitHub** es una excelente plataforma, que utiliza el sistema **Git** de control de versiones.
+**GitHub** es una plataforma de **desarrollo colaborativo** de software; que sirve para alojar proyectos utilizando el sistema de **control de versiones** **Git**.
 
 <i class="fa fa-github"></i> [GitHub]({{ site.github }}) (Mi usuario GitHub)

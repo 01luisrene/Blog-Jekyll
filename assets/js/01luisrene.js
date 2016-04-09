@@ -84,8 +84,11 @@ var cerounoluisrene = (function ($) {
 			    console.log("cookie creada: " + user);
 			   }
 			});
-			
-			console.log("cookie actual: " + user);
+			if(user == ""){
+        console.log("cookie actual: Null");
+      }else{
+			 console.log("cookie actual: " + user);
+      }
     },
     botonUp = function(){
       $(window).scroll(function(){

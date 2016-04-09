@@ -93,17 +93,17 @@ permalink: /curriculum-vitae/
 		<table class="tabla-datos">
 			<tr>
 				<td>
-					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Desarrollo de Sistemas de Información"</b>, duración de 867 horas–Chachapoyas.
+					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Desarrollo de Sistemas de Información"</b>, con una duración de 867 horas–Chachapoyas.
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Desarrollo de Aplicativos Web y Multimedia"</b> con una duración de 561 horas – Chachapoyas.
+					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Desarrollo de Aplicativos Web y Multimedia"</b>, con una duración de 561 horas – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Ofimática, Redes y Mantenimiento de Computadoras"</b>, duración de 765 horas – Chachapoyas.
+					<b>Instituto de Educación Superior Tecnológico Público "Perú - Japón"</b>: Módulo Técnico Profesional <b>"Ofimática, Redes y Mantenimiento de Computadoras"</b>, con una duración de 765 horas – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
@@ -183,7 +183,7 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>
-					<b>Ministerio de Trabajo y Promoción del Empleo: "Intermediación Laboral y Tercerización Laboral"</b>, duración de 10 horas pedagógicas realizado el 21 de Febrero del 2011 – Chachapoyas.
+					<b>Ministerio de Trabajo y Promoción del Empleo: "Intermediación Laboral y Tercerización Laboral"</b>, duración de 10 horas pedagógicas, realizado el 21 de Febrero del 2011 – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
@@ -203,12 +203,12 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>
-					<b>Ministerio de Trabajo y Promoción del Empleo: "Prevención y Erradicación del Trabajo Infantil"</b>, duración de 10 horas pedagógicas realizado el 11 de noviembre de 2010 – Chachapoyas.
+					<b>Ministerio de Trabajo y Promoción del Empleo: "Prevención y Erradicación del Trabajo Infantil"</b>, duración de 10 horas pedagógicas, realizado el 11 de noviembre de 2010 – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<b>Ministerio de Trabajo y Promoción del Empleo: "La Inspección en el Trabajo y la no Discriminación en el Empleo: Protección de la Madre Gestante Trabajadora y Personas Viviendo con VIH y SIDA en el Lugar de Trabajo"</b>, duración de 10 horas pedagógicas realizado el 11 de noviembre de 2010 – Chachapoyas.
+					<b>Ministerio de Trabajo y Promoción del Empleo: "La Inspección en el Trabajo y la no Discriminación en el Empleo: Protección de la Madre Gestante Trabajadora y Personas Viviendo con VIH y SIDA en el Lugar de Trabajo"</b>, duración de 10 horas pedagógicas, realizado el 11 de noviembre de 2010 – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
@@ -218,7 +218,7 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>
-					<b>Ministerio de Trabajo y Promoción del Empleo: "Conciliación Laboral y Solución de Conflictos"</b>, duración de 10 horas pedagógicas realizado el 20 de octubre de 2010 – Chachapoyas.
+					<b>Ministerio de Trabajo y Promoción del Empleo: "Conciliación Laboral y Solución de Conflictos"</b>, con una duración de 10 horas pedagógicas, realizado el 20 de octubre de 2010 – Chachapoyas.
 				</td>
 			</tr>
 			<tr>
@@ -238,12 +238,12 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>
-					<b>Superintendencia Nacional de administración Tributaria</b>: Encuentro Universitario: 25 y 26 de septiembre del 2008 –Chachapoyas.
+					<b>Superintendencia Nacional de administración Tributaria</b>: Encuentro Universitario: realizado el 25 y 26 de septiembre del 2008 –Chachapoyas.
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<b>Tecnological American Center: "Redes, Seguridad Informática, Telecomunicaciones y Tecnologías de la Información"</b> duración 80 horas académicas.
+					<b>Tecnological American Center: "Redes, Seguridad Informática, Telecomunicaciones y Tecnologías de la Información"</b>, duración 80 horas académicas.
 				</td>
 			</tr>
 		</table>
@@ -322,7 +322,7 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>
-					<b>Resolución De Alcaldía Nº709-2009-MPCH</b>.- Por Felicitar y Reconocer la colaboración como Miembro de Mesa.
+					<b>Resolución De Alcaldía Nº 709-2009-MPCH</b>.- Por Felicitar y Reconocer la colaboración como Miembro de Mesa.
 				</td>
 			</tr>
 		</table>
