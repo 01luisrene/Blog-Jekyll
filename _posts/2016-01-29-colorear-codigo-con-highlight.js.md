@@ -5,10 +5,8 @@ date: 2016-01-29 10:38:00 -0500
 categories: JavaScript
 tumblr_id: articulo-04
 photo_url : "/assets/images/portadas/highlight_js.jpg"
-description: "Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar highlight.js esta librería JavaScript es asombrosa..."
+description: "Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar highlight.js esta librería JavaScript es asombrosa"
 ---
-![highlight.js]({{"/assets/images/portadas/highlight_js.jpg" | prepend: url}})
-
 Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar [highlight.js](https://highlightjs.org/ "highlight.js"), esta librería **JavaScript** es asombrosa.
 
 ### Descargar librería highlight.js

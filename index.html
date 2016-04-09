@@ -17,7 +17,7 @@ photo_url: "/assets/images/fb_photo.jpg"
         </h2>
         <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.description %}
-        <span class="body">{{ post.description | markdownify }}</span>
+        <span class="body">{{ post.description | remove: '<p>' | remove: '</p>'}}...</span>
         {% else %}
         <span class="body">{{ post.excerpt | strip_html }}</span>
         {% endif %}

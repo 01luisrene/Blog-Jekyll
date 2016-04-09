@@ -5,9 +5,8 @@ date:   2016-01-22 09:41:41 -0500
 categories: CSS
 tumblr_id: articulo-01
 photo_url : "/assets/images/portadas/font_awesome.jpg"
-description: "Utilizar el Toolkit Font Awesome es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor..."
+description: "Utilizar el Toolkit Font Awesome es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor"
 ---
-![Font Awesome]({{"/assets/images/portadas/font_awesome.jpg" | prepend: url }} )
 
 Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor.
 

@@ -101,13 +101,7 @@ bottom: -7px
   position: fixed;
   right: 0;
   height: 100%;
-  width: 25%;
-  @include media-query($content-width){
-    width: 40%;
-  }
-  @include media-query($on-laptop){
-    width: 45%;
-  }
+  width: 350px;
   @include media-query($on-palm){
     background: rgba(65,65,65,.95);
     width: 100%;
@@ -502,11 +496,9 @@ bottom: -7px
     line-height: 28px;
 }
 .body{
-  width: 56%;
-  > p{
-    display: block;
-    width: 100%;
-  }
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
 }
 //boton articulos
 .btn-links-articulos{

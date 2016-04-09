@@ -14,8 +14,10 @@ layout: null
           <header class="post-header">
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             <p class="post-meta"><i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            {% if jekyll.environment == "production" %}
             <div class="addthis_sharing_toolbox" style="text-align: center; margin-bottom: -20px;"></div>
+            {% endif %}
+            <img src="{{ page.photo_url | prepend: url }}" alt="Imagen - {{ page.title }}">
           </header>
           <section class="post-content" itemprop="articleBody">
             {{ content }}
@@ -37,9 +39,6 @@ layout: null
                 </span>
               </div>
             </section>
-            <div>
-              {{ page.categories }}
-            </div>
           </footer>
           <h2>Comparte tu opinión</h2>
           {% if jekyll.environment == "production" %}

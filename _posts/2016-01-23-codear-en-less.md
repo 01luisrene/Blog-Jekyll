@@ -5,9 +5,8 @@ date:   2016-01-23 09:41:41 -0500
 categories: Preprocesadores
 tumblr_id: articulo-02
 photo_url : "/assets/images/portadas/less.jpg"
-description: "La mayoría de programadores a utilizado por décadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web..."
+description: "La mayoría de programadores a utilizado por décadas las hojas de estilo CSS, que sirven para dar estilos, apariencia de como se vera su web"
 ---
-![LESS]({{"/assets/images/portadas/less.jpg" | prepend: url }} )
 
 La mayoría de programadores a utilizado por décadas las hojas de estilo __CSS__, que sirven para dar estilos, apariencia de como se vera su web.
 
