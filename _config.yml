@@ -13,8 +13,8 @@ description_author: > # description author
 domain: ""
 url: http://01luisrene.com # the base hostname & protocol for your site
 
-sass:
-    style: compressed
+# sass:
+#     style: compressed
 
 # Build settings
 markdown: kramdown
