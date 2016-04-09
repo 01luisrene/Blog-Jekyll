@@ -10,11 +10,10 @@ description: > # this means to ignore newlines until "baseurl:"
 description_author: > # description author
   Hola, soy Técnico en Computación e Informática, me gusta el desarrollo Front End (<b>HTM5</b>, <b>CSS3</b>, <b>JAVASCRIPT</b>, <b>Responsive Design</b>), me encanta aprender programación web ya que es el futuro.
 
-domain: ""
-url: http://01luisrene.com # the base hostname & protocol for your site
+port: 3000
+host: localhost
 
-# sass:
-#     style: compressed
+url: http://01luisrene.com # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
