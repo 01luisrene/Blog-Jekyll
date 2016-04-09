@@ -102,8 +102,11 @@ bottom: -7px
   right: 0;
   height: 100%;
   width: 25%;
+  @include media-query($content-width){
+    width: 40%;
+  }
   @include media-query($on-laptop){
-    width: 30%;
+    width: 45%;
   }
   @include media-query($on-palm){
     background: rgba(65,65,65,.95);
@@ -155,43 +158,24 @@ bottom: -7px
   }
 }
 .name-author{
-  color: #28A6DE;
+  color: $bg-name;
   text-align: center;
-  text-shadow: 2.5px 0 0 rgba(27, 27, 27, .5);
+  text-shadow: 2.5px 0 0 rgba(27, 27, 27, .9);
   font-size: 4em;
   padding-top: 20px;
-  font-family:'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-family:$font-family-roboto;
   margin-bottom: 0;
   text-transform: capitalize;
   @include media-query($on-smartphone) {
       font-size: 3em;
   }
 }
-.name-app {
-  color: $color-name-app;
-  font-family:'Roboto Condensed', Helvetica, Arial, sans-serif;
-  @include media-query($on-smartphone) {
-      font-size: 1.5em;
-  }
-}
-.name-app:before {
-  color: #fff;
-  content: '{ ';
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  text-shadow: none;
-}
-.name-app:after {
-  color: #fff;
-  content: ' }';
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  text-shadow: none;
-}
 .img-author{
   display: block;
   border-radius: 50%;
   background-size: 100%;
   background-repeat: no-repeat;
-  border: 5px solid #28A6DE;
+  border: 5px solid $bg-name;
   margin: 10px auto;
   height: 120px;
   width: 120px;
@@ -296,6 +280,13 @@ bottom: -7px
     color: #fff;
     width: 100%;
   }
+  a{
+    color: $brand-color;
+  }
+  a:visited{
+    color: none;
+    text-decoration: underline;
+  }
 }
 
 .footer-col-1 {
@@ -334,6 +325,26 @@ bottom: -7px
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
+// name app
+.name-app {
+  color: $color-name-app;
+  font-family:$font-family-roboto;
+  @include media-query($on-smartphone) {
+      font-size: 1.5em;
+  }
+}
+.name-app:before {
+  color: #fff;
+  content: '{ ';
+  font-family: $font-family-roboto;
+  text-shadow: none;
+}
+.name-app:after {
+  color: #fff;
+  content: ' }';
+  font-family: $font-family-roboto;
+  text-shadow: none;
+}
 
 /*copy*/
 .copy{
@@ -354,14 +365,14 @@ bottom: -7px
 }
 /*cookies*/
 .barra-aceptacion-cookie{
-  background: #2A2A2A;
+  background: rgba(42,42,42, .9);
   border-top: thin solid #606060;
   box-sizing: border-box;
   position: fixed;
   bottom:0;
   padding: .5em 1em;
   font-size: 14px;
-  font-family: 'Oswald', sans-serif;
+  font-family: $base-font-family;
   width: 100%;
   z-index: 999999;
   @include media-query($on-smartphone){
@@ -369,12 +380,12 @@ bottom: -7px
   }
   p{
     color: #FEFF27;
-    font-size: 1em;
+    font-size: .8em;
     margin-bottom: 0;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: normal;
   }
-  a:hover{
+  a, a:hover{
     color: #fff;
   }
 }
@@ -428,16 +439,16 @@ bottom: -7px
   height: 200px;
   width: 105%;
   @include media-query($content-width) { //1000px
-    height: 250px; 
+    height: 280px; 
   }
   @include media-query($on-laptop) { //800px
-    height: 350px;    
+    height: 450px;    
   }
   @include media-query($on-palm) {//600px
     height:300px !important;   
   }
   @include media-query($on-smartphone) {//480px
-    height: 180px !important;
+    height: 250px !important;
   }
 }
 
@@ -446,7 +457,6 @@ bottom: -7px
     margin-left: 0;
     list-style: none;
     > .post {
-        // background-color: darken($bg-main, 3%);
         box-sizing: border-box;
         box-shadow: 6px 4px 11px 0px rgba(41,40,41,1);
         display: inline-block;
@@ -460,13 +470,14 @@ bottom: -7px
             margin-right: 0;
         }
     @include media-query($content-width) {
-        width: 48.7%;
-        &:nth-child(2n) {
-              margin-right: 0;
-        }
+        width: 48%;
         &:nth-child(3n) {
-              margin-right: 2%;
+          margin-right: 2%;
         }
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+
     }
     @include media-query($on-laptop) {
         margin: 0 0 $spacing-unit 0;
@@ -488,6 +499,7 @@ bottom: -7px
 .post-link {
     display: block;
     font-size: 24px;
+    line-height: 28px;
 }
 .body{
   width: 56%;
@@ -528,7 +540,7 @@ bottom: -7px
     margin-bottom: $spacing-unit;
 }
 .post-title {
-    font: 3em "Noto Sans", Helvetica, Arial, sans-serif;
+    font: 3em $base-font-family;
     font-weight: 700;
     text-align: left;
     font-size: 42px;
@@ -828,4 +840,6 @@ bottom: -7px
     font-size: 1.3em;
   }
 }
-
+.a-nacimiento{
+  visibility: hidden;
+}

@@ -33,7 +33,7 @@ permalink: /curriculum-vitae/
 			</tr>
 			<tr>
 				<td>Fecha de Nacimiento</td>
-				<td>: 21 de Junio 1986</td>
+				<td>: 21 de Junio <span class="a-nacimiento">1986</span></td>
 			</tr>
 			<tr>
 				<td>DNI</td>

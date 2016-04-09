@@ -1,17 +1,20 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8"/>
 		<!-- Metadata -->
-		<title>{% if page.title %}{{ page.title }} &#171; {{ site.title }}{% else %}{{site.title}} &#187; Blog de desarrollo web y móvil{% endif %}</title>
+		<title>{{ page.title }} &#171; {{ site.title }}</title>
 		<!--
 			01LUISRENE
 		-->
 		<meta name="keywords" content="" />
 	  <meta name="description" content="{% if page.description %}{{ page.description }}{% else if content %}{{ site.description }}{% endif %}" />
-	  <meta name="robots" content="INDEX, FOLLOW" />
+	  <meta name="robots" content="NOINDEX" />
 	  <meta name="author" content="Luis Rene Mas Mas" />
-	  <meta name="application-name" content="01luisrene v1.0"/>
+	  <meta name="application-name" content="01luisrene v. {{ site.01luisrene_version }}"/>
 	  <meta name="geo.placename" content="Trujillo" />
 	  <meta name="geo.region" content="PE" />
 
@@ -35,7 +38,7 @@
 		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}" />
 		<link rel="stylesheet" href="{{ "/css/others.css" | prepend: site.url }}" />
   </head>
-  <body class="template-no-home">
+  <body>
   
   {% include header.html %}
 

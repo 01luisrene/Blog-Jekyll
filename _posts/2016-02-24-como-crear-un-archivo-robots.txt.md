@@ -2,7 +2,7 @@
 layout: post
 title:  "Como crear un archivo robots.txt"
 date:   2016-02-24 07:40:00
-categories: robots.txt seo
+categories: seo
 tumblr_id: articulo-05
 photo_url : "/assets/images/portadas/robots.txt.jpg"
 description: "Crear un archivo robots.txt sirve para poder controlar, a que partes de tu sitio web, no quieres que accedan los rastreadores como (Googlebot, Googlebot-Image)..."

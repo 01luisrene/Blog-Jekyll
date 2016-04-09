@@ -5,6 +5,7 @@
 
 // Our variables
 $base-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+$font-family-roboto: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -29,9 +30,10 @@ $on-palm:          600px;
 $on-smartphone:	   480px;
 
 //mis variables
-$bg-main: #98aaef;
 $bg-menu: #4E4E4E;
+$bg-name: #28A6DE;;
 $color-name-app: rgba(0,117,234,1);
+$color-link-foo: #FD7E00;
 
 //redes sociales
 $facebook: #3864a3;
@@ -39,16 +41,7 @@ $twitter: #4391e8;
 $youtube: #cc181e;
 $google-plus: #db4437;
 $github: #002F5E;
-$whatsapp: #13ad17;
-$mail: #ffee2b;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -56,7 +49,8 @@ $mail: #ffee2b;
 }
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "base",
+  "layout",
+  "c",
+  "syntax-highlighting"
 ;

@@ -7,9 +7,7 @@ layout: null
     {% include head.html %}
   </head>
   <body>
-  
-      {% include header.html %}
-
+    {% include header.html %}
     <div class="page-content">
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -39,6 +37,9 @@ layout: null
                 </span>
               </div>
             </section>
+            <div>
+              {{ page.categories }}
+            </div>
           </footer>
           <h2>Comparte tu opinión</h2>
           {% if jekyll.environment == "production" %}

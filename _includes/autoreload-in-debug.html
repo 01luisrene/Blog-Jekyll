@@ -1,3 +1,4 @@
+{% if jekyll.environment == "development" %}
 {% if site.safe == false %}
 <!-- During authoring, this automatically reloads the post as its changing -->
 <script type="text/javascript">
@@ -38,4 +39,5 @@ function check() {
 check();
 })();
 </script>
+{% endif %}
 {% endif %}

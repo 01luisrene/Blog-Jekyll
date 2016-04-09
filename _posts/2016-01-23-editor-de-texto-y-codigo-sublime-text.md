@@ -2,7 +2,7 @@
 layout: post
 title: "Editor de texto y código Sublime Text"
 date: 2016-01-24 10:49:00 -0500
-categories: sublime-text editor
+categories: editor
 tumblr_id: articulo-03
 photo_url : "/assets/images/portadas/sublime_text.jpg"
 description: "Sublime Text es un potente editor de texto y código, en mi opinión es agradable,  fácil de configurar y lo mejor de todo es que cuenta con múltiples plugins..."
