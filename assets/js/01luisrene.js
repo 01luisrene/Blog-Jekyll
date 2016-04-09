@@ -117,7 +117,7 @@ var cerounoluisrene = (function ($) {
       if ($('#disqus_thread').length) {
         if (typeof DISQUS === 'undefined') {
           /* * * CONFIGURATION VARIABLES * * */
-          var disqus_shortname = '01luisrene'; // required: replace example with your forum shortname
+          var disqus_shortname = '01luisrenemas'; // required: replace example with your forum shortname
           var disqus_identifier = newIdentifier;
           var disqus_url = newUrl;
           var disqus_title = newTitle;
