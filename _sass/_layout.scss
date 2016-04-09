@@ -763,8 +763,8 @@ bottom: -7px
 .imprimir-curriculum{
   color: #008080;
   margin: -20px auto 0 auto;
-  display: block;
-  font-size: 4em;
+  display: block !important;
+  font-size: 3.5em !important;
   text-align: center;
   transition: .1s;
   width: 1.5em;
