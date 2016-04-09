@@ -451,6 +451,7 @@ bottom: -7px
     margin-left: 0;
     list-style: none;
     > .post {
+        background-color: $text-white;
         box-sizing: border-box;
         box-shadow: 6px 4px 11px 0px rgba(41,40,41,1);
         display: inline-block;
