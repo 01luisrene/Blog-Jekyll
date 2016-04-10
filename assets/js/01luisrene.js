@@ -11,17 +11,26 @@ var cerounoluisrene = (function ($) {
     displayMenu = function(){
     	$('#js_icon_menu').on('click', function(e) {
     		e.preventDefault();
-    		$('#js_main_menu').css({
+    		$('#js_box_main_menu').css({
     			display: 'block'
     		});
-    		$('#js_main_menu').addClass('animated slideInRight');
+    		$('#js_box_main_menu').addClass('animated slideInRight');
     	});
     },
     closeMenu = function(){
     	$('#js_icon_cerrar').on('click', function(e) {
     		e.preventDefault();
-    		$('#js_main_menu').removeAttr('style');
+    		$('#js_box_main_menu').removeAttr('style');
+        $('#js_box_main_menu').css({
+          display: 'none'
+        });
     	});
+      $('#js_box_main_menu').on('click', function(e) {
+        e.preventDefault();
+        $(this).css({
+          display: 'none'
+        });
+      });
     },
     //altura de la web
     search_articles = function(){
@@ -85,9 +94,9 @@ var cerounoluisrene = (function ($) {
 			   }
 			});
 			if(user == ""){
-        console.log("cookie actual: Null");
+        console.log("Cookie: Null");
       }else{
-			 console.log("cookie actual: " + user);
+			 console.log("Cookie actual: " + user);
       }
     },
     botonUp = function(){

@@ -97,13 +97,23 @@ bottom: -7px
   color: #fff !important;
   text-decoration: underline;
 }
+.box-main-menu{
+  background: transparent;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .main-menu{
-  display: none;
   background: rgba(65,65,65,1);
   box-sizing: border-box;
+  display: block;
   padding: 15px;
   position: fixed;
   right: 0;
+  top:0;
   height: 100%;
   width: 350px;
   @include media-query($on-palm){
