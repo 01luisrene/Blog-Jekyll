@@ -136,7 +136,6 @@ bottom: -7px
     }
   }
 }
-
 //home
 .front{
   background:url('/assets/images/textura.png');
@@ -483,6 +482,12 @@ bottom: -7px
     }
 
     }
+}
+.post{
+  ul{
+    list-style-type: disc;
+    padding-left: 1em;
+  }
 }
 .post-meta {
     display: block;

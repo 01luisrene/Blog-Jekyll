@@ -27,6 +27,9 @@ figure > img {display: block;}
 figcaption {
   font-size: $small-font-size;
 }
+ul{
+  list-style-type: none;
+}
 li {
     > ul,
     > ol {
@@ -58,9 +61,6 @@ address {
   display: inline;
   font-style: inherit;
 }
-ul, ul li{
-  list-style-type: none;
-}
 
 a {
   color: lighten($text-color, 15%);
@@ -79,7 +79,7 @@ a {
 
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 4px solid $grey-color-dark;
   padding-left: $spacing-unit / 2;
   font-size: 18px;
   letter-spacing: -1px;
