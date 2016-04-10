@@ -650,6 +650,7 @@ bottom: -7px
   display: flex;
   justify-content: flex-start;
   padding: 0 0 1.5em 0;
+  list-style-type: none !important;
   li:first-child{
     margin-left: 0;
   }
