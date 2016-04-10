@@ -26,10 +26,11 @@ var cerounoluisrene = (function ($) {
         });
     	});
       $('#js_box_main_menu').on('click', function(e) {
-        e.preventDefault();
+        if(e.target == this){
         $(this).css({
           display: 'none'
         });
+        }
       });
     },
     //altura de la web
