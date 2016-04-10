@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cookie o galleta informática"
+title:  "Cookies o galletas informáticas"
 date: 2016-04-09 01:09:00 -0500
 categories: JavaScript
 tags: js javascript
-photo_url : "/assets/images/portadas/cookies.png"
+photo_url : "/assets/images/portadas/cookies.jpg"
 description: "Una Cookie o galleta informática, son pequeños archivos electrónicos que se alojan en el equipo del usuario, sirven para poder obtener información"
 ---
 Una Cookie o galleta informática, son pequeños archivos electrónicos que se alojan en el equipo del usuario, sirven para poder obtener información como (**sesiones de usuario**, **carrito de compras**, **analíticas**, etc).
@@ -184,7 +184,106 @@ function eliminarCookie(cookie_nombre) {
 
 ## Solventar aviso de política de cookies
 
-Este es la solución de tantas, para informar sobre las políticas de cookies.
+Este es una de las formas, para informar sobre las políticas de cookies.
+
+{% highlight html linenos %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Política de cookies</title>
+  <style>
+  /*Estilos CSS*/
+  body{
+    margin:0;
+    padding:0;
+  }
+  .barra-aceptacion-cookie{
+    background: rgba(42,42,42, .9);
+    border-top: thin solid #606060;
+    box-sizing: border-box;
+    position: fixed;
+    bottom:0;
+    padding: .5em 1em;
+    font-size: 14px;
+    font-family: sans-serif, arial, verdana;
+    width: 100%;
+    z-index: 999999;
+  }
+  .barra-aceptacion-cookie  p{
+      color: #FEFF27;
+      font-size: .8em;
+      margin-bottom: 0;
+      font-weight: 400;
+      letter-spacing: normal;
+  }
+  .barra-aceptacion-cookie  a, a:hover{
+      color: #fff;
+  }
+  @media screen and (max-width: 480px) {
+   .barra-aceptacion-cookie{
+      display: none !important;
+   }
+  }
+  </style>
+</head>
+<body>
+<!-- Política de cookies  -->
+<div class="barra-aceptacion-cookie" id="js_barra_aceptacion_cookie" style="display: none;">
+  <p> Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies. 
+  <a href="http://01luisrene.com/politica-cookies/"  class="info-cookie" target="_blank">Más información</a>
+  <button id="js_btn_cookie" class="btn-cookie btn-link">Ok</button>
+  </p>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+  //Función para crear la cookie
+  function setCookie(cname,cvalue,exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires=" + d.toGMTString();
+      document.cookie = cname+"="+cvalue+"; "+expires + "; path=/";
+  }
+  //Función para leer la cookie
+  function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1);
+          if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+          }
+      }
+      return "";
+  }
+  //Condicionar JS
+  var user=getCookie("_namecookie");
+  if (user == "") {
+      $('#js_barra_aceptacion_cookie').css({
+        display: 'block'
+      });
+   }
+  $('#js_btn_cookie').on('click', function(e) {
+    e.preventDefault();
+    user = 'Luis Rene';
+    if (user != "" && user != null) {
+      setCookie("_namecookie", user, 30);
+      $('#js_barra_aceptacion_cookie').css({
+        display: 'none'
+      });
+      console.log("cookie creada: " + user);
+     }
+  });
+  if(user == ""){
+    console.log("cookie actual: Null");
+  }else{
+   console.log("cookie actual: " + user);
+  }
+</script>
+</body>
+</html>
+{% endhighlight %}
 
 <p data-height="268" data-theme-id="0" data-slug-hash="KzQPvN" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/KzQPvN/">Cookies</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
