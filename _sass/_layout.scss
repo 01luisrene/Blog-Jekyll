@@ -14,6 +14,10 @@
 .page-content{
   padding-top: 2.5em;
   padding-bottom: 2em;
+  @include media-query($on-smartphone){
+    padding-top: 1em;
+    padding-bottom:1em;
+  }
 }
 //icono logo
 .img-logo{
@@ -546,8 +550,8 @@ bottom: -7px
     line-height: 1;
 
     @include media-query($on-laptop) {
-        text-align: center;
         font-size: 36px;
+        line-height: 38px;
     }
 }
 
