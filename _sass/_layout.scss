@@ -11,14 +11,6 @@
   height: 47px;
   width: 100%;
 }
-.page-content{
-  padding-top: 2.5em;
-  padding-bottom: 2em;
-  @include media-query($on-smartphone){
-    padding-top: 1em;
-    padding-bottom:1em;
-  }
-}
 //icono logo
 .img-logo{
   display: inline-block;
@@ -165,9 +157,8 @@ bottom: -7px
   }
 }
 .name-author{
-  color: $bg-name;
+  color: $color-name;
   text-align: center;
-  text-shadow: 2.5px 0 0 rgba(27, 27, 27, .9);
   font-size: 4em;
   padding-top: 20px;
   font-family:$font-family-roboto;
@@ -182,7 +173,7 @@ bottom: -7px
   border-radius: 50%;
   background-size: 100%;
   background-repeat: no-repeat;
-  border: 5px solid $bg-name;
+  border: 5px solid darken($color-name, 2%);
   margin: 10px auto;
   height: 120px;
   width: 120px;
@@ -261,18 +252,16 @@ bottom: -7px
     list-style: none;
     margin-left: 0;
 }
-//index
-.home .footer-col-wrapper {
-    @include media-query($on-laptop) {
-      padding: 0 10px;
-    }
-}
-//no index
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+
+    @include media-query($on-smartphone) {
+      padding: 0 15px;
+    }
 }
 
 .footer-col {
@@ -431,40 +420,27 @@ bottom: -7px
 /**
  post
  */
-.page-content {
-    position:relative;
-    z-index: 2;
-}
-
-.image_post{
-  display: block;
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  margin: 0 -5px 10px -5px;
-  height: 200px;
-  width: 105%;
-  @include media-query($content-width) { //1000px
-    height: 280px; 
-  }
-  @include media-query($on-laptop) { //800px
-    height: 450px;    
-  }
-  @include media-query($on-palm) {//600px
-    height:300px !important;   
-  }
-  @include media-query($on-smartphone) {//480px
-    height: 250px !important;
+.page-content{
+  padding: 1em 0;
+  position:relative;
+  z-index: 2;
+  @include media-query($on-smartphone){
+    padding:.5em 0;
   }
 }
-
+.post, .post-list > .post {
+  box-sizing: border-box;
+  background-color: $bg-inner;
+  padding: 1em 15px;
+  @include media-query($on-smartphone){
+    padding:.5em 10px;
+  }
+}
 .post-list {
     display: inline-block;
     margin-left: 0;
     list-style: none;
     > .post {
-        background-color: $text-white;
         box-sizing: border-box;
         box-shadow: 6px 4px 11px 0px rgba(41,40,41,1);
         display: inline-block;
@@ -497,10 +473,27 @@ bottom: -7px
 
     }
 }
-.post{
-  ul{
-    list-style-type: disc;
-    padding-left: 1em;
+
+.image_post{
+  display: block;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0 -5px 10px -5px;
+  height: 200px;
+  width: 105%;
+  @include media-query($content-width) { //1000px
+    height: 280px; 
+  }
+  @include media-query($on-laptop) { //800px
+    height: 450px;    
+  }
+  @include media-query($on-palm) {//600px
+    height:300px !important;   
+  }
+  @include media-query($on-smartphone) {//480px
+    height: 250px !important;
   }
 }
 .post-meta {
@@ -522,15 +515,21 @@ bottom: -7px
 }
 //boton articulos
 .btn-links-articulos{
-  background: transparent;
-  border-radius: 5px;
-  border: thin solid #002F5E;
-  color: #373737;
+  background: #00AA55;
+  border-radius: 20px;
+  color: $text-white;
+  font-size: 1em;
   text-align: center;
+  text-decoration: underline;
+  transition: .1s;
   padding: .5em 0;
   margin: 0 0 1em 0;
+ &:hover{
+  background: rgba(0,140,70, .8);
+    text-decoration: none;
+  }
   a{
-    text-decoration: underline;
+    transition: 0;
     display: block;
     color: inherit;
   }
@@ -591,6 +590,40 @@ bottom: -7px
     }
     //estilo para contacto
     div iframe {margin-bottom: 1em;}
+
+//estilo para listas
+.no-lista{
+  list-style-type:none;
+  @include media-query($on-smartphone) {
+    overflow-x: scroll;
+  }
+  li > ul{
+    padding-left: 1em;
+    list-style-type:none;
+  }
+}
+.lista-ordenada, .lista-desordenada{
+  padding-left: 1.7em;
+  @include media-query($on-smartphone) {
+    overflow-x: scroll;
+  }
+  li > ul{
+    padding-left: 1em;
+  }
+}
+.lista-ordenada{
+  list-style-type: decimal-leading-zero;
+  li > ul{
+    list-style-type: lower-latin;;
+  }
+}
+.lista-desordenada{
+  list-style-type: disc;
+  li > ul{
+    list-style-type: circle;
+  }
+}
+
 }
 .post-footer {
     position: relative;
@@ -751,24 +784,22 @@ bottom: -7px
 .lista-articulos{
   position: relative;
   padding-left: 1.5em;
-  li{
-    .search-items{
-      a{
-        display: inline;
-        h2{
-          display: inline;
-        }
-      }
-      &::before{
-        position: absolute;
-        left: 0;
-        color: #00356A;
-        content: "\f10c";
-        font-family: "FontAwesome";
-        margin-right: .5em;
-      }
-    }
+}
+.search-items{
+  a{
+    display: inline;
   }
+  &::before{
+    position: absolute;
+    left: 0;
+    color: #00356A;
+    content: "\f10c";
+    font-family: "FontAwesome";
+    margin-right: .5em;
+  }
+}
+.mensaje-resulados{
+  margin-left: -1.5em;
 }
 //curriculum vitae
 .imprimir-curriculum{

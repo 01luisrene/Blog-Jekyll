@@ -25,16 +25,15 @@ La instalación de **Sublime Text** es como toda aplicación, pero para poder in
 Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código y presionamos la tecla <kbd>Enter</kbd>.
 
 #### Código para Sublime Text 2
-{% highlight bash %}
+```shell 
 import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
-{% endhighlight %}
+```
 
 #### Código para Sublime Text 3
 
-{% highlight bash %}
+```shell
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-
-{% endhighlight %}
+```
 
 Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el **Package Control**.
 
@@ -58,21 +57,21 @@ Una vez realizado los pasos de manera correcta se abrirá la siguiente ventana.
 
 Pegar este código en la ventana anterior.
 
-{% highlight json %}
+```shell
 {
-	//font_size: tamaño de fuente
-	"font_size": 13,
-	//highlight_line: este código hace que se remarque la linea donde te encuentras
-	"highlight_line": true,
-	//highlight_modified_tabs: este código da un color naranja al 
-	//nombre del archivo que se muestra en el tab superior, cuando las modificaciones no han sido guardadas
-	"highlight_modified_tabs": true,
-	//save_on_focus_lost: este código guarda los cambios una vez que el foco del mouse se posiciona en otra parte
-	"save_on_focus_lost": true,
-	//tab_size: este código sirve para dar el número de espacios blancos que equivale un tabulador
-	"tab_size": 2
+//font_size: tamaño de fuente
+"font_size": 13,
+//highlight_line: este código hace que se remarque la linea donde te encuentras
+"highlight_line": true,
+//highlight_modified_tabs: este código da un color naranja al 
+//nombre del archivo que se muestra en el tab superior, cuando las modificaciones no han sido guardadas
+"highlight_modified_tabs": true,
+//save_on_focus_lost: este código guarda los cambios una vez que el foco del mouse se posiciona en otra parte
+"save_on_focus_lost": true,
+//tab_size: este código sirve para dar el número de espacios blancos que equivale un tabulador
+"tab_size": 2
 }
-{% endhighlight %}
+```
 
 Si existe lineas de código solo lo agregan en la parte inferior dentro de las llaves ( `{ }` ); quiero decir que lo copiarían sin las llaves, para que funcione.
 

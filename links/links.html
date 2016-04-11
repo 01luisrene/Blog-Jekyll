@@ -6,17 +6,13 @@ permalink: /links/
 ---
 <ul class="lista-links">
 	<li>
-		<a href="{{ site.url }}/">{{ site.url }}/</a>
+		<a href="{{ site.url }}/">{{ site.url }}</a>
 	</li>
-	<li>
-		<a href="{{ site.url }}/blog/">{{ site.url }}/blog/</a>
-	</li>
-	<li>
-		<a href="{{ site.url }}/contacto/">{{ site.url }}/contacto/</a>
-	</li>
-	<li>
-		<a href="{{ site.url }}/acerca/">{{ site.url }}/acerca/</a>
-	</li>
+	{% for my_page in site.pages %}
+    {% if my_page.title %}
+    <li><a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.url }}</a></li>
+    {% endif %}
+  {% endfor %}
 	{% for page in site.posts %}
 	<li>
 		<a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>

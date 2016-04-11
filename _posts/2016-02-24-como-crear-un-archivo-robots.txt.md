@@ -20,7 +20,7 @@ El archivo **robots.txt** se incluirá en la raíz del proyecto para que funcion
 
 A continuación algunos de los comandos para el archivo de tipo **robots.txt**.
 
-{% highlight bash linenos %}
+```TeX
 #LISTA DE SPIDERS http://www.robotstxt.org/db.html
 #Robots de Google: https://support.google.com/webmasters/answer/1061943
 
@@ -134,18 +134,16 @@ Sitemap: http://www.ejemplo.com/sitemap.xml
 
 #Nota: recuerda que, en algunas situaciones, las URL del sitio web se pueden indexar aunque no se hayan rastreado previamente.
 
-{% endhighlight %}
+```
 
 ### Ejemplo de uso en un proyecto
 Te recomiendo que no incluyas ninguna linea de comentarios
-{% highlight bash linenos %}
+
+```tex
 User-agent: *
 Allow: /
 Disallow: /recursos/
-Disallow: /*.js$
-Disallow: /*.css$
 Disallow: /*.scss$
-Disallow: /assets/fonts/
 Disallow: /*.md$
 
 User-agent: Googlebot-Image
@@ -153,7 +151,7 @@ Disallow: /assets/images/bg/
 Disallow: /assets/images/overlays/
 
 Sitemap: http://www.ejemplo.com/sitemap.xml
-{% endhighlight %}
+```
 
 ### Descargar archivo robots.txt
 

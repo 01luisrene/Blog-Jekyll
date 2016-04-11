@@ -13,8 +13,10 @@ permalink: /lista-articulos/
 		</form>
 	</section>
 <div class="box-resultados">
-	<section id="js_resultados"></section>
-
+	<section>
+		<ul class="lista-articulos" id="js_resultados"></ul>
+	</section>
+	
 	<ul class="lista-articulos" id="js_lista_articulos">
 	{% for post in site.posts %}
 	  <li>

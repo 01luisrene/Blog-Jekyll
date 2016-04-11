@@ -1,6 +1,6 @@
 ---
 layout: blog
-description: "Blog 01luisrene: diseñado para publicar contenidos relacionado con HTML5, CSS3, Javascript, etc. Y así poder compartirlo con los múltiples usuarios que están listos para aprender algo nuevo todos los días."
+description: "Blog 01luisrene: diseñado para publicar contenidos relacionado con HTML5, CSS3, JavaScript, etc. Y así poder compartirlo con los múltiples usuarios que están listos para aprender algo nuevo todos los días."
 photo_url: "/assets/images/fb_photo.jpg"
 ---
 <section class="post-list">
@@ -17,9 +17,9 @@ photo_url: "/assets/images/fb_photo.jpg"
         </h2>
         <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.description %}
-        <span class="body">{{ post.description | remove: '<p>' | remove: '</p>'}}...</span>
+        <span class="body">{{ post.description | strip_html}}...</span>
         {% else %}
-        <span class="body">{{ post.excerpt | strip_html }}</span>
+        <span class="body">{{ post.excerpt | strip_html }}...</span>
         {% endif %}
         </section>
         <footer>
@@ -28,7 +28,7 @@ photo_url: "/assets/images/fb_photo.jpg"
       </article>
     {% endfor %}
 
-    <div class="btn-links-articulos"><a href="/lista-articulos/">Ver más articulos...</a></div>
+    <div class="btn-links-articulos"><a href="/lista-articulos/">Ver más artículos...</a></div>
 
   <p class="rss-subscribe">Suscribe <a class="fa fa-rss-square fa-2x" href="{{ "/feed.xml" | prepend: site.url }}"></a> vía rss</p>
 </section>

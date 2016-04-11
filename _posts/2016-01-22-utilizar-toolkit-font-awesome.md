@@ -18,9 +18,9 @@ Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web t
 
 Copiamos el link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**, **PHP**, etc.
 
-{% highlight bash %}
+``` shell
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-{% endhighlight %}
+``` 
 
 ### Iconos Font Awesome
 
@@ -34,7 +34,7 @@ Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
 
 Aquí un pequeño código para comprenderlo mejor.
 
-{% highlight html %}
+``` html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -69,7 +69,7 @@ Aquí un pequeño código para comprenderlo mejor.
 </ul>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ### Ver resultado
 
@@ -77,4 +77,4 @@ Aquí un pequeño código para comprenderlo mejor.
 
 ### Ejemplos del toolkit Font Awesome
 
-Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">**Ejemplos Font Awesome**</a>.
+Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" rel="nofollow" target="_blank">**Ejemplos Font Awesome**</a>.

@@ -15,7 +15,7 @@ El problema se da cuando hay la necesidad de crear variables para poder usarlos 
 ### Ejemplo con CSS
 Tenemos las siguientes variables ( `.contenedor`, `.text`, `.link`, `#main` ).
 
-{% highlight css %}
+``` css
 #main{
 	background: #000;
 	color: #fff;
@@ -34,13 +34,12 @@ Tenemos las siguientes variables ( `.contenedor`, `.text`, `.link`, `#main` ).
 	color: #000;
 	font-size: 14px;
 }
-{% endhighlight %}
-
+```
 Este es un pequeño ejemplo, pero que pasaría si tenemos un mega proyecto ahí es donde **LESS** seria de gran ayuda.
 
 ### Ejemplo con LESS
 
-{% highlight css %}
+``` css
 
 /* 
 Variables LESS 
@@ -67,7 +66,7 @@ Variables LESS
 	color: @color-black;
 	font-size: @font-size-base - 2;
 }
-{% endhighlight %}
+```
 
 Este código al ser renderizado por **LESS** a **CSS** nos daría el mismo estilo que del ejemplo anterior, solo que nos deja con mas expectativas.
 
@@ -75,4 +74,4 @@ Este código al ser renderizado por **LESS** a **CSS** nos daría el mismo estil
 
 Para aquellos que despertó su curiosidad como la mía en algún momento aquí les dejo el link de la web oficial para que puedan experimentar y profundizar sus conocimientos.
 
-<a class="btn btn-link" href="http://lesscss.org/" title="LESS">**Página de LESS**</a>
+<a class="btn btn-link" href="http://lesscss.org/" title="LESS" rel="nofollow" target="_blank">**Página de LESS**</a>

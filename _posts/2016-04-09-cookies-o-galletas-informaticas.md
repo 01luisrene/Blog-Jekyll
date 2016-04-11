@@ -3,7 +3,7 @@ layout: post
 title:  "Cookies o galletas informáticas"
 date: 2016-04-09 01:09:00 -0500
 categories: JavaScript
-tags: js javascript
+tags: js, javascript
 photo_url : "/assets/images/portadas/cookies.jpg"
 description: "Una Cookie o galleta informática, son pequeños archivos electrónicos que se alojan en el equipo del usuario, sirven para poder obtener información"
 ---
@@ -37,7 +37,7 @@ Las cookies se crea con la siguiente sintaxis `"username=Jennifer López; expire
 
 Para que funcione correctamente la aplicación tienes que ejecutarlo en un servidor local o remoto.
 
-{% highlight html linenos %}
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -176,7 +176,7 @@ function eliminarCookie(cookie_nombre) {
 </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ### Ver en funcionamiento
 
@@ -186,7 +186,7 @@ function eliminarCookie(cookie_nombre) {
 
 Este es una de las formas, para informar sobre las políticas de cookies.
 
-{% highlight html linenos %}
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -283,7 +283,7 @@ Este es una de las formas, para informar sobre las políticas de cookies.
 </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 <p data-height="268" data-theme-id="0" data-slug-hash="KzQPvN" data-default-tab="result" data-user="01luisrene" class="codepen">See the Pen <a href="http://codepen.io/01luisrene/pen/KzQPvN/">Cookies</a> by Luis Rene Mas Mas (<a href="http://codepen.io/01luisrene">@01luisrene</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 

@@ -19,7 +19,7 @@ En esta página podemos seleccionar los estilos **CSS** para los lenguajes que d
 
 Aquí un pequeño código de uso en un archivo **html**.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -91,7 +91,7 @@ h1{
 </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ### Ver resultado
 

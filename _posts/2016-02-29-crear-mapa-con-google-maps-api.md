@@ -16,7 +16,7 @@ Primero nos averiguamos nuestras coordenadas en [la siguiente página](http://ww
 ### Mapa básico
 Este es un ejemplo básico de como mostrar un mapa, como verán el resultado no es tan exacto pero veremos mas adelante como colocar un marcador.
 
-{% highlight html linenos %}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,7 +54,7 @@ google.maps.event.addDomListener(window, 'load', inicializar);
 <div id="map_lima"></div>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ### Ver resultado
 
@@ -64,7 +64,7 @@ google.maps.event.addDomListener(window, 'load', inicializar);
 
 En este ejemplo se mostrara un marcador en las coordenadas que hemos indicado.
 
-{% highlight html linenos %}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -117,7 +117,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <div id="map_lima"></div>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ### Ver resultado
 
@@ -127,7 +127,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
  
  Este mapa es personalizado, y así como este mapa se puede crear muchos más a nuestra medida.
 
- {% highlight html linenos%}
+```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -210,7 +211,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <div id="map_lima"></div>
 </body>
 </html>
- {% endhighlight %}
+```
 
 ### Ver resultado
 
