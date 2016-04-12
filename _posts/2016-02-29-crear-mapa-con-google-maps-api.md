@@ -15,7 +15,7 @@ Primero nos averiguamos nuestras coordenadas en <a class="link" href="http://www
 
 ### Mapa básico
 
-Este es un ejemplo básico de como mostrar un mapa, como verán el resultado no es tan exacto pero veremos mas adelante como colocar un marcador.
+Este es un ejemplo básico de como mostrar un mapa, como verán el resultado no es tan exacto, pero mas adelante veremos como colocar un **marcador** en nuestro mapa.
 
 ```html
 <!DOCTYPE html>
