@@ -243,8 +243,10 @@ bottom: -7px
   z-index: 2;
 }
 .home .site-footer{
-  margin-left: -10px;
-  margin-right: -10px;
+   @include media-query($on-smartphone) {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
 }
 
 .footer-heading {
