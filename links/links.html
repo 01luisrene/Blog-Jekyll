@@ -10,7 +10,9 @@ permalink: /links/
 	</li>
 	{% for my_page in site.pages %}
     {% if my_page.title %}
-    <li><a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.url | prepend: site.url }}</a></li>
+  <li>
+  	<a href="{{ my_page.url | prepend: site.url }}">{{ my_page.url | prepend: site.url }}</a>
+  </li>
     {% endif %}
   {% endfor %}
 	{% for page in site.posts %}
