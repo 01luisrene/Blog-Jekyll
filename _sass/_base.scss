@@ -143,6 +143,12 @@ pre {
         padding-left:0;
     }
 }
+.home .wrapper{
+  @include media-query($on-smartphone) {
+    padding-right:10px;
+    padding-left:10px;
+  }
+}
 /**
  * Clearfix
  */
