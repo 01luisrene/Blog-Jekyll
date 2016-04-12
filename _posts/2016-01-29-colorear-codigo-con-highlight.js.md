@@ -7,11 +7,13 @@ tumblr_id: articulo-04
 photo_url : "/assets/images/portadas/highlight_js.jpg"
 description: "Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar highlight.js esta librería JavaScript es asombrosa"
 ---
-Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar [highlight.js](https://highlightjs.org/ "highlight.js"), esta librería **JavaScript** es asombrosa.
+Muchas veces deseamos compartir códigos con nuestros usuarios y para poder darles una mejor presentación podemos usar <a class="link" href="https://highlightjs.org/" rel="nofollow">highlight.js</a>, esta librería **JavaScript** es asombrosa.
 
 ### Descargar librería highlight.js
 
-<a href="https://highlightjs.org/download/" class="btn btn-link">Descargar highlight.js</a>
+Para descargar esta librería JavaScript visita la siguiente página.
+
+<a class="btn btn-link" href="https://highlightjs.org/download/" target="_blank" rel="nofollow">Highlight.js</a>
 
 En esta página podemos seleccionar los estilos **CSS** para los lenguajes que deseamos dar una mejor presentación.
 

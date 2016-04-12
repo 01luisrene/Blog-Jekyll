@@ -14,7 +14,7 @@ Cabe recalcar que este tutorial esta enfocado en gran mayoría o quizá al 100% 
 
 En este tutorial vamos a crear un archivo de tipo **txt** con el nombre **robots.txt**, ahí detallaremos para que sirve cada linea de código.
 
-Podemos utilizar cualquier editor de código o texto yo los recomiendo <a href="https://www.sublimetext.com/" target="_blank" rel="no-follow">Sublime Text</a>, ya que es mi favorito.
+Podemos utilizar cualquier editor de código o texto yo los recomiendo <a class="link" href="https://www.sublimetext.com/" target="_blank" rel="nofollow">Sublime Text</a>, ya que es mi favorito.
 
 El archivo **robots.txt** se incluirá en la raíz del proyecto para que funcione correctamente.
 
@@ -155,10 +155,10 @@ Sitemap: http://www.ejemplo.com/sitemap.xml
 
 ### Descargar archivo robots.txt
 
-El archivo esta alojado en GitHub Gist.
+Descargar los archivos del artículo **Como crear un archivo robots.txt**.
 
-Descargar [robots.txt](https://gist.github.com/01luisrene/29a2ce9ee6da0fce98e3)
+<a class="btn btn-link" href="https://gist.github.com/01luisrene/29a2ce9ee6da0fce98e3/archive/3756e0a8a3b358fb5fd4096987f094cbedf2127e.zip" target="_blank" rel="nofollow">Descargar</a>
 
 ### Info
 
-Para mayor información consulte la ayuda en Google, [cómo bloquear URLs con robots.txt](https://support.google.com/webmasters/answer/6062596)
+Para mayor información consulte la ayuda en Google, <a class="link" href="https://support.google.com/webmasters/answer/6062596" rel="nofollow">cómo bloquear URLs con robots.txt</a>

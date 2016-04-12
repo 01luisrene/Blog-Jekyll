@@ -11,9 +11,10 @@ Google Maps API te permite personalizar mapas y la información sobre mapas; una
 
 En este tutorial vamos a realizar algunos ejemplos de uso de Google Maps API.
 
-Primero nos averiguamos nuestras coordenadas en [la siguiente página](http://www.coordenadas-gps.com/), yo voy a usar las coordenadas al azar de la capital del Perú.
+Primero nos averiguamos nuestras coordenadas en <a class="link" href="http://www.coordenadas-gps.com/" target="_blank" rel="nofollow">la siguiente página</a>, yo voy a usar las coordenadas al azar de la capital del Perú.
 
 ### Mapa básico
+
 Este es un ejemplo básico de como mostrar un mapa, como verán el resultado no es tan exacto pero veremos mas adelante como colocar un marcador.
 
 ```html
@@ -219,8 +220,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 ### Descargar archivos
 
-Puedes descargar los [archivos](https://gist.github.com/01luisrene/eee62d63fbe07c42ac3c) que están alojados en GitHub Gist.
+Descargar los archivos del artículo **Crear mapa con Google Maps API**.
+
+<a class="btn btn-link" href="https://gist.github.com/01luisrene/eee62d63fbe07c42ac3c/archive/a3add647ea1a28f6ed4cba13814824856a40e938.zip" target="_blank" rel="nofollow">Descargar</a>
 
 ### Info
 
-Aquí puedes encontrar todo lo relacionado con [Google Maps API](http://www.w3schools.com/googleapi/default.asp).
+Aquí puedes encontrar todo lo relacionado con <a class="link" href="http://www.w3schools.com/googleapi/default.asp" rel="nofollow">Google Maps API</a>.

@@ -289,4 +289,6 @@ Este es una de las formas, para informar sobre las políticas de cookies.
 
 ### Descargar archivos
 
-<a class="btn btn-link" href="https://gist.github.com/01luisrene/978fcfa7c32e993736c1fa6d01e3d085" target="_blank">Cookies o galletas informáticas</a>
+Descargar los archivos del artículo **Cookies o galletas informáticas**.
+
+<a class="btn btn-link" href="https://gist.github.com/01luisrene/978fcfa7c32e993736c1fa6d01e3d085/archive/00fcd362741c9224c233dc006e6aea601b7dd724.zip" target="_blank" rel="nofollow">Descargar</a>

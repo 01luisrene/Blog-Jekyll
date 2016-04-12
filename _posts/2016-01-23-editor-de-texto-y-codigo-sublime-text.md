@@ -16,7 +16,7 @@ Personalmente lo uso para escribir código como ( **CSS3**, **JavaScript**, **HT
 
 **Sublime Text** es multiplataforma, esta disponible en su versión (2 y 3).
 
-<a class="btn btn-link" href="http://www.sublimetext.com/" target="_blank">**Sublime Text**</a>
+<a class="btn btn-link" href="http://www.sublimetext.com/" target="_blank" rel="nofollow">Sublime Text</a>
 
 ### Instalando el Package Control
 
@@ -35,13 +35,13 @@ import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
-Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el **Package Control**.
+Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el <kbd>Package Control</kbd>.
 
 ![Sublime Text Package Control]({{ "/assets/images/posts/sublime-text-package-control.jpg" | prepend: site.url }} "Sublime Text Package Control")
 
 Ahora elegimos la opción <kbd>Install Package</kbd>.
 
-Para instalar un plugin escribimos el nombre en la caja de texto y elegimos el que deseamos instalar.
+Para instalar un **plugin** escribimos el nombre en la caja de texto y seleccionamos el que deseamos instalar.
 
 ![Install Package]({{ "/assets/images/posts/install-package.jpg" | prepend: site.url }} "Install Package")
 
@@ -73,11 +73,11 @@ Pegar este código en la ventana anterior.
 }
 ```
 
-Si existe lineas de código solo lo agregan en la parte inferior dentro de las llaves ( `{ }` ); quiero decir que lo copiarían sin las llaves, para que funcione.
-
-No olviden agregar una coma antes de pegar el código.
+Si al abrir <kbd>Settings&nbsp;-&nbsp;User</kbd>, se ha generado las llaves ( `{ }` ) como en la imagen anterior. Se ubican dentro de las llaves en la parte inferior; agregan una  `,` y luego pegan el código para que funcione correctamente.
 
 ### Algunos plugins
+
+Para instalar cualquiera de estos plugin realiza lo siguiente <kbd>ctrl + shift + p</kbd> para abrir el <kbd>Package Control</kbd>, busca la opción <kbd>Install Package</kbd>, una vez que carga la ventana solo escribe el nombre del **plugin** seleccionalo y se instalara automáticamente.
 
 #### **Emment**
 Este es un excelente plugin, sirve para poder escribir código de forma rápida; usa snippets pre construidos.
@@ -88,17 +88,17 @@ Ejemplo: escribir cinco links.
 
 Aquí un manual [pdf](https://drive.google.com/file/d/0B3HDGXa3Vd-EbGo0YndHNW5OMkE/view?usp=sharing), es de Zen Coding 0.6 (el nombre que tenia anteriormente); pero funciona correctamente.
 
-Repositorio [Emmet](https://github.com/emmetio/emmet) en GitHub.
+Repositorio <a class="link" href="https://github.com/emmetio/emmet" target="_blank" rel="nofollow">Emmet en GitHub</a>.
 
 #### **YUI Compressor**
 
 Esta herramienta es excelente para comprimir nuestros archivos **CSS** y archivos **JavaScript**.
 
-Para su funcionamiento requiere que tenga instalado [Java](https://www.java.com/es/download/).
+Para su funcionamiento requiere que tenga instalado <a class="link" href="https://www.java.com/es/download/" target="_blank" rel="nofollow">Java</a>.
 
 Para comprimir tus archivos solo debes abrirlo y realizar la combinación de teclas <kbd>Ctrl</kbd> + <kbd>B</kbd>.
 
-Repositorio [YUI-Compressor](https://github.com/leon/YUI-Compressor) en GitHub.
+Repositorio <a class="link" href="https://github.com/leon/YUI-Compressor" target="_blank" rel="nofollow">YUI-Compressor en GitHub</a>.
 
 
 #### **SideBarEnhancements**
@@ -107,16 +107,10 @@ Proporciona mejoras en las operaciones en la barra lateral de archivos y carpeta
 
 No funciona en **Sublime Text 2**.
 
-Repositorio  [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) en GitHub.
+Repositorio <a class="link" href="https://github.com/titoBouzout/SideBarEnhancements" target="_blank" rel="nofollow">SideBarEnhancements en GitHub</a>.
 
-<br>
-
-***
-
-<br>
+<hr class="separador_post">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Existen múltiples plugin para diferentes usos, solo es cuestión de buscar el que se ajusta a nuestras necesidades.
 
-<br>
-
-Bueno amigos si les interesa este editor solo tienen que leer la documentación de [Sublime text 3](https://www.sublimetext.com/docs/3/) o [ublime text 2](https://www.sublimetext.com/docs/2/).
+Bueno amigos si les interesa este editor solo tienen que leer la documentación de <a class="link" href="https://www.sublimetext.com/docs/2/" target="_blank" rel="nofollow">ublime text 2</a> o <a class="link" href="https://www.sublimetext.com/docs/3/" target="_blank" rel="nofollow">Sublime text 3</a>.

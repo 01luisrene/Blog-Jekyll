@@ -72,6 +72,6 @@ Este código al ser renderizado por **LESS** a **CSS** nos daría el mismo estil
 
 ### Página Oficial de LESS
 
-Para aquellos que despertó su curiosidad como la mía en algún momento aquí les dejo el link de la web oficial para que puedan experimentar y profundizar sus conocimientos.
+Para aquellos que despertó su curiosidad como la mía en algún momento, aquí les dejo el link de la web oficial para que puedan experimentar y profundizar sus conocimientos.
 
-<a class="btn btn-link" href="http://lesscss.org/" title="LESS" rel="nofollow" target="_blank">**Página de LESS**</a>
+<a class="btn btn-link" href="http://lesscss.org/" title="LESS" rel="nofollow" target="_blank">LESS</a>

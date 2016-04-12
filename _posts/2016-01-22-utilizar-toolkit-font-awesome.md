@@ -18,13 +18,21 @@ Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web t
 
 Copiamos el link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**, **PHP**, etc.
 
-``` shell
+``` html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 ``` 
 
+### Descargar Font Awesome
+
+Si deseas descargarlo para poder probarlo en tu servidor local, lo puedes hacer en esta dirección web.
+
+<a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/" target="_blank" rel="nofollow">Font Awesome</a>
+
+Una vez ingresado a su página principal presionas en el botón <kbd><b>Download</b></kbd>.
+
 ### Iconos Font Awesome
 
-Te recomiendo visitar este link **<a class="btn btn-link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Iconos Font Awesome</a>** para ver los nombre de los iconos.
+Te recomiendo visitar este link **<a class="link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank" rel="nofollow">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
 Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
 
@@ -77,4 +85,4 @@ Aquí un pequeño código para comprenderlo mejor.
 
 ### Ejemplos del toolkit Font Awesome
 
-Te recomiendo visitar esta página: <a class="btn btn-link" href="http://fortawesome.github.io/Font-Awesome/examples/" rel="nofollow" target="_blank">**Ejemplos Font Awesome**</a>.
+Te recomiendo visitar la página de <a class="link" href="http://fortawesome.github.io/Font-Awesome/examples/" rel="nofollow" target="_blank" rel="nofollow">**Ejemplos Font Awesome**</a>.
