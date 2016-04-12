@@ -34,9 +34,9 @@ Una vez ingresado a su página principal presionas en el botón <kbd><b>Download
 
 Te recomiendo visitar este link **<a class="link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank" rel="nofollow">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
-Elige el icono que vas a emplear y dale clic, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
+Elige el icono que vas a utilizar y dale clic, en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
 
-Así de simple mi amigo(a) espero que te sea de utilidad para tus proyectos.
+Así de simple mi amigo(a), espero que te sea de utilidad para tus proyectos.
 
 ### uso en una página
 
