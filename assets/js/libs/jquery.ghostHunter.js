@@ -26,7 +26,7 @@
 		results 			: false,
 		rss 				: "/rss.xml",
 		onKeyUp 			: true,
-		result_template 	: "<p class='search-items'><a href='{{link}}'>{{title}}</a></p>",
+		result_template 	: "<p class='search-items'><a href='{{link}}'>{{title}} &mdash; <b>({{pubDate}})</b></a></p>",
 		info_template		: "<p class='mensaje-resulados'>Número de artículos encontrados: {{amount}}</p>",
 		displaySearchInfo 	: true,
 		zeroResultsInfo		: true,

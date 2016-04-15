@@ -33,7 +33,7 @@ var cerounoluisrene = (function ($) {
         }
       });
     },
-    //altura de la web
+    //search artículos
     search_articles = function(){
 			  $('#js_campo_buscador').ghostHunter({
 			    results             : '#js_resultados',
@@ -94,11 +94,6 @@ var cerounoluisrene = (function ($) {
 			    console.log("cookie creada: " + user);
 			   }
 			});
-			/*if(user == ""){
-        console.log("Cookie: Null");
-      }else{
-			 console.log("Cookie actual: " + user);
-      }*/
     },
     botonUp = function(){
       $(window).scroll(function(){
