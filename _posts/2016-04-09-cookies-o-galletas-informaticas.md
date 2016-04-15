@@ -13,9 +13,11 @@ Cuando un servidor web ha enviado una página web a un navegador, la conexión s
 
 Las cookies se inventaron para resolver el problema de "**cómo recordar información sobre el usuario**":
 
-* Cuando un usuario visita una página web, su nombre puede ser almacenado en una cookie.
+<ul class="lista-desordenada">
+<li><p>Cuando un usuario visita una página web, su nombre puede ser almacenado en una cookie.</p></li>
 
-* La próxima vez que el usuario visita la página, la cookie "recuerda" su nombre.
+<li><p>La próxima vez que el usuario visita la página, la cookie "recuerda" su nombre.</p></li>
+</ul>
 
 > Es obligatorio informar a los usuarios, sobre las **cookies** que se están usando en tu sitio web.
 
