@@ -108,6 +108,7 @@ bottom: -7px
   top:0;
   height: 100%;
   width: 350px;
+  z-index: 9999999995;
   @include media-query($on-palm){
     background: rgba(65,65,65,.95);
     width: 100%;
@@ -901,4 +902,45 @@ div iframe {margin-bottom: 1em;}
 }
 .a-nacimiento{
   visibility: hidden;
+}
+
+//suscripción
+.box-suscripcion{
+  box-sizing: border-box;
+  background: #00974B;
+  position: fixed;
+  right: 25px;
+  bottom: 80px;
+  padding: 5px;
+  height: 100px;
+  width: 350px;
+  z-index:9999999992;
+}
+.btn-close{
+  box-sizing: border-box;
+  background: $text-white;
+  border-radius: 50%;
+  border: 2px solid #242424;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  height: 30px;
+  width: 30px;
+}
+.title-suscripcion{
+  color: #282828;
+  font-weight: 700;
+  font-size: 17px;
+}
+.descripcion-suscripcion{
+  color: $text-white;
+  font-size: .8em;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.boton-suscripcion{
+  display: inline-block;
 }

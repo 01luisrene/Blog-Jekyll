@@ -94,11 +94,11 @@ var cerounoluisrene = (function ($) {
 			    console.log("cookie creada: " + user);
 			   }
 			});
-			if(user == ""){
+			/*if(user == ""){
         console.log("Cookie: Null");
       }else{
 			 console.log("Cookie actual: " + user);
-      }
+      }*/
     },
     botonUp = function(){
       $(window).scroll(function(){
@@ -150,6 +150,54 @@ var cerounoluisrene = (function ($) {
         }
       }
     },
+    newsletter = function(){
+      $('#js_box_suscripcion').css({
+        display: 'block'
+      });
+    },
+    cookieNewsletter = function(){
+      function setCookie(cname,cvalue,exdays) {
+          var d = new Date();
+          d.setTime(d.getTime() + (exdays*24*60*60*1000));
+          var expires = "expires=" + d.toGMTString();
+          document.cookie = cname+"="+cvalue+"; "+expires + "; path=/";
+      }
+
+      function getCookie(cname) {
+          var name = cname + "=";
+          var ca = document.cookie.split(';');
+          for(var i=0; i<ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0)==' ') c = c.substring(1);
+              if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+      }
+
+      var user=getCookie("_nl");
+      if (user == "") {
+          setTimeout(function(){ newsletter() }, 15000);
+      }
+      $('.js_close_suscripcion').on('click', function() {
+        user = 'newsletter';
+        if (user != "" && user != null) {
+          setCookie("_nl", user, .0417);
+          $('#js_box_suscripcion').hide();
+          console.log("cookie creada: " + user);
+         }
+      });
+
+      $('.js_boton_suscripcion').on('click', function() {
+        user = 'newsletter';
+        if (user != "" && user != null) {
+          setCookie("_nl", user, 15);
+          setTimeout(function(){ $('#js_box_suscripcion').hide() }, 2000);
+          console.log("cookie creada: " + user);
+         }
+      });
+    },
  // 01luisrene javascripts initialization
     init = function () {
         userAgentInit();
@@ -160,6 +208,8 @@ var cerounoluisrene = (function ($) {
         botonUp();
         imprimirCurriculum();
         disqus(window.location.href, window.location.href, $('.post-title').text());
+        cookieNewsletter();
+
     };
 
     return {
