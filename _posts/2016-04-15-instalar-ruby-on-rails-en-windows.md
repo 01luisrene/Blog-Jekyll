@@ -7,7 +7,7 @@ photo_url : "/assets/images/portadas/railsinstaller.png"
 description: "RailsInstaller es un paquete con todos los complementos, que crea un entorno de desarrollo para Ruby On Rails en Windows"
 ---
 
-Crear un entorno de desarrollo para trabajar con el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby On Rails</a> en el S. O. de Microsoft Windows es tedioso y emplea bastante tiempo.
+Crear un entorno de desarrollo para trabajar con el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby On Rails</a> en el <a class="link" href="https://www.microsoft.com/es-es/windows/windows-10-upgrade" rel="nofollow" target="_blank">S. O. de Microsoft Windows</a> es tedioso y emplea bastante tiempo.
 
 Para poder agilizar esta tarea que puede llevar varias horas, y quizá una vez terminada tu configuración no funcione al 100%.
 
@@ -23,7 +23,7 @@ La aplicación tiene por nombre **RailsInstaller**.
 
 ### Detalles finales
 
-Esta aplicación crea una carpeta por defecto con el nombre de <kbd>Sites</kbd> en la raíz del disco local `C:\`.
+Esta aplicación al instalase crea una carpeta por defecto con el nombre de <kbd>Sites</kbd> en la raíz del disco local `C:\`.
 
 Es ahí donde alojaremos nuestros proyectos **Rails** para poder trabajar desde la consola (`CMD`) en Windows.
 

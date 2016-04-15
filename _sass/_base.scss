@@ -68,11 +68,11 @@ a {
   -webkit-transition: 1s;
   transition: 1s;
   &:visited {
-      color: lighten($text-color, 30%);
+      color: lighten($text-color, 25%);
       text-decoration: underline !important;
   }
   &:hover {
-      color: lighten($text-color, 6%);
+      color: lighten($text-color, 10%);
       text-decoration: underline;
   }
 }
