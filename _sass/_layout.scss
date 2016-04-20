@@ -438,10 +438,10 @@ bottom: -7px
 .post, .post-list > .post {
   box-sizing: border-box;
   background-color: $bg-inner;
+  padding:0;
+}
+.post{
   padding: 1em 15px;
-  @include media-query($on-smartphone){
-    padding:.5em 10px;
-  }
 }
 .post-list {
     display: inline-block;
@@ -452,7 +452,6 @@ bottom: -7px
         box-shadow: 6px 4px 11px 0px rgba(41,40,41,1);
         display: inline-block;
         margin: 0 2% $spacing-unit 0;
-        padding: 0 5px 5px 5px;
         overflow: hidden;
         vertical-align: top;
         width: 31.7%;
@@ -481,41 +480,25 @@ bottom: -7px
     }
 }
 
-.image_post{
-  display: block;
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  margin: 0 -5px 10px -5px;
-  height: 200px;
-  width: 105%;
-  @include media-query($content-width) { //1000px
-    height: 280px; 
-  }
-  @include media-query($on-laptop) { //800px
-    height: 450px;    
-  }
-  @include media-query($on-palm) {//600px
-    height:300px !important;   
-  }
-  @include media-query($on-smartphone) {//480px
-    height: 250px !important;
-  }
+.image-post{
+  height: 100%;
+  width: 100%;
+}
+.box-post-list{
+  padding: 7px;
 }
 .post-meta {
-    display: block;
-    font-size: $small-font-size;
-    color: $grey-color;
-    margin-bottom: 15px;
+  display: block;
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-bottom: 15px;
 }
-
-.post-link {
+.title-list-post a{
     display: block;
     font-size: 24px;
     line-height: 28px;
 }
-.body{
+.body-list-post{
   display: block;
   margin-bottom: 15px;
   width: 100%;
@@ -529,16 +512,15 @@ bottom: -7px
   text-align: center;
   text-decoration: underline;
   transition: .1s;
-  padding: .5em 0;
   margin: 0 0 1em 0;
  &:hover{
   background: rgba(0,140,70, .8);
     text-decoration: none;
   }
   a{
-    transition: 0;
     display: block;
     color: inherit;
+    padding: .5em 0;
   }
 }
 .rss-subscribe{
@@ -697,32 +679,87 @@ div iframe {margin-bottom: 1em;}
   margin-bottom: .7em;
 }
 /*contacto*/
-.redes-contacto{
-  display: flex;
-  justify-content: flex-start;
-  padding: 0 0 1.5em 0;
-  list-style-type: none !important;
-  li:first-child{
-    margin-left: 0;
+.box-contacto{
+  margin-top: 1em;
+  width: 100%;
+}
+.formulario-contacto, .container-geo{
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+  width: 49%;
+}
+.formulario-contacto{
+  font-family: $base-font-family;
+  width: 49.5%;
+  .form-imput input, .form-imput textarea{
+    box-sizing: border-box;
+    font-family: $base-font-family;
+    border: thin solid $color-green;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    padding: 5px;
+    &:focus{
+      outline: none;
+      border-top:thin solid transparent;
+      border-right:thin solid transparent;
+      border-left:thin solid transparent;
+      border-bottom:thin solid $color-green;
+    }
   }
+  .form-imput input{
+    height: 40px;
+    width: 100%;
+  }
+  .form-imput textarea{
+    height: 100px;
+    resize: none;
+    width: 100%;
+    &:focus{
+      border:thin solid $color-green;
+    }
+  }
+}
+.box-item-contacto{
+  box-sizing: border-box;
+  border: thin solid $color-green;
+  padding: 5px;
+  margin-top: .5em;
+  width: 100%;
+}
+.item-contacto{
+  box-sizing: border-box;
+  display: inline-block;
+  margin:0;
+  padding-left: 10px;
+  vertical-align: top;
+  height: 100%;
+  width: 49.5%;
+  &:first-child{
+    border-right: thin solid $color-green;
+  }
+}
+.title-geo{
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 1em;
 }
 #map_canvas{
   background: transparent !important;
   box-sizing: border-box;
-  border-radius: 12px;
-  border: 2px solid rgba(0, 128, 128, .9) !important;
-  height: 315px;
+  border-radius: 5px;
+  border: thin solid $color-green;
+  height: 270px;
   width: 100%;
   -webkit-box-shadow: 5px 3px 15px 2px #fbebff;
   box-shadow: 5px 3px 31px 2px #fbebff;
   overflow: hidden;
 }
 
-.container-geo{
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-}
 /*acerca*/
 
   .lista-about{
