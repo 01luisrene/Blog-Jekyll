@@ -435,12 +435,12 @@ bottom: -7px
     padding:.5em 0;
   }
 }
-.post, .post-list > .post {
+.post, .post-list > .post, .thanks {
   box-sizing: border-box;
   background-color: $bg-inner;
   padding:0;
 }
-.post{
+.post, .thanks{
   padding: 1em 15px;
 }
 .post-list {
@@ -577,7 +577,7 @@ h4 {
 p{
   line-height: 30px;
 }
-//estilo para contacto
+//estilo iframe de codepen.io
 div iframe {margin-bottom: 1em;}
 .separador_post{
   margin: 10px 0;
@@ -721,6 +721,11 @@ div iframe {margin-bottom: 1em;}
       border:thin solid $color-green;
     }
   }
+  .form-imput input[type='submit']{
+    &:focus{
+      border:thin solid $color-green;
+    }
+  }
 }
 .box-item-contacto{
   box-sizing: border-box;
@@ -759,7 +764,14 @@ div iframe {margin-bottom: 1em;}
   box-shadow: 5px 3px 31px 2px #fbebff;
   overflow: hidden;
 }
-
+/*thanks*/
+.mensaje-bien{
+  display: block;
+  color: $color-green;
+  font-size: 7em;
+  line-height: .1em;
+  margin-bottom: 15px;
+}
 /*acerca*/
 
   .lista-about{

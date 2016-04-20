@@ -16,22 +16,21 @@ permalink: /contacto/
 <form class="formulario-contacto" action="//formspree.io/01luisrene@gmail.com" method="POST" id="js_formulario_contacto">
 
     <!-- DO NOT EDIT BELOW THIS LINE -->
-    <input type="hidden" name="_subject" value="Pongase en contacto {{site.autor_name}}" />
+    <input type="hidden" name="_subject" value="Mensaje de {{site.url}}" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_next" value="{{site.url}}/thanks/" />
     <div class="form-imput">
-      <input type="text" name="name" placeholder="Nombre completo"></input>
+      <input type="text" name="name" placeholder="Nombre completo" required></input>
     </div>
     <div class="form-imput"> 
-      <input type="text" name="email" placeholder="Correo electrónico"></input>
+      <input type="email" name="email" placeholder="Correo electrónico" required></input>
     </div>
     <div class="form-imput">
-      <textarea name="message" id="" cols="30" rows="3" placeholder="Escribe tu mensaje :)"></textarea>
+      <textarea name="message" id="" cols="30" rows="3" placeholder="Escribe tu mensaje :)" required></textarea>
     </div>
     <div class="form-imput">
       <input class="btn btn-form" type="submit" value="Enviar mensaje"></input>
     </div>
-  <p>Una vez que me escribas, te estaré respondiendo lo mas pronto posible.<p>
 </form>
 
 
