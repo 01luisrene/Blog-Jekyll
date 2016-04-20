@@ -722,6 +722,7 @@ div iframe {margin-bottom: 1em;}
     }
   }
   .form-imput input[type='submit']{
+    color: rgba(25, 176, 119, 1);
     &:focus{
       border:thin solid $color-green;
     }
