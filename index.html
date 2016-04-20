@@ -4,31 +4,29 @@ description: "Blog 01luisrene: diseñado para publicar contenidos relacionado co
 photo_url: "/assets/images/cover_home.jpg"
 ---
 <section class="post-list">
-    {% for post in site.posts limit:15 %}
-      <article class="post">
-        {% if post.photo_url %}
-        <header>
-          <div class="image_post" style="background-image:url('{{ post.photo_url }}')"></div>
-        </header>
-        {% endif %}
-        <section>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.description %}
-        <span class="body">{{ post.description | strip_html}}...</span>
-        {% else %}
-        <span class="body">{{ post.excerpt | strip_html }}...</span>
-        {% endif %}
-        </section>
-        <footer>
-        <a class="btn btn-primary" href="{{ post.url | prepend: site.url }}">Leer m&aacute;s <i class="fa fa-angle-double-right"></i></a>
-        </footer>
-      </article>
-    {% endfor %}
+{% for post in site.posts limit:15 %}
+  <article class="post">
+    {% if post.photo_url %}
+    <header>
+      <img class="image-post" src="{{ post.photo_url }}" alt="Imagen post">
+    </header>
+    {% endif %}
+    <section class="box-post-list">
+      <h2 class="title-list-post" >
+        <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-meta"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if post.description %}
+      <span class="body-list-post">{{ post.description | strip_html}}...</span>
+      {% else %}
+      <span class="body-list-post">{{ post.excerpt | strip_html }}...</span>
+      {% endif %}
+      <a class="btn btn-primary" href="{{ post.url | prepend: site.url }}">Leer m&aacute;s <i class="fa fa-angle-double-right"></i></a>
+    </section>
+  </article>
+{% endfor %}
 
-    <div class="btn-links-articulos"><a href="/lista-articulos/">Ver más artículos...</a></div>
+  <div class="btn-links-articulos"><a href="/lista-articulos/">Ver más artículos...</a></div>
 
   <p class="rss-subscribe">Suscribe <a class="fa fa-rss-square fa-2x" href="{{ "/feed.xml" | prepend: site.url }}"></a> vía rss</p>
 </section>

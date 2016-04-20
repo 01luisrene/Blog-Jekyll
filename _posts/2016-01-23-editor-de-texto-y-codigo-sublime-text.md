@@ -37,13 +37,13 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el <kbd>Package Control</kbd>.
 
-![Sublime Text Package Control]({{ "/assets/images/posts/sublime-text-package-control.jpg" | prepend: site.url }} "Sublime Text Package Control")
+![Sublime Text Package Control]({{ "/assets/images/posts/sublime_text_package_control.jpg" | prepend: site.url }} "Sublime Text Package Control")
 
 Ahora elegimos la opción <kbd>Install Package</kbd>.
 
 Para instalar un **plugin** escribimos el nombre en la caja de texto y seleccionamos el que deseamos instalar.
 
-![Install Package]({{ "/assets/images/posts/install-package.jpg" | prepend: site.url }} "Install Package")
+![Install Package]({{ "/assets/images/posts/install_package.jpg" | prepend: site.url }} "Install Package")
 
 ### Configuración de Sublime Text
 
@@ -53,7 +53,7 @@ Para poder realizar la configuración de usuario nos dirigimos al menú de **Sub
 
 Una vez realizado los pasos de manera correcta se abrirá la siguiente ventana.
 
-![Install Package]({{ "/assets/images/posts/settings-user.png" | prepend: site.url }} "Install Package")
+![Install Package]({{ "/assets/images/posts/settings_user.png" | prepend: site.url }} "Install Package")
 
 Pegar este código en la ventana anterior.
 

@@ -7,39 +7,47 @@ permalink: /contacto/
 ---
 <img src="/assets/images/portadas/cover_contacto.png" alt="Imagen de contacto" style="display:block;margin: -20px auto 0 auto; z-index: -1;">
 
-<hr class="separador_post">
+<hr class="separador_post"/>
 
 <p>Si tienes algo que contarme, proponerme algún tipo de trabajo relacionado con las tecnologías web; puedes contactarte con migo de múltiples formas.<p>
 
-<p>Una vez que me escribas al correo electrónico o redes sociales, te estaré respondiendo lo mas pronto posible.<p>
+<div class="box-contacto">
+<!-- Replace "your@email.com" with your personal email -->
+<form class="formulario-contacto" action="//formspree.io/01luisrene@gmail.com" method="POST" id="js_formulario_contacto">
 
-<h4>Correo electrónico</h4>
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+    <input type="hidden" name="_subject" value="Pongase en contacto {{site.autor_name}}" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <div class="form-imput">
+      <input type="text" name="name" placeholder="Nombre completo"></input>
+    </div>
+    <div class="form-imput"> 
+      <input type="text" name="email" placeholder="Correo electrónico"></input>
+    </div>
+    <div class="form-imput">
+      <textarea name="message" id="" cols="30" rows="3" placeholder="Escribe tu mensaje :)"></textarea>
+    </div>
+    <div class="form-imput">
+      <input class="btn btn-form" type="submit" value="Enviar mensaje"></input>
+    </div>
+  <p>Una vez que me escribas, te estaré respondiendo lo mas pronto posible.<p>
+</form>
 
-<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-
-<h4>Redes sociales</h4>
-
-<ul class="lista-redes redes-contacto">
-  <li>
-    <a class="fa fa-facebook facebook" href="{{ site.facebook }}" target="_blank"></a>
-  </li>
-  <li>
-    <a class="fa fa-twitter twitter" href="{{ site.twitter}}" target="_blank"></a>
-  </li>
-   <li>
-    <a class="fa fa-google-plus google-plus" href="{{ site.google_plus }}" target="_blank"></a>
-  </li>
-</ul>
-
-<h4>Celular</h4>
-
-{{site.celular}}
 
 <div class="container-geo">
-  <h3>Google Maps</h3> 
-  <p>Si desea hacerme una visita, se puede guiar con el siguiente mapa.</p>
-  <p>Destino: LOS 4 SUYOS.</p>
-  <p>Mis coordenadas (Lat, Lng): -8.049154699999999, -79.0586348</p>
   <div id="map_canvas"></div>
+  <span class="title-geo">LOS 4 SUYOS - Trujillo - Perú</span>
+  <span>Coordenadas (Lat, Lng): -8.049154699999999, -79.0586348</span>
+</div>
+
+</div>
+
+<div class="box-item-contacto">
+  <div class="item-contacto">
+    <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </div>
+  <div class="item-contacto">
+    <span><i class="fa fa-mobile" aria-hidden="true"></i> {{site.celular}}</span>
+  </div>
 </div>
 

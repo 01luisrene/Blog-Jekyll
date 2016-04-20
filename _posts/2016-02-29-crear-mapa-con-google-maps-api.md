@@ -4,7 +4,7 @@ title:  "Crear mapa con Google Maps API"
 date:   2016-02-29 09:41:41 -0500
 categories: JavaScript
 tumblr_id: articulo-06
-photo_url : "/assets/images/portadas/google-maps.jpg"
+photo_url : "/assets/images/portadas/google_maps.jpg"
 description: "Google Maps API (Application Programming Interface), te permite mostrar mapas, personalizar mapas y la información sobre mapas"
 ---
 Google Maps API te permite personalizar mapas y la información sobre mapas; una API (**A**pplication **P**rogramming **I**nterface) es un conjunto de métodos y herramientas que se pueden utilizar para crear aplicaciones de software.
