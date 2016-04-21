@@ -6,7 +6,7 @@ layout: null
 <head>
   {% include head.html %}
 </head>
-  <body class="home">
+<body>
     {% include header.html %}
     <div class="front">
       <div class="wrapper">
@@ -34,12 +34,12 @@ layout: null
       </div>
     </div>
 	<div class="page-content">
-      <div class="wrapper">
-    	{{ content }}
-      </div>
+    <div class="wrapper">
+    {{ content }}
     </div>
+  </div>
     {% include footer.html %}
     {% include autoreload-in-debug.html %}
-  </body>
+</body>
 
 </html>

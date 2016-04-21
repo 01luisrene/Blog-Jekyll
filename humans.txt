@@ -6,7 +6,7 @@ Name dominio: http://01luisrene.com
 
 /*NOMBRE DE LA APLICACIÓN*/
 
-App Name: 01luisrene v2.0
+App Name: 01luisrene v2.1
 
 						[...]
 
@@ -68,7 +68,7 @@ From: 		Chachapoyas, Amazonas, Perú
                                                     
 /* SITE */
                           
-Last update: 2016/06/04                      
+Last update: 2016/06/21                      
 Standards: HTML5, CSS3, JavaScript, ...                        
 Components: html5.js, jQuery, etc.
 Framework: Jekyll.

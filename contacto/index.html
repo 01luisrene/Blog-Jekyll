@@ -12,9 +12,8 @@ permalink: /contacto/
 <p>Si tienes algo que contarme, proponerme algún tipo de trabajo relacionado con las tecnologías web; puedes contactarte con migo de múltiples formas.<p>
 
 <div class="box-contacto">
-<!-- Replace "your@email.com" with your personal email -->
 <form class="formulario-contacto" action="//formspree.io/01luisrene@gmail.com" method="POST" id="js_formulario_contacto">
-
+    <h3 class="sub-title-contacto">Formulario de contacto</h3>
     <!-- DO NOT EDIT BELOW THIS LINE -->
     <input type="hidden" name="_subject" value="Mensaje de {{site.url}}" />
     <input type="text" name="_gotcha" style="display:none" />
@@ -35,6 +34,7 @@ permalink: /contacto/
 
 
 <div class="container-geo">
+<h3 class="sub-title-contacto">Mapa</h3>
   <div id="map_canvas"></div>
   <span class="title-geo">LOS 4 SUYOS - Trujillo - Perú</span>
   <span>Coordenadas (Lat, Lng): -8.049154699999999, -79.0586348</span>
@@ -44,10 +44,10 @@ permalink: /contacto/
 
 <div class="box-item-contacto">
   <div class="item-contacto">
-    <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <i class="fa ico-email fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
   </div>
   <div class="item-contacto">
-    <span><i class="fa fa-mobile" aria-hidden="true"></i> {{site.celular}}</span>
+    <span><i class="fa ico-phone fa-mobile" aria-hidden="true"></i> {{site.celular}}</span>
   </div>
 </div>
 

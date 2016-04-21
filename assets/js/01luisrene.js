@@ -8,6 +8,20 @@ var cerounoluisrene = (function ($) {
     userAgentInit = function() {
         document.documentElement.setAttribute('data-useragent', navigator.userAgent);
     },
+    headroom = function(){
+      $('#header').headroom({
+          "offset": 100,
+        "tolerance": 5,
+        "classes": {
+          "initial": "animated",
+          "pinned": "",
+          "unpinned": ""
+        }
+      });
+
+      // to destroy
+      $("#header").headroom("destroy");
+    },
     displayMenu = function(){
     	$('#js_icon_menu').on('click', function(e) {
     		e.preventDefault();
@@ -196,6 +210,7 @@ var cerounoluisrene = (function ($) {
  // 01luisrene javascripts initialization
     init = function () {
         userAgentInit();
+        headroom();
         displayMenu();
         closeMenu();
         search_articles();

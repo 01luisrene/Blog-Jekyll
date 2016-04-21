@@ -3,10 +3,10 @@
     <p class="browserupgrade">Está utilizando un navegador <strong>antiguo</strong>. Por favor <a href="http://browsehappy.com/">actualice su navegador</a> para mejorar su experiencia.</p>
 </div>
  <![endif]-->
-<header class="site-header">
+<header id="header" class="site-header headroom" role="banner">
   <div class="wrapper">
     <figure class="img-logo">
-      <a href="/"><img src="{{ "/assets/images/logo.png" prepend: site.url }}" alt="Logo" title="01LuisRene"></a>
+      <a href="{{site.url}}"><img src="{{ "/assets/images/logo.png" prepend: site.url }}" alt="Logo" title="01LuisRene"></a>
     </figure>
 
     <div class="box-icons">
@@ -15,27 +15,24 @@
       </a>
       <a href="/lista-articulos" class="icon-buscador fa fa-search" title="Buscador" id="js_icon_buscador" style="float: right;"></a>
     </div>
-    <div class="box-main-menu" id="js_box_main_menu" style="display: none;">
-    <nav class="main-menu">
-        <a class="fa fa-times icon-cerrar" href="#" id="js_icon_cerrar"></a>
-       <ul class="lista-menu">
-          <li class="lista-item">
-            <a href="/" title="Inicio"><i class="fa fa-home"></i> Inicio</a>
-         </li>
-         <li class="lista-item">
-           <a href="{{ site.url }}/habilidades-conocimientos/"{% if page.url contains "/habilidades-conocimientos/" %}class="active"{% endif %} title="Habilidades - Conocimientos">Habilidades y Conocimientos</a>
-         </li>
-         <li class="lista-item">
-           <a href="{{ site.url }}/curriculum-vitae/"{% if page.url contains "/curriculum-vitae/" %}class="active"{% endif %} title="Curriculum vitae">Curriculum Vitae</a>
-         </li>
-         <li class="lista-item">
-           <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
-         </li>
-         <li class="lista-item">
-           <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>
-         </li>
-       </ul>
-    </nav>
-    </div>
-  </div>
 </header>
+<div class="box-main-menu" id="js_box_main_menu" style="display: none;">
+  <nav class="main-menu">
+      <a class="fa fa-times icon-cerrar" href="#" id="js_icon_cerrar"></a>
+     <ul class="lista-menu">
+        <li class="lista-item">
+          <a href="/" title="Inicio"><i class="fa fa-home"></i> Inicio</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/habilidades-conocimientos/"{% if page.url contains "/habilidades-conocimientos/" %}class="active"{% endif %} title="Habilidades - Conocimientos">Habilidades y Conocimientos</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>
+       </li>
+     </ul>
+  </nav>
+  </div>
+</div>
