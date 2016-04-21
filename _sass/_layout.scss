@@ -689,10 +689,12 @@ div iframe {margin-bottom: 1em;}
   padding: 5px;
   vertical-align: top;
   width: 49%;
+  @include media-query($on-laptop){
+    width: 100%;
+  }
 }
 .formulario-contacto{
   font-family: $base-font-family;
-  width: 49.5%;
   .form-imput input, .form-imput textarea{
     box-sizing: border-box;
     font-family: $base-font-family;
@@ -734,6 +736,9 @@ div iframe {margin-bottom: 1em;}
   padding: 5px;
   margin-top: .5em;
   width: 100%;
+  @include media-query($on-palm){
+    padding: 0;
+  }
 }
 .item-contacto{
   box-sizing: border-box;
@@ -745,6 +750,17 @@ div iframe {margin-bottom: 1em;}
   width: 49.5%;
   &:first-child{
     border-right: thin solid $color-green;
+  }
+  @include media-query($on-palm){
+    width: 100%;
+    border-bottom: thin solid $color-green;
+    padding: 5px;
+    &:last-child{
+      border-bottom: none;
+    }
+    &:first-child{
+      border-right: none;
+    }
   }
 }
 .title-geo{
