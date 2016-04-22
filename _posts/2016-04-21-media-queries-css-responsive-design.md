@@ -72,14 +72,18 @@ Vamos a explicar un poco sobre la estructura de los módulos **Media Queries** c
 
 <ul class="lista-desordenada">
 	<li>
-		<code>@media</code>: esta propiedad indica el comienzo de una regla Media Querie.
+		<code>@media</code>: esta propiedad indica el comienzo de una regla Media Queries.
 	</li>
 	<li>
-		<code>screen and (min-width: 700px) and (orientation: landscape)</code>: esta es la condicón a cumplirse, <code>screen</code> indica que se aplicaran a las pantallas o monitores que tengan un ancho de 700px o más y que a su vez la pantalla esta en formato horizontal (landscape).
+		<code>screen and (min-width: 700px) and (orientation: landscape)</code>: esta es la condicón a cumplirse, <code>screen</code> indica que se aplicaran a las multiples pantallas o monitores, <code>and</code> es la condición (en español seria 'y'), <code>min-width: </code> es el valor en pixeles, em, rm, ..., <code>orientation: landscape</code> pantalla en formato horizontal (landscape).
+		<p>
+		La regla seria: para todas las pantallas y que sean de 700px a más y que la pantalla este en formato horizontal; de lo contrario no se aplicaran los estilos que contenga dicha <b>Media Queries</b>.
+		</p>
 	</li>
 	<li>
 		<code>{ }</code> : Las llaves son el contenedor de los estilos CSS.
 	</li>
+	<li>Así como estas reglas se pueden, personalizar a nuestra medida.</li>
 </ul>
 
 ## Ejemplos de reglas Media Queries
