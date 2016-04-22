@@ -620,8 +620,11 @@ div iframe {margin-bottom: 1em;}
   @include media-query($on-smartphone) {
     overflow-x: scroll;
   }
-  li > ul{
-    padding-left: 1em;
+  li {
+    margin-bottom: 10px;
+    > ul{
+      padding-left: 1em;
+    }
   }
 }
 .lista-ordenada{
@@ -636,8 +639,21 @@ div iframe {margin-bottom: 1em;}
     list-style-type: circle;
   }
 }
-
+.video-youtube{
+  width: 100%;
+  height: 450px;
+  @include media-query ($on-laptop){ //800px
+    height: 380px;
+  }
+  @include media-query ($on-palm){ //600px
+    height: 300px;
+  }
+  @include media-query ($on-smartphone){ //600px
+    height: 200px;
+  }
 }
+}
+/*fin post-content*/
 .post-footer {
     position: relative;
     margin: 6rem 0 2em 0;
@@ -814,19 +830,14 @@ div iframe {margin-bottom: 1em;}
   margin-bottom: 15px;
 }
 /*acerca*/
-
-  .lista-about{
-    padding-left:25px;
-    margin:0;
-  }
-  img.familia-mas{
-      display: block;
-      margin: 0 auto;
-  }
-  p.text-foo{
-      text-align: center;
-      margin-top: 15px;
-  }
+img.familia-mas{
+    display: block;
+    margin: 0 auto;
+}
+p.text-foo{
+    text-align: center;
+    margin-top: 15px;
+}
 //para ie antiguos
 .browser-antiguo{
   background-color:#363636;
