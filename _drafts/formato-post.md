@@ -11,3 +11,7 @@ description: ""
 ## Videotutorial
 
 <iframe class="video-youtube" src="https://www.youtube.com/embed/vsiNGsh5NW8?rel=0&amp;showinfo=0&amp;controls=1" frameborder="0" allowfullscreen></iframe>
+
+Para vídeos chequear luego
+
+?rel=0&showinfo=0&controls=1&autoplay=1&start=120
