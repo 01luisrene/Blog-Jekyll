@@ -72,7 +72,7 @@ Vamos a explicar un poco sobre la estructura de los módulos **Media Queries** c
 
 <ul class="lista-desordenada">
 	<li>
-		<code>@media</code>: esta propiedad indica el comienzo de una regla Media Queries.
+	<code>@media</code>: esta propiedad indica el comienzo de una regla Media Queries.
 	</li>
 	<li>
 	<p>
@@ -83,9 +83,9 @@ Vamos a explicar un poco sobre la estructura de los módulos **Media Queries** c
 	</p>
 	</li>
 	<li>
-		<code>{ }</code> : Las llaves son el contenedor de los estilos CSS.
+	<code>{ }</code> : Las llaves son el contenedor de los estilos CSS.
 	</li>
-	<li>Así como estas reglas se pueden, personalizar a nuestra medida.</li>
+	<li>Así como estas reglas se pueden personalizar a nuestra medida.</li>
 </ul>
 
 ## Ejemplos de reglas Media Queries
