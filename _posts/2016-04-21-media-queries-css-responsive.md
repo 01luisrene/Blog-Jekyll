@@ -12,6 +12,52 @@ Antes que apareciera los módulos **Media Queries** de CSS, para poder tener dif
 
 Pero eso quedo en el pasado gracias a las ventajas que ofrecen los módulos **Media Queries** de CSS.
 
+Los módulos **Media Queries** nos ayudarnos a realizar páginas Responsive Design (**Diseño Sensible**), que se ajusten a diferentes tipos de pantallas y resoluciones con una sola versión de nuestro proyecto.
+
+## viewport
+
+Antes de comenzar, para que todos nuestros **Media Queries** funciones de maravilla, tenemos que agregar el meta `viewport` dentro del tag `head` de HTML.
+
+#### Opción N° 1
+
+Activa las capacidades de zoom en dispositivos móviles.
+
+```html
+<! DOCTYPE html> 
+<html lang="es">
+<head>
+ <title>viewport - opeción n° 1</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  /* Queries */
+ </style>
+</head>
+<body>
+ <!-- contenido -->
+</body>
+</html>
+```
+
+#### Opción N° 2
+
+Desactiva las capacidades de zoom en dispositivos móviles.
+
+```html
+<! DOCTYPE html> 
+<html lang="es">
+<head>
+ <title>viewport - opeción n° 2</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <style>
+	/* Queries */
+ </style>
+</head>
+<body>
+ <!-- contenido -->
+</body>
+</html>
+```
+
 ## Reglas Media Queries
 
 Vamos a explicar un poco sobre la estructura de los módulos **Media Queries** con la siguiente regla.
@@ -40,32 +86,34 @@ Vamos a explicar un poco sobre la estructura de los módulos **Media Queries** c
 
 Los valores de las variables `max-width`, `min-width` se pueden ajustar de acuerdo a nuestras necesidades y también usaremos operadores lógicos como `and`, `only`.
 
+Regla para dispositivos con resolución de 699px o menos.
+
 ```css
 @media (max-width: 699px){...}
 ```
-Regla para dispositivos con resolución de 699px o menos.
+Regla para dispositivos con resolución entre 700px a 939px.
 
 ```css
 @media (min-width: 700px) and (max-width: 939px){...}
 ```
 
-Regla para dispositivos con resolución entre 700px a 939px.
+Regla para dispositivos con resolución de 940px a más.
 
 ```css
 @media (min-width: 940px){...}
 ```
 
-Regla para dispositivos con resolución de 940px a más.
+Regla a cumplirse cuando sea handheld (dispositivos de mano: móviles, PDA, etc.), tenga resolución de 480px a menos y que a su vez la pantalla esta en formato horizontal.
 
 ```css
 @media handheld and (max-width: 480px) and (orientation: landscape) { ... }
 ```
-Regla a cumplirse cuando sea handheld (dispositivos de mano: móviles, PDA, etc.), tenga resolución de 480px a menos y que a su vez la pantalla esta en formato horizontal.
+
+Regla a cumplirse solo para impresión.
 
 ```css
 @media print {...}
 ```
-Regla a cumplirse solo para impresión.
 
 > También se puede aplicar las reglas a un link que apunte a un archivo css
 
