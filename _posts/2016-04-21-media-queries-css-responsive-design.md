@@ -12,7 +12,7 @@ Antes que apareciera los módulos **Media Queries** de CSS, para poder tener dif
 
 Pero eso quedo en el pasado gracias a las ventajas que ofrecen los módulos **Media Queries** de CSS.
 
-Los módulos **Media Queries** nos ayudarnos a realizar páginas Responsive Design (**Diseño Sensible**), que se ajusten a diferentes tipos de pantallas y resoluciones con una sola versión de nuestro proyecto.
+Los módulos **Media Queries** facilitan realizar páginas Responsive Design (**Diseño Sensible**), que se ajusten a diferentes tipos de pantallas y resoluciones con una sola versión de nuestro proyecto.
 
 ## viewport
 
