@@ -493,9 +493,10 @@ bottom: -7px
   box-sizing: border-box;
   position: fixed;
   bottom:0;
-  padding: .5em 1em;
   font-size: 14px;
   font-family: $base-font-family;
+  text-align: center;
+  padding: .5em 1em;
   width: 100%;
   z-index: 999999;
   @include media-query($on-smartphone){
