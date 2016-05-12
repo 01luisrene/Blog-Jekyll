@@ -535,6 +535,9 @@ bottom: -7px
   right: 15px;
   bottom:15px;
   z-index: 999999999;
+  @include media-query($on-smartphone){
+    z-index: 9999999999;
+  }
   &:hover{
     box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
   }
@@ -1015,12 +1018,17 @@ p.text-foo{
   border: thin solid $text-white;
   background: #00974B;
   position: fixed;
-  right: 25px;
+  right: 15px;
   bottom: 125px;
   padding: 5px;
   height: 100px;
   width: 350px;
   z-index:9999999992;
+  @include media-query($on-smartphone){
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }
 .btn-close{
   box-sizing: border-box;
