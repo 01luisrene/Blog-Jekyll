@@ -408,7 +408,6 @@ bottom: -7px
     color: $brand-color;
   }
   a:visited{
-    color: none;
     text-decoration: underline;
   }
 }
@@ -754,7 +753,12 @@ div iframe {margin-bottom: 1em;}
     }
   }
   .form-imput input[type='submit']{
-    color: rgba(25, 176, 119, 1);
+    background-color: darken($color-green, 5%);
+    color: rgba(255, 255, 255, 1);
+    &:hover{
+    background-color: lighten($color-green, 10%);
+    color: rgba(0, 0, 0, .7);
+    }
     &:focus{
       border:thin solid $color-green;
     }

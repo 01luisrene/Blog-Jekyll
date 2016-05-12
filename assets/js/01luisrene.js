@@ -57,7 +57,6 @@ var cerounoluisrene = (function ($) {
 			  });
 			  $('#js_campo_buscador').on('keyup', function() {
 			  	var $caja_buscar = $('#js_campo_buscador').val().length;
-			  	$('#text').text($caja_buscar);
 				  if($caja_buscar > 0){
 			  		$('#js_lista_articulos').css({
 			  			display: 'none'
