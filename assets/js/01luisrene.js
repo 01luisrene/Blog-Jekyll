@@ -18,9 +18,6 @@ var cerounoluisrene = (function ($) {
           "unpinned": ""
         }
       });
-
-      // to destroy
-      $("#header").headroom("destroy");
     },
     displayMenu = function(){
     	$('#js_icon_menu').on('click', function(e) {
