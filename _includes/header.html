@@ -8,8 +8,23 @@
     <figure class="img-logo">
       <a href="{{site.url}}/"><img src="{{ "/assets/images/logo.png" prepend: site.url }}" alt="Logo" title="01LuisRene"></a>
     </figure>
-
-    <div class="box-icons">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="lista-item">
+          <a href="/" title="Home"><i class="fa fa-home"></i> Home</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/habilidades-conocimientos/"{% if page.url contains "/habilidades-conocimientos/" %}class="active"{% endif %} title="Skills and Knowledge">Skills and Knowledge</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contact">Contact</a>
+       </li>
+       <li class="lista-item">
+         <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="About me">About me</a>
+       </li>
+      </ul>
+    </nav>
+    <div class="icons-box">
       <a href="/lista-articulos" class="icon-buscador fa fa-search" title="Buscador" id="js_icon_buscador"></a>
       <a href="javascript:void(0)" class="icon-menu" id="js_icon_menu">
         <span></span>
@@ -17,23 +32,22 @@
     </div>
   </div>
 </header>
-<div class="box-main-menu" id="js_box_main_menu" style="display: none;">
+<div class="main-menu-mobile" id="js_box_main_menu" style="display: none;">
   <nav class="main-menu">
       <a class="fa fa-times icon-cerrar" href="#" id="js_icon_cerrar"></a>
      <ul class="lista-menu">
         <li class="lista-item">
-          <a href="/" title="Inicio"><i class="fa fa-home"></i> Inicio</a>
+          <a href="/" title="Home"><i class="fa fa-home"></i> Home</a>
        </li>
        <li class="lista-item">
-         <a href="{{ site.url }}/habilidades-conocimientos/"{% if page.url contains "/habilidades-conocimientos/" %}class="active"{% endif %} title="Habilidades - Conocimientos">Habilidades y Conocimientos</a>
+         <a href="{{ site.url }}/habilidades-conocimientos/"{% if page.url contains "/habilidades-conocimientos/" %}class="active"{% endif %} title="Skills and Knowledge">Skills and Knowledge</a>
        </li>
        <li class="lista-item">
-         <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contacto">Contacto</a>
+         <a href="{{ site.url }}/contacto/"{% if page.url contains "/contacto/" %}class="active"{% endif %} title="Contact">Contact</a>
        </li>
        <li class="lista-item">
-         <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="Acerca">Acerca</a>
+         <a href="{{ site.url }}/acerca/"{% if page.url contains "/acerca/" %}class="active"{% endif %} title="About me">About me</a>
        </li>
      </ul>
   </nav>
-  </div>
 </div>

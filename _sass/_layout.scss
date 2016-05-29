@@ -29,8 +29,8 @@
 .content__nav{
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -39,42 +39,82 @@
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 50%;
+  width: 7%;
+  @include media-query($on-desktop-resolution-lower){
+     width: 50%;
+  }
   a{
     display: block;
     height: 37px;
     width: 37px;
   }
 }
+//estilos para el menú web desktop
+.nav{
+  background:$bg-menu;
+  display: block;
+  width: 77%;
+  @include media-query($on-desktop-resolution-lower){
+    display: none;
+  }
+}
+.nav-list{
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 0;
+  .lista-item{
+    display: inline-block;
+    a{
+      color: #fff;
+      padding: .5em .5em;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: normal;
+      &:hover{
+        background: #fff;
+        color: #2A2A2A;
+      }
+    }
+  }
+}
 //estilos para el menú
-.box-icons{
+.icons-box{
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   background: transparent;
   margin-top: 5px;
-  width: 50%;
+  width: 15%;
   @extend %clearfix;
+  @include media-query($on-desktop-resolution-lower){
+    width: 50%;
+  }
   .icon-buscador{
     color: white;
     font-size: 1.8em;
     text-decoration: none;
     margin-top: 3px;
-    margin-right: 15px;
+    
+    @include media-query($on-desktop-resolution-lower){
+      margin-right: 15px;
+    }
   }
 }
 //icono menú
 .icon-menu{
-background: lighten($bg-menu, 10%);
-border: 0;
-border-radius: 3px;
-display: block;
-position: relative;
-width: 42px;
-height: 37px;
-padding: 10px;
-cursor: pointer;
+  background: lighten($bg-menu, 10%);
+  border: 0;
+  border-radius: 3px;
+  display: none;
+  position: relative;
+  width: 42px;
+  height: 37px;
+  padding: 10px;
+  cursor: pointer;
+  @include media-query($on-desktop-resolution-lower){
+    display: block;
+  }
 }
 .icon-menu span{
 position: absolute;
@@ -102,9 +142,6 @@ bottom: -7px
 }
 //fin icono menú
 //menú
-.open{
-  display: block !important;
-}
 .active{
   background: rgba(42,42,42, .2) !important;
   border-radius: 3px;
@@ -113,7 +150,9 @@ bottom: -7px
   color: #fff !important;
   text-decoration: underline;
 }
-.box-main-menu{
+
+//============= estilos menú móvil
+.main-menu-mobile{
   background: transparent;
   position: fixed;
   top: 0;
@@ -148,7 +187,7 @@ bottom: -7px
   margin-top: 3em;
   .lista-item{
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 100%;
     a{
       display: block;
