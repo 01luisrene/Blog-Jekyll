@@ -50,6 +50,11 @@ layout: null
     <!-- suscripción newsletter -->
     {% include suscripcion.html %}
     {% include footer.html %}
+
+    {% if jekyll.environment == "production" %}
+      {% include production-files.html %}
+    {% endif %}
+    
     <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
     {% include autoreload-in-debug.html %}
