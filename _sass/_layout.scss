@@ -164,6 +164,32 @@ bottom: -7px
     }
   }
 }
+//======== PRE CARGA ================
+/* PRE LOADER */
+.preloader {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:$bg-menu;
+  z-index:99999;
+  height:100%;
+  width:100%;
+  overflow: hidden !important;
+}
+.status {
+  width:40px;
+  height:40px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-20px 0 0 -20px;
+  i{
+    color: $color-name;
+    padding: 5px;
+  }
+}
 //home
 .front{
   background:url('/assets/images/textura.png');

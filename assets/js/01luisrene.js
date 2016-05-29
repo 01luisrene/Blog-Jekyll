@@ -4,7 +4,12 @@ var agente = navigator.userAgent.toLowerCase();
 var cerounoluisrene = (function ($) {
 
     var
-
+    loading = function(){
+      jQuery(window).load(function() {
+        jQuery(".status").fadeOut();
+        jQuery(".preloader").delay(1000).fadeOut("slow");
+      });
+    },
     userAgentInit = function() {
         document.documentElement.setAttribute('data-useragent', navigator.userAgent);
     },
@@ -205,17 +210,17 @@ var cerounoluisrene = (function ($) {
     },
  // 01luisrene javascripts initialization
     init = function () {
-        userAgentInit();
-        headroom();
-        displayMenu();
-        closeMenu();
-        search_articles();
-        politica_cookies();
-        botonUp();
-        imprimirCurriculum();
-        disqus(window.location.href, window.location.href, $('.post-title').text());
-        cookieNewsletter();
-
+      userAgentInit();
+      headroom();
+      displayMenu();
+      closeMenu();
+      search_articles();
+      politica_cookies();
+      botonUp();
+      imprimirCurriculum();
+      disqus(window.location.href, window.location.href, $('.post-title').text());
+      cookieNewsletter();
+      loading();
     };
 
     return {
