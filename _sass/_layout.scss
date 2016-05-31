@@ -816,7 +816,7 @@ div iframe {margin-bottom: 1em;}
   }
   .form-imput textarea{
     height: 100px;
-    resize: none;
+    resize: vertical;
     width: 100%;
     &:focus{
       border:thin solid $color-green;
