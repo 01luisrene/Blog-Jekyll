@@ -86,7 +86,17 @@ Ejemplo: escribir cinco links.
 
 `a*5` + <kbd>Tab</kbd>
 
-Aquí un manual [pdf](https://drive.google.com/file/d/0B3HDGXa3Vd-EbGo0YndHNW5OMkE/view?usp=sharing), es de Zen Coding 0.6 (el nombre que tenia anteriormente); pero funciona correctamente.
+**Resultado**
+
+```html
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+```
+
+Aquí les dejo el link de la página oficial [Emmet](http://emmet.io/).
 
 Repositorio <a class="link" href="https://github.com/emmetio/emmet" target="_blank" rel="nofollow">Emmet en GitHub</a>.
 

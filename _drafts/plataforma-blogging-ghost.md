@@ -32,4 +32,13 @@ Para poder trabajar con este framework primero tenemos que instalar lo siguiente
 	</li>
 </ul>
 
-Una vez descargado el framework lo descomprimimos par
+Una vez descargado el framework lo descomprimimos dentro de una carpeta con el nombre que tendra su aplicación web.
+
+```
+	npm install --production
+```
+Una vez terminado la instalación de los paquetes.
+
+```
+	npm start
+```
