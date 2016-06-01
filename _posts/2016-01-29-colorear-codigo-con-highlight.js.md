@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Colorear código con highlight.js"
+title: "Colorear Código con Highlight.js"
 date: 2016-01-29 10:38:00 -0500
 categories: JavaScript
 tumblr_id: articulo-04

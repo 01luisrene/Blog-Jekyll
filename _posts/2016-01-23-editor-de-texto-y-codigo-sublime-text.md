@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Editor de texto y código Sublime Text"
+title: "Editor de Texto y Código Sublime Text"
 date: 2016-01-24 10:49:00 -0500
 categories: editor
 tumblr_id: articulo-03

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crear mapa con Google Maps API"
+title:  "Crear Mapa con Google Maps API"
 date:   2016-02-29 09:41:41 -0500
 categories: JavaScript
 tumblr_id: articulo-06

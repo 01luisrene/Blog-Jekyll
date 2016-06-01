@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cookies o galletas informáticas"
+title:  "Cookies o Galletas Informáticas"
 date: 2016-04-09 01:09:00 -0500
 categories: JavaScript
 tags: js, javascript
