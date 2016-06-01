@@ -95,7 +95,7 @@ Si se queda atascado se puede ver todo el <a href="https://s3-eu-west-1.amazonaw
 Si se queda atascado se puede ver todo el <a href="https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/install-ghost-win.gif" target="_blank">proceso en acción aquí</a>.
 
 
-## Instalación y ejecución de Ghost
+### Instalación y ejecución de Ghost
 
 <ul class="lista-desordenada">
 <li>En el menú de inicio, buscar 'Node.js' y luego seleccione 'Node.js command prompt'</li>
