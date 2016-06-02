@@ -37,8 +37,8 @@
 //icono logo
 .img-logo{
   display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 4px;
   width: 7%;
   @include media-query($on-desktop-resolution-lower){
      width: 50%;
@@ -46,7 +46,7 @@
   a{
     display: block;
     height: 37px;
-    width: 37px;
+    width: 55px;
   }
 }
 //estilos para el menú web desktop
