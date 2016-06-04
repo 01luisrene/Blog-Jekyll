@@ -9,6 +9,9 @@ requirejs.config({
 												],
 			ghostHunter				:'vendor/jquery.ghostHunter.min',
 			methods						: 'app/methods.min'
+		},
+		shim: {
+		    ghostHunter: ['jquery']
 		}
 });
 
