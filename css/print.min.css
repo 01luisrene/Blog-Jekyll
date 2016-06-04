@@ -5,7 +5,7 @@ audio,canvas,iframe,img,svg,video{vertical-align:middle}fieldset{border:0;margin
 .lista-redes li{position:relative;display:block;height:50px;width:100%}.lista-redes li a{display:block;text-align:center;width:100%;font-size:2em}.lista-redes li a::before{position:absolute;top:-.5em;left:50%;margin-left:-1em}
 .lista-redes li a[href]::after{content:"(" attr(href) ")";text-align:center;font-size:.6em}
 .familia-mas{width:65%}.redes-contacto{margin:0;padding:0}.redes-contacto li:first-child{margin-left:1em}.container-geo a[href]::after{content:""}
-.title-curriculum-web{margin-top:-67px;text-align:center;font-size:25px;text-transform:uppercase;text-decoration:underline}.titulo-item{margin-top:1.3em;font-size:20px!important;text-decoration:underline}
+.title-curriculum-web{margin-top:15px;text-align:center;font-size:25px;text-transform:uppercase;text-decoration:underline}.titulo-item{margin-top:1.3em;font-size:20px!important;text-decoration:underline}
 .lista-curriculum{overflow:hidden!important}.tabla-datos{box-sizing:border-box;border-spacing:10px;border-collapse:collapse;font-size:12px;margin-left:2%;width:98%}
 .box-img-curriculum{display:block;position:absolute;right:0;top:74px;height:150px;width:100px;overflow:hidden}.a-nacimiento{visibility:visible}.hidden{display:none!important}
 .visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
