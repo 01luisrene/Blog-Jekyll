@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Instalar Ruby On Rails en Windows"
+title:  "Instalar Ruby on Rails en Windows"
 date:   2016-04-15 02:05:00 -0500
 categories: rails 
 photo_url : "/assets/images/portadas/railsinstaller.png"
-description: "RailsInstaller es un paquete con todos los complementos, que crea un entorno de desarrollo para Ruby On Rails en Windows"
+description: "RailsInstaller es un paquete con todos los complementos, que crea un entorno de desarrollo para Ruby on Rails en Windows"
 ---
 
-Crear un entorno de desarrollo para trabajar con el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby On Rails</a> en el <a class="link" href="https://www.microsoft.com/es-es/windows/windows-10-upgrade" rel="nofollow" target="_blank">S. O. de Microsoft Windows</a> es tedioso y emplea bastante tiempo.
+Crear un entorno de desarrollo para trabajar con el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> en el <a class="link" href="https://www.microsoft.com/es-es/windows/windows-10-upgrade" rel="nofollow" target="_blank">S. O. de Microsoft Windows</a> es tedioso y emplea bastante tiempo.
 
 Para poder agilizar esta tarea que puede llevar varias horas, y quizá una vez terminada tu configuración no funcione al 100%.
 
-Te informo que existe un aplicación, para poder instalar todo el ambiente de desarrollo para <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby On Rails</a> en Windows, de una manera fácil y sencilla.
+Te informo que existe un aplicación, para poder instalar todo el ambiente de desarrollo para <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> en Windows, de una manera fácil y sencilla.
 
 La aplicación tiene por nombre **RailsInstaller**.
 
@@ -35,4 +35,4 @@ El cual al momento de ejecutarse, automáticamente se posicionara en la carpeta 
 
 ![Imagen CMD C:\sites]({{ "/assets/images/posts/cmd_sites.png" | prepend: site.url }})
 
-Con esta instalación y un poco más de investigación serán capaces de dominar el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby On Rails</a> hecho en el lenguaje de programación <a class="link" href="https://www.ruby-lang.org/es/" rel="nofollow" target="_blank">Ruby</a>.
+Con esta instalación y un poco más de investigación serán capaces de dominar el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> hecho en el lenguaje de programación <a class="link" href="https://www.ruby-lang.org/es/" rel="nofollow" target="_blank">Ruby</a>.
