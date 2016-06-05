@@ -76,7 +76,7 @@ Abrimos el terminal **CMD** de windows y escribimos `node -v`  el cual mostrara 
 Las instrucciones no varían mucho en las distintas versiones de S.O. Microsoft Windows.
 
 
-Clic derecho en el icono del escritorio que dice <kbd>Este equipo</kbd>
+Clic derecho en el icono del escritorio que dice <kbd>Este equipo</kbd> y selecciona en propiedades.
 
 ![imagen propiedades de Windows](/assets/images/posts/nodejs/win10_propiedades.png)
 
