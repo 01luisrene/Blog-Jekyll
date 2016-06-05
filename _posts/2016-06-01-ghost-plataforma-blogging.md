@@ -45,7 +45,7 @@ Para poder utilizar esta plataforma primero tenemos que realizar algunas configu
 	Si '/usr/local/bin' no aparece en su <code>$PATH</code>, consulte las sugerencias para solucionar problemas para encontrar la manera de agregarlo
 </blockquote>
 
-Si se queda atascado se puede ver todo el <a href="/assets/images/posts/install-node-mac.gif" target="_blank" rel="nofollow">proceso en acción aquí</a>.
+Si se queda atascado se puede ver todo el <a href="/assets/images/posts/ghost/install-node-mac.gif" target="_blank" rel="nofollow">proceso en acción aquí</a>.
 
 ### Instalación y ejecución de Ghost
 
@@ -68,7 +68,7 @@ En Finder, haga doble clic en el archivo zip descargado para extraerlo.
 
 <li>Cambiar la url por 127.0.0.1:2368/ghost y crear su usuario administrador para iniciar sesión, en el administrador de Ghost.</li>
 </ul>
-![Instalar Ghost en MAC](/assets/images/posts/install-ghost-mac.gif)
+![Instalar Ghost en MAC](/assets/images/posts/ghost/install-ghost-mac.gif)
 
 ### Instalar Node en Windows
 
@@ -80,7 +80,7 @@ En Finder, haga doble clic en el archivo zip descargado para extraerlo.
 	<li>Haga clic a través del instalador, hasta que llegue a la pantalla que le dice Node.js está instalado.</li>
 </ul>
 
-Si se queda atascado se puede ver todo el <a href="/assets/images/posts/install-node-mac.gif" target="_blank" rel="nofollow">proceso en acción aquí</a>.
+Si se queda atascado se puede ver todo el <a href="/assets/images/posts/ghost/install-node-mac.gif" target="_blank" rel="nofollow">proceso en acción aquí</a>.
 
 ### Descargar Ghost y Extraer
 
@@ -92,7 +92,7 @@ Si se queda atascado se puede ver todo el <a href="/assets/images/posts/install-
 <li>Cuando se abra la carpeta, haga clic derecho sobre el archivo zip descargado y seleccione 'Extraer todo'.</li>
 </ul>
 
-Si se queda atascado se puede ver todo el <a href="/assets/images/posts/install-ghost-win.gif" target="_blank">proceso en acción aquí</a>.
+Si se queda atascado se puede ver todo el <a href="/assets/images/posts/ghost/install-ghost-win.gif" target="_blank">proceso en acción aquí</a>.
 
 
 ### Instalación y ejecución de Ghost
@@ -113,7 +113,7 @@ Si se queda atascado se puede ver todo el <a href="/assets/images/posts/install-
 
 Consulte la <a href="http://support.ghost.org/" target="_blank">documentación</a> de uso para obtener instrucciones sobre los pasos a seguir.
 
-![Instalación de Ghost en Windows](http://support.ghost.org/wp-content/uploads/2014/06/install-ghost-win-2.gif)
+![Instalación de Ghost en Windows](/assets/images/posts/ghost/install-ghost-win-2.gif)
 
 <strong>Advertencia</strong>
 <blockquote>

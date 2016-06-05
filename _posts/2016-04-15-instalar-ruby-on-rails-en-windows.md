@@ -29,10 +29,10 @@ Es ahí donde alojaremos nuestros proyectos **Rails** para poder trabajar desde 
 
 Una vez instalado el programa para poder ejecutar los comando de **Ruby**, **Rails**, y todas las <a class="link" href="https://rubygems.org/" rel="nofollow" target="_blank">gemas</a> deberás acceder al **Command Prompt** de **RailsInstaller**.
 
-![Imagen CMD RailsInstaller]({{ "/assets/images/posts/cmd_rails.png" | prepend: site.url }} "Imagen CMD RailsInstaller")
+![Imagen CMD RailsInstaller]({{ "/assets/images/posts/rails/cmd_rails.png" | prepend: site.url }} "Imagen CMD RailsInstaller")
 
 El cual al momento de ejecutarse, automáticamente se posicionara en la carpeta <kbd>C:\Sites</kbd> , similar a la imagen ubicada en la parte inferior.
 
-![Imagen CMD C:\sites]({{ "/assets/images/posts/cmd_sites.png" | prepend: site.url }})
+![Imagen CMD C:\sites]({{ "/assets/images/posts/rails/cmd_sites.png" | prepend: site.url }})
 
 Con esta instalación y un poco más de investigación serán capaces de dominar el framework de <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> hecho en el lenguaje de programación <a class="link" href="https://www.ruby-lang.org/es/" rel="nofollow" target="_blank">Ruby</a>.
