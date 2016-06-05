@@ -20,7 +20,7 @@ Fue creado por  **Ryan Dahl** en 2009.
 
 ## Instalación en Windows
 
-Para instalar en Windows nos dirigimos a la página oficial de [Node.js](https://nodejs.org/en/) y descargamos la versión más reciente.
+Para instalarlo en Windows nos dirigimos a la página oficial de [Node.js](https://nodejs.org/en/) y descargamos la versión más reciente.
 
 ![imagen descargar Node.js](/assets/images/posts/nodejs/01.png)
 
@@ -62,7 +62,7 @@ Esta ventana muestra un mensaje **Node.js ha sido instalado exitosamente**
 
 Para culminar vamos a verificar si **Node.js** esta instado correctamente.
 
-Abrimos el terminal **CMD** de windows y escribimos `node -v`  el cual mostrara la versión del node instalado `v4.4.5`
+Abrimos el terminal **CMD** de windows y escribimos `node -v`  el cual mostrara la versión del **Node.js** instalado `v4.4.5`
 
 ![imagen CMD Node.js](/assets/images/posts/nodejs/node_cmd.png)
 
