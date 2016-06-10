@@ -8,6 +8,11 @@
   z-index: 9999999999;
   height: 47px;
   width: 100%;
+  //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
+  @include media-query($on-smartphone){
+    height: auto;
+    max-height: 147px;
+  }
 }
 //clases headroom
 .headroom {
@@ -43,10 +48,38 @@
   @include media-query($on-desktop-resolution-lower){
      width: 50%;
   }
+  //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
+  @include media-query($on-smartphone){
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    &::after{
+      color: $color-name;
+      content: "{01LuisRene}";
+      font-family: $roboto-font-family;
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      margin-left: -51px;
+      width: 102px;
+    }
+  }
   a{
     display: block;
     height: 37px;
     width: 55px;
+    //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
+    @include media-query($on-smartphone){
+      position: relative;
+      margin: 0 auto;
+      height: auto;
+      width: 100px;
+    }
   }
 }
 //estilos para el menú web desktop
@@ -85,9 +118,16 @@
   background: transparent;
   margin-top: 5px;
   width: 15%;
-  @extend %clearfix;
   @include media-query($on-desktop-resolution-lower){
     width: 50%;
+  }
+  //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
+  @include media-query($on-smartphone){
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 10px 0;
+    width: 100%;
   }
   .icon-buscador{
     color: white;
@@ -174,6 +214,11 @@ bottom: -7px
     background: rgba(35,34,45,.95);
     width: 100%;
   }
+  //ESTILOS PARA SMARTPHONE DE 320PX POR 240PX
+  @include media-query($on-smartphone){
+    overflow-x: scroll;
+  }
+
   .icon-cerrar{
     color: #fff;
     position: absolute;
@@ -248,7 +293,7 @@ bottom: -7px
   text-align: center;
   font-size: 4em;
   padding-top: 20px;
-  font-family:$font-family-roboto;
+  font-family:$roboto-font-family;
   margin-bottom: 0;
   text-transform: capitalize;
   text-shadow: 3px 3px 1px $bg-menu;
@@ -521,7 +566,7 @@ bottom: -7px
 .name-app {
   display: block;
   color: $color-name-app;
-  font-family:$font-family-roboto;
+  font-family:$roboto-font-family;
   font-size: 1.3em;
   text-transform: uppercase;
   font-weight: 700;
@@ -533,13 +578,13 @@ bottom: -7px
 .name-app:before {
   color: #fff;
   content: '{ ';
-  font-family: $font-family-roboto;
+  font-family: $roboto-font-family;
   text-shadow: none;
 }
 .name-app:after {
   color: #fff;
   content: ' }';
-  font-family: $font-family-roboto;
+  font-family: $roboto-font-family;
   text-shadow: none;
 }
 
@@ -636,17 +681,25 @@ bottom: -7px
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
-        line-height: 38px;
+      font-size: 36px;
+      line-height: 38px;
+    }
+    @include media-query($on-smartphone) {
+      font-size: 30px;
+      line-height: 34px;
     }
 }
 
 .post-content {
 margin-bottom: $spacing-unit;
+word-wrap: break-word;
 h2 {
     font-size: 32px;
     @include media-query($on-laptop) {
         font-size: 28px;
+    }
+    @include media-query($on-smartphone) {
+        font-size: 25px;
     }
 }
 h3 {
@@ -655,11 +708,17 @@ h3 {
     @include media-query($on-laptop) {
         font-size: 22px;
     }
+    @include media-query($on-smartphone) {
+        font-size: 20px;
+    }
 }
 h4 {
     font-size: 20px;
     @include media-query($on-laptop) {
         font-size: 18px;
+    }
+    @include media-query($on-smartphone) {
+        font-size: 17px;
     }
 }
 p{

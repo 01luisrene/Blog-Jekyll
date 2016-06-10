@@ -7,17 +7,21 @@ p, div, header, article, section, aside, footer, figure, hgroup, nav, details,fi
   -moz-box-sizing: border-box;
 }
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-    position: relative;
-    padding-top: 47px;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  position: relative;
+  padding-top: 47px;
+  //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
+  @include media-query($on-smartphone){
+    padding-top: 147px;
+  }
 }
 figure a > img{
     width: 100%;
@@ -46,19 +50,19 @@ h2, h3, h4, h5, h6 {
 }
 h1{
     font-size: 3em;
-    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-family: $base-font-family;
     font-weight: 700;
     line-height: normal;
 }
 h2 {
   font-size: 2em;
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
   font-weight: 700;
   text-transform: uppercase;
 }
 h3 {
   font-size: 1.3em;
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
   font-weight: 700;
   text-transform: uppercase;
 }
