@@ -348,6 +348,9 @@ bottom: -7px
       &:hover{
         margin-top: 3px;
         font-size: 2.7em;
+        @include media-query($on-smartphone){
+          font-size: 1.7em;
+        }
       }
       &.facebook:hover{
         color: $facebook;
