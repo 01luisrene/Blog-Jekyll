@@ -245,9 +245,6 @@ bottom: -7px
         background: #fff;
         color: #2A2A2A;
       }
-      @include media-query($on-smartphone){
-        font-size: .6em;
-      }
     }
   }
 }
@@ -340,30 +337,33 @@ bottom: -7px
     }
     a{
       display: block;
-      color: #333333;
+      color: $color-name; /*#333333*/
       font-size: 3em;
       text-decoration: none;
       text-rendering: auto;
       transition: .3s;
-    }
-    a:hover{
-      margin-top: 3px;
-      font-size: 2.7em;
-    }
-    a.facebook:hover{
-      color: $facebook;
-    }
-    a.twitter:hover{
-      color: $twitter;
-    }
-    a.youtube:hover{
-      color: $youtube;
-    }
-    a.github:hover{
-      color: $github;
-    }
-    a.google-plus:hover{
-      color: $google-plus;
+      @include media-query($on-smartphone){
+        font-size: 2em;
+      }
+      &:hover{
+        margin-top: 3px;
+        font-size: 2.7em;
+      }
+      &.facebook:hover{
+        color: $facebook;
+      }
+      &.twitter:hover{
+        color: $twitter;
+      }
+      &.youtube:hover{
+        color: $youtube;
+      }
+      &.github:hover{
+        color: $github;
+      }
+      &.google-plus:hover{
+        color: $google-plus;
+      }
     }
   }
 }
