@@ -245,6 +245,9 @@ bottom: -7px
         background: #fff;
         color: #2A2A2A;
       }
+      @include media-query($on-smartphone){
+        font-size: .6em;
+      }
     }
   }
 }
