@@ -50,37 +50,37 @@ var
     });
   },
   logoHideMenu = function(){
-    $(window).resize(function(event) {
+    //se ejecuta cuando el usuario redimensiona la página 
+    $(window).resize(function(event){
       var r = $(this).width();
-      if(r > 480){
-        $('#js_img_logo').removeAttr('style');
-        $('body').removeAttr('style');
-      }
-      if(r <= 480){
         $(window).scroll(function(event) {
-          if ($(this).scrollTop() > 25){
-            $('#js_img_logo').css({
-              transition: '.5s',
-              marginTop: '-100%',
-              height: 0
-            }); 
-            $('body').css({
-              paddingTop: '57px'
-            }); 
+          if(r <= 480){
+            if ($(this).scrollTop() > 25){
+              $('#js_img_logo').css({
+                transition: '.5s',
+                marginTop: '-100%'
+              }); 
+              $('body').css({
+                paddingTop: '57px'
+              }); 
+            }else{
+              $('#js_img_logo').removeAttr('style').css('transition', '.5s');
+              $('body').removeAttr('style').css('transition', '.5s');
+            }
           }else{
-            $('#js_img_logo').removeAttr('style').css('transition', '.5s');
-            $('body').removeAttr('style').css('transition', '.5s');
+            $('#js_img_logo').removeAttr('style');
+            $('body').removeAttr('style');
           }
         });
-      }
     });
+
+    //se ejecuta cuando carga la página
     if(widthScreen <= 480){
       $(window).scroll(function(event) {
         if ($(this).scrollTop() > 25){
           $('#js_img_logo').css({
             transition: '.5s',
             marginTop: '-100%',
-            height: 0
           }); 
           $('body').css({
             paddingTop: '57px'
@@ -90,6 +90,9 @@ var
           $('body').removeAttr('style').css('transition', '.5s');
         }
       });
+    }else{
+      $('#js_img_logo').removeAttr('style');
+      $('body').removeAttr('style');
     }
   },
   //search artículos
