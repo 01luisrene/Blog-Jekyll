@@ -11,7 +11,7 @@ Crear un entorno de desarrollo para trabajar con el framework de <a class="link"
 
 Para poder agilizar esta tarea que puede llevar varias horas, y quizá una vez terminada tu configuración no funcione al 100%.
 
-Te informo que existe un aplicación, para poder instalar todo el ambiente de desarrollo para <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> en Windows, de una manera fácil y sencilla.
+Te informo que existe una aplicación, para poder instalar todo el ambiente de desarrollo para <a class="link" href="http://rubyonrails.org/" rel="nofollow" target="_blank">Ruby on Rails</a> en Windows, de una manera fácil y sencilla.
 
 La aplicación tiene por nombre **RailsInstaller**.
 
@@ -27,7 +27,7 @@ Esta aplicación al instalase crea una carpeta por defecto con el nombre de <kbd
 
 Es ahí donde alojaremos nuestros proyectos **Rails** para poder trabajar desde la consola (`CMD`) en Windows.
 
-Una vez instalado el programa para poder ejecutar los comando de **Ruby**, **Rails**, y todas las <a class="link" href="https://rubygems.org/" rel="nofollow" target="_blank">gemas</a> deberás acceder al **Command Prompt** de **RailsInstaller**.
+Una vez instalado el programa para poder ejecutar los comando de **Ruby on Rails**, y todas las <a class="link" href="https://rubygems.org/" rel="nofollow" target="_blank">gemas</a> deberás acceder al **Command Prompt** de **RailsInstaller**.
 
 ![Imagen CMD RailsInstaller]({{ "/assets/images/posts/rails/cmd_rails.png" | prepend: site.url }} "Imagen CMD RailsInstaller")
 
