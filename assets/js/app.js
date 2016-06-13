@@ -63,11 +63,13 @@ var
               $('body').css({
                 paddingTop: '57px'
               }); 
-            }else{
+            }
+            if($(this).scrollTop() < 25){
               $('#js_img_logo').removeAttr('style').css('transition', '.5s');
               $('body').removeAttr('style').css('transition', '.5s');
             }
-          }else{
+          }
+          if(r > 480){
             $('#js_img_logo').removeAttr('style');
             $('body').removeAttr('style');
           }
