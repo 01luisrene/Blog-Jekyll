@@ -73,7 +73,7 @@ Pegar este código en la ventana anterior.
 }
 ```
 
-Si al abrir <kbd>Settings&nbsp;-&nbsp;User</kbd>, se ha generado las llaves ( `{ }` ) como en la imagen anterior. Se ubican dentro de las llaves en la parte inferior; agregan una  `,` y luego pegan el código para que funcione correctamente.
+Si al abrir <kbd>Settings&nbsp;-&nbsp;User</kbd>, se ha generado las llaves ( `{ }` ) como en la imagen anterior. Se ubican dentro de las llaves en la parte inferior; agregan una  `,` y luego pegan el código sin las llaves ( `{}` ) para que funcione correctamente. De lo contrario copian y pegan el código completo.
 
 ### Algunos plugins
 
@@ -96,7 +96,7 @@ Ejemplo: escribir cinco links.
 <a href=""></a>
 ```
 
-Aquí les dejo el link de la página oficial [Emmet](http://emmet.io/).
+Aquí les dejo el link de la página oficial de [Emmet](http://emmet.io/).
 
 Repositorio <a class="link" href="https://github.com/emmetio/emmet" target="_blank" rel="nofollow">Emmet en GitHub</a>.
 
