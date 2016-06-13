@@ -53,27 +53,25 @@ var
     //se ejecuta cuando el usuario redimensiona la página 
     $(window).resize(function(event){
       var r = $(this).width();
-        $(window).scroll(function(event) {
-          if(r <= 480){
-            if ($(this).scrollTop() > 25){
-              $('#js_img_logo').css({
-                transition: '.5s',
-                marginTop: '-100%'
-              }); 
-              $('body').css({
-                paddingTop: '57px'
-              }); 
-            }
-            if($(this).scrollTop() < 25){
-              $('#js_img_logo').removeAttr('style').css('transition', '.5s');
-              $('body').removeAttr('style').css('transition', '.5s');
-            }
+      $(window).scroll(function(event) {
+        if((r < 481) && ($(this).scrollTop() > 25)){
+            $('#js_img_logo').css({
+              transition: '.5s',
+              marginTop: '-100%'
+            }); 
+            $('body').css({
+              paddingTop: '57px'
+            }); 
           }
-          if(r > 480){
+          else{
             $('#js_img_logo').removeAttr('style');
             $('body').removeAttr('style');
           }
         });
+        if(r > 480){
+          $('#js_img_logo').removeAttr('style');
+          $('body').removeAttr('style');
+        }
     });
 
     //se ejecuta cuando carga la página
