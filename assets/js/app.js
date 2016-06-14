@@ -1,6 +1,5 @@
 'use strict';
-var agente = navigator.userAgent.toLowerCase(),
-    widthScreen = $(window).width();
+var agente = navigator.userAgent.toLowerCase();
 
 var cerounoluisrene = (function ($) {
 
@@ -50,50 +49,50 @@ var
     });
   },
   logoHideMenu = function(){
-    //se ejecuta cuando el usuario redimensiona la página 
-    $(window).resize(function(event){
-      var r = $(this).width();
-      $(window).scroll(function(event) {
-        if((r < 481) && ($(this).scrollTop() > 25)){
+      var w = $(document).width();
+
+      console.log(w);
+      /*se ejecuta cuando carga la página*/
+      if(w < 481){
+         $(window).scroll(function() {
+          if ($(window).scrollTop() > 25){
             $('#js_img_logo').css({
               transition: '.5s',
-              marginTop: '-100%'
+              marginTop: '-100%',
             }); 
-            $('body').css({
-              paddingTop: '57px'
-            }); 
-          }
-          else{
-            $('#js_img_logo').removeAttr('style');
+          }else{
+            $('#js_img_logo').removeAttr('style').css('transition', '.5s');
             $('body').removeAttr('style');
           }
+      });
+    }
+    /* Se ejecuta cuando se re dimensiona la ventana */
+    $(window).resize(function() {
+      var w = $(this).width();
+      if(w > 480){
+        /* 
+        Quita los estilos y remueve el ID para que no se apliquen los estilos a través de jQuery scripts
+        */
+        $('#js_img_logo').removeAttr('style').attr('id', '');
+        $('body').removeAttr('style');
+      }else{
+        /* Agrega el ID extraído anteriormente */
+        $('.figure-logo').attr('id', 'js_img_logo');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 25){
+              $('#js_img_logo').css({
+                transition: '.5s',
+                marginTop: '-100%',
+              }); 
+            }else{
+              $('#js_img_logo').removeAttr('style');
+              $('body').removeAttr('style');
+            }
         });
-        if(r > 480){
-          $('#js_img_logo').removeAttr('style');
-          $('body').removeAttr('style');
-        }
+      }
     });
 
-    //se ejecuta cuando carga la página
-    if(widthScreen <= 480){
-      $(window).scroll(function(event) {
-        if ($(this).scrollTop() > 25){
-          $('#js_img_logo').css({
-            transition: '.5s',
-            marginTop: '-100%',
-          }); 
-          $('body').css({
-            paddingTop: '57px'
-          }); 
-        }else{
-          $('#js_img_logo').removeAttr('style').css('transition', '.5s');
-          $('body').removeAttr('style').css('transition', '.5s');
-        }
-      });
-    }else{
-      $('#js_img_logo').removeAttr('style');
-      $('body').removeAttr('style');
-    }
   },
   //search artículos
   ghostHunter = function(){
