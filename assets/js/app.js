@@ -58,7 +58,7 @@ var
           if ($(window).scrollTop() > 25){
             $('#js_img_logo').css({
               transition: '.5s',
-              marginTop: '-100%',
+              marginTop: '-200px',
             }); 
           }else{
             $('#js_img_logo').removeAttr('style').css('transition', '.5s');
@@ -83,7 +83,7 @@ var
             if ($(window).scrollTop() > 25){
               $('#js_img_logo').css({
                 transition: '.5s',
-                marginTop: '-100%',
+                marginTop: '-200px',
               }); 
             }else{
               $('#js_img_logo').removeAttr('style');
