@@ -10,7 +10,7 @@ description: "Git es libre y de código abierto; Git es un sistema distribuido d
 
 **Git** es fácil de aprender y tiene una pequeña marca con un rendimiento increíblemente rápido. Se supera a herramientas de [SCM](https://es.wikipedia.org/wiki/Administraci%C3%B3n_de_la_cadena_de_suministro) como Subversion, CVS, Perforce y ClearCase con características como tener múltiples ramificación locales, áreas de almacenamiento convenientes, y múltiples flujos de trabajo.
 
-**Git** fue desarrollado por una de las necesidades de poder tener control de todas las versiones y cambios de nuestros proyectos como (S.O., aplicaciones desktop, aplicaciones web, mobile, imáges, ...) y así poder movernos de una versión a otra, según nuestras necesidades sin tener múltiples backups de un mismo proyecto.
+**Git** fue desarrollado por una de las necesidades de poder tener el control de todas las versiones y cambios de nuestros proyectos como (S.O., aplicaciones desktop, aplicaciones web, mobile, imáges, ...) y así poder movernos de una versión a otra, según nuestras necesidades sin tener múltiples backups de un mismo proyecto.
 
 ### Sitio Oficial
 
@@ -24,6 +24,84 @@ Libros para que profundices tu conocimiento de todo lo que te ofrece **Git**.
 
 [LibrosWeb Pro Git](https://librosweb.es/libro/pro_git/)
 
-## Video Tutorial Básico de GIT
+## Crear Repositorio GIT
 
-<iframe class="video-youtube" src="https://www.youtube.com/embed/vsiNGsh5NW8?rel=0&showinfo=1&controls=1" frameborder="0" allowfullscreen></iframe>
+Para este tutorial vamos a implementar nuestro entorno de trabajo en S. O. Microsoft Windows.
+
+<ol class="lista-ordenada">
+	<li>Instalar <a class="link" href="https://git-scm.com/" target="_blank" rel="nofollow"><strong>GIT</strong></a>.</li>
+</ol>
+
+Ahora comencemos a trabajar con un repositorio **GIT** al cual lo nombraremos **tutorial_git**.
+
+Abrimos el <kbd>Git Bash</kbd>.
+
+![Git Bash](/assets/images/posts/git/git_bash.png)
+
+Para iniciar la creación del repositorio vamos a realizar un par de cambios en nuestro **GIT config**, ya que esto se realiza en primera instancia. Por que **GIT** usara tus datos para validar tus comandos como (`git commit`, `git branch`, `git add`, ...) y lo almacenara el tu repositorio.
+
+Agregamos nuestro nombre: `git config --global user.name "tu nombre"`
+
+Agregamos nuestro email: `git config --global user.email "tu-email@dominio.com"`
+
+![git config](/assets/images/posts/git/git_config.png)
+
+Verificamos si nuestros datos han sido guardados correctamente con el comando `git config --list`
+
+![git config list](/assets/images/posts/git/git_config_list.png)
+
+Solo hemos agregado nuestro nombre y correo electrónico.
+
+***
+
+Vamos a dirigirnos al escritorio de nuestra **PC** con el siguiente comando `cd desktop`.
+
+![cd desktop](/assets/images/posts/git/git_desktop.png)
+
+Creamos una carpeta con el nombre **tutorial_git** con el comando `mkdir tutorial_git`, el cual será nuestro repositorio.
+
+![mkdir](/assets/images/posts/git/git_mkdir.png)
+
+Para crear el nuevo repositorio **GIT** ingresamos a la carpeta creada con el comando `cd tutorial_git` y ejecutamos el comando `git init`.
+
+![git init](/assets/images/posts/git/git_init.png)
+
+Bueno nuestra carpeta ahora es un repositorio **GIT**. Vamos a agregar un par de archivos a nuestro repositorio para ver su funcionamiento.
+
+Ejecutamos los siguientes comandos:
+
+```html
+echo "# Tutorial GIT
+>
+> Este es mi primer repositorio hecho en GIT." >> README.md
+```
+
+`echo "*.jar" >> .gitignore`
+
+`echo "" >> archivo.txt`
+
+El primer comando crea un archivo con la extensión **.md**, que es una sintaxis [**Markdown**](https://guides.github.com/features/mastering-markdown/).
+
+El segundo comando crea un archivo **.gitignore** con el contenido ***.jar** que esto indica que excluirá a todos los archivos **.jar**.
+
+El tercer comando crea un archivo **.txt** vacío.
+
+![Agregando archivos al repositorio](/assets/images/posts/git/git_archivos.png)
+
+![Carpeta con archivos iniciales](/assets/images/posts/git/carpeta_archivos_iniciales.png)
+
+Ejecutamos el comando `git status` para ver el estado de nuestro repositorio.
+
+![Estado de nuestro repositorio](/assets/images/posts/git/git_status.png)
+
+Podemos apreciar que los archivos que hemos agregado anteriormente están de color rojo eso indica que no están siendo seguidos. Lo que vamos a realizar ahora es agregarlos al **Index** con el comando `git add .` y al **Head** con el siguiente comando `git commit -m "Commit mensaje"`.
+
+![Agregando al Index e incluirlo en el Head](/assets/images/posts/git/git_add_commit.png)
+
+Si realizamos un `git status` mostrara un mensaje "directorio de trabajo limpio".
+
+![git status new](/assets/images/posts/git/git_status_new.png)
+
+## Video Tutorial GIT
+
+<iframe class="video-youtube" src="https://www.youtube.com/embed/gDxD4YE0ZIU?rel=0&showinfo=1&controls=1" frameborder="0" allowfullscreen></iframe>
