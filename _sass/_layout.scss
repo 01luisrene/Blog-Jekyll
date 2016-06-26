@@ -673,6 +673,9 @@ bottom: -7px
     color: #fff;
     font-size: 1.5em;
     padding: 10px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
   }
 }
 
