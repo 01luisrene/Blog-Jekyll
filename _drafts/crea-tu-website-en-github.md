@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pantilla post"
+title:  "Crea tu sitio web en GitHub"
 date:   2016-04-11 11:48:41 -0500
 categories:  
 photo_url : "/assets/images/portadas/"

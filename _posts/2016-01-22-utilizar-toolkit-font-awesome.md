@@ -3,6 +3,7 @@ layout: post
 title:  "Utilizar el Toolkit Font Awesome"
 date:   2016-01-22 09:41:41 -0500
 categories: CSS
+keywords: font-awesome, iconos, iconos font awesome
 tumblr_id: articulo-01
 photo_url : "/assets/images/portadas/font_awesome.jpg"
 description: "Utilizar el Toolkit Font Awesome es extremadamente fácil, pero la verdad yo al igual que ustedes aprendo de la web y la primera ves que lo vi me fue confuso, espero que su experiencia sea mejor"
@@ -34,7 +35,7 @@ Una vez ingresado a su página principal presionas en el botón <kbd><b>Download
 
 Te recomiendo visitar este link **<a class="link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank" rel="nofollow">Iconos Font Awesome</a>** para ver los nombre de los iconos.
 
-Elige el icono que vas a utilizar y dale clic; en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie"&#62;&#60;/i&#62;</code>.
+Elige el icono que vas a utilizar y dale clic; en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie" aria-hidden="true"&#62;&#60;/i&#62;</code>.
 
 Así de simple mi amigo(a), espero que te sea de utilidad para tus proyectos.
 
@@ -86,3 +87,7 @@ Aquí un pequeño código para comprenderlo mejor.
 ### Ejemplos del toolkit Font Awesome
 
 Te recomiendo visitar la página de <a class="link" href="http://fortawesome.github.io/Font-Awesome/examples/" rel="nofollow" target="_blank" rel="nofollow">**Ejemplos Font Awesome**</a>.
+
+## Video Tutorial Font Awesome
+
+<iframe class="video-youtube" src="https://www.youtube.com/embed/g53yHVQGXh8?rel=0&showinfo=1&controls=1" frameborder="0" allowfullscreen></iframe>

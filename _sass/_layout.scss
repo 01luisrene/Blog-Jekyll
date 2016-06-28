@@ -267,12 +267,12 @@ bottom: -7px
   overflow: hidden !important;
 }
 .status {
-  width:40px;
-  height:40px;
+  width:82px;
+  height:74px;
   position:absolute;
   left:50%;
   top:50%;
-  margin:-20px 0 0 -20px;
+  margin:-37px 0 0 -41px;
   i{
     color: $color-name;
     padding: 5px;
@@ -390,8 +390,8 @@ bottom: -7px
 .post-list {
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   list-style: none;

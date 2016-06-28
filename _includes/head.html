@@ -5,7 +5,7 @@
 	<!--
 		01LUISRENE
 	-->
-	<meta name="keywords" content="" />
+	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% endif %}" />
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else if content %}{{ site.description }}{% endif %}" />
   <meta name="robots" content="INDEX, FOLLOW" />
   <meta name="author" content="{{site.autor_name}}" />
