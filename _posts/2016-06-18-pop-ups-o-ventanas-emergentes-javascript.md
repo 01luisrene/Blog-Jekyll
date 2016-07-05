@@ -57,7 +57,7 @@ window.open("http://01luisrene.com", "miVentana", "width=380, height=500, top=85
     var miVentana;
 
     //La función window_open crea el pop-up o ventana emergente
-    function window_open(url){
+    function window_open(){
       miVentana = window.open( "http://01luisrene.com", "nombrePop-Up", "width=380,height=500, top=85,left=50");
     }
     
