@@ -50,7 +50,7 @@ Si al abrir <kbd>Settings&nbsp;-&nbsp;User</kbd>, se ha generado las llaves ( `{
 
 ### Instalando el Package Control
 
-La instalación de **Sublime Text** es como toda aplicación, pero para poder instalar los **plugins**, primero tenemos que instalar el **Package Control**.
+La instalación de **Sublime Text** es como toda aplicación, pero para poder instalar los **plugins**, primero tenemos que instalar el [**Package Control**](https://packagecontrol.io/).
 
 Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código y presionamos la tecla <kbd>Enter</kbd>.
 
