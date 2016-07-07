@@ -18,34 +18,7 @@ Personalmente lo uso para escribir código como ( **CSS3**, **JavaScript**, **HT
 
 <a class="btn btn-link" href="http://www.sublimetext.com/" target="_blank" rel="nofollow">Sublime Text</a>
 
-### Instalando el Package Control
-
-La instalación de **Sublime Text** es como toda aplicación, pero para poder instalar los **plugins**, primero tenemos que instalar el **Package Control**.
-
-Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código y presionamos la tecla <kbd>Enter</kbd>.
-
-#### Código para Sublime Text 2
-```shell 
-import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
-```
-
-#### Código para Sublime Text 3
-
-```shell
-import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-```
-
-Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el <kbd>Package Control</kbd>.
-
-![Sublime Text Package Control]({{ "/assets/images/posts/sublime_text/sublime_text_package_control.jpg" | prepend: site.url }} "Sublime Text Package Control")
-
-Ahora elegimos la opción <kbd>Install Package</kbd>.
-
-Para instalar un **plugin** escribimos el nombre en la caja de texto y seleccionamos el que deseamos instalar.
-
-![Install Package]({{ "/assets/images/posts/sublime_text/install_package.jpg" | prepend: site.url }} "Install Package")
-
-### Configuración de Sublime Text
+### Configuración de Usuario Sublime Text
 
  La configuración que realizaremos sera suficiente para poder trabajar de manera eficiente.
 
@@ -74,6 +47,33 @@ Pegar este código en la ventana anterior.
 ```
 
 Si al abrir <kbd>Settings&nbsp;-&nbsp;User</kbd>, se ha generado las llaves ( `{ }` ) como en la imagen anterior. Se ubican dentro de las llaves en la parte inferior; agregan una  `,` y luego pegan el código sin las llaves ( `{}` ) para que funcione correctamente. De lo contrario copian y pegan el código completo.
+
+### Instalando el Package Control
+
+La instalación de **Sublime Text** es como toda aplicación, pero para poder instalar los **plugins**, primero tenemos que instalar el **Package Control**.
+
+Nos dirigimos al menú de **Sublime Text** el la opción <kbd>View</kbd> > <kbd>Show Console</kbd>, el cual abrirá una caja de texto en la parte inferior, es ahí donde pegaremos el siguiente código y presionamos la tecla <kbd>Enter</kbd>.
+
+#### Código para Sublime Text 2
+```shell 
+import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+```
+
+#### Código para Sublime Text 3
+
+```shell
+import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
+
+Esperamos a que se instale y si todo salio bien al realizar la combinación de teclas <kbd>ctrl + shift + p</kbd> se abrirá el <kbd>Package Control</kbd>.
+
+![Sublime Text Package Control]({{ "/assets/images/posts/sublime_text/sublime_text_package_control.jpg" | prepend: site.url }} "Sublime Text Package Control")
+
+Ahora elegimos la opción <kbd>Install Package</kbd>.
+
+Para instalar un **plugin** escribimos el nombre en la caja de texto y seleccionamos el que deseamos instalar.
+
+![Install Package]({{ "/assets/images/posts/sublime_text/install_package.jpg" | prepend: site.url }} "Install Package")
 
 ### Algunos plugins
 
