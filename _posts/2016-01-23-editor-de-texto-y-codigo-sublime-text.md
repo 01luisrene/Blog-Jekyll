@@ -123,4 +123,8 @@ Repositorio <a class="link" href="https://github.com/titoBouzout/SideBarEnhancem
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Existen múltiples plugin para diferentes usos, solo es cuestión de buscar el que se ajusta a nuestras necesidades.
 
+## Video Tutorial Sublime Text
+
+<iframe class="video-youtube" src="https://www.youtube.com/embed/wTDPi9vh7iU?rel=0&showinfo=1&controls=1" frameborder="0" allowfullscreen></iframe>
+
 Bueno amigos si les interesa este editor solo tienen que leer la documentación de <a class="link" href="https://www.sublimetext.com/docs/2/" target="_blank" rel="nofollow">ublime text 2</a> o <a class="link" href="https://www.sublimetext.com/docs/3/" target="_blank" rel="nofollow">Sublime text 3</a>.
