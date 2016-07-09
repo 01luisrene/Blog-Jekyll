@@ -12,10 +12,12 @@ App Name: 01luisrene v2.1
 
 /* EQUIPO */
                           
-Webmaster: Luis Rene Mas Mas.                          
-Site: 01luisrene[at]gmail.com.                        
-Twitter: 01luisrene.                        
-Location: Trujillo, La Libertad, Perú.                        
+Webmaster: Luis Rene Mas Mas
+Contacto: http://01luisrene.com/contacto/                          
+Site: 01luisrene[at]gmail.com                        
+Twitter: 01luisrene
+Facebook: 01luisrene                        
+Location: Trujillo, La Libertad, Perú                        
                  
                         [...]
 													
@@ -70,10 +72,10 @@ From: 		Chachapoyas, Amazonas, Perú
                           
 Last update: 2016/06/21                      
 Standards: HTML5, CSS3, JavaScript, ...                        
-Components: html5.js, jQuery, etc.
+Components: html5.js, jQuery, Headroom.js, ghostHunter.js etc.
 Framework: Jekyll.
 Software: Sublime Tex 3, Google Chrome.
-Sistema de Veersionado: GitHub.
+Sistema de Versionado: GitHub.
 
 /* 
 Leyenda: [at] es representación del arroba para evitar span.
