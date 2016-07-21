@@ -87,7 +87,7 @@ a {
 }
 
 blockquote {
-  color: $grey-color;
+  color: darken($grey-color, 15%);
   border-radius: 0 5px 5px 0;
   border-left: 4px solid $color-name;
   border-top: thin solid $grey-color-light;
