@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Instalando y Creando un Proyecto React Native para Android"
+title:  "Instalación y Creación de un Proyecto React Native para Android"
 date:   2016-07-18 09:07:00 -0500
 categories: JavaScript
 photo_url : "/assets/images/portadas/react_native.jpg"
