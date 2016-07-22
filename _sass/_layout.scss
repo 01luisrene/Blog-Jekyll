@@ -231,9 +231,12 @@ bottom: -7px
     text-decoration: none;
     font-size: 2.5em;
   }
+  .logo-menu-mobile{
+  	display: block;
+  	margin: 0 auto;
+  }
 }
 .lista-menu{
-  margin-top: 3em;
   .lista-item{
     display: inline-block;
     margin-bottom: 10px;
