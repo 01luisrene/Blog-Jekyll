@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Capturar Pantalla y Personalizar con Lightshot"
-date:   2016-07-24 05:25:41 -0500
+date:   2016-07-25 04:40:41 -0500
 categories: JavaScript
 keywords: capturar pantalla, lightshot, captura monitor, captura screen
 tumblr_id: 
