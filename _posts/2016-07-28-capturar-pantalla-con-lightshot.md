@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Capturar Pantalla Personalizable con Lightshot"
+title:  "Capturar Pantalla y Personalizar con Lightshot"
 date:   2016-07-24 05:25:41 -0500
 categories: JavaScript
 keywords: capturar pantalla, lightshot, captura monitor, captura screen
