@@ -34,6 +34,12 @@ En la página inicial de **Android Studio** nos muestra el botón de descarga y 
 
 ![Descargar Android Studio](/assets/images/posts/android_studio/descargar_android_studio.png)
 
+Acapta los terminos de licencia y haz <em>clic</em> en el botón <kbd>DOWNLOAD</kbd> ara descargar **Android Studio**.
+
+![Ternimos de Licencia Android Studio](/assets/images/posts/android_studio/terminos_licencia_android_studio.png)
+
+> También puedes realizar una [descarga personalizada de **Android Studio**](https://developer.android.com/studio/index.html#downloads).
+
 En esta parte de la página inicial me ofrece la opción de escoger la aplicación **Android Studio** que se ajuste a mi necesidad, en mi caso descargare una versión para S. O. Windows y que a su vez venga incluido el **Android SDK**.
 
 ![Descargar Android Studio](/assets/images/posts/android_studio/elegir_descarga_android_studio.png)
