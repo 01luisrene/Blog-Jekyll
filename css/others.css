@@ -22,8 +22,12 @@
 .panel-default{
 	overflow-x: scroll;
 }
+.table #listCursos .pendiente{
+	text-transform: capitalize;
+}
 .table #listCursos .culminado{
 	background: #00974B;
+	text-transform: capitalize;
 }
 .table #listCursos .culminado a{
 	text-decoration: underline;
