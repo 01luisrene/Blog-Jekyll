@@ -59,5 +59,9 @@
 <script src="{{ "/assets/js/app.min.js" | prepend: site.url }}"></script>
 
 {% if jekyll.environment == "production" %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
   {% include analytics.html %}
 {% endif %}
