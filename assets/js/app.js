@@ -5,10 +5,8 @@ var cerounoluisrene = (function ($) {
 
 var
   loading = function(){
-    jQuery(window).load(function() {
-      jQuery(".status").fadeOut();
-      jQuery(".preloader").delay(1000).fadeOut("slow");
-    });
+    $(".status").fadeOut(); 
+    $(".preloader").delay(1000).fadeOut("slow");
   },
   userAgentInit = function() {
     document.documentElement.setAttribute('data-useragent', navigator.userAgent);
@@ -208,6 +206,7 @@ var
   ,
  // 01luisrene javascripts initialization
   init = function () {
+    setTimeout(function(){loading()}, 1000);
     userAgentInit();
     headroom();
     displayMenu();
@@ -218,7 +217,6 @@ var
     botonUp();
     imprimirCurriculum();
     disqus(window.location.href, window.location.href, $('.post-title').text());
-    loading();
   };
 
   return {

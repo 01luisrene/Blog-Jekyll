@@ -139,6 +139,9 @@ textarea {
   font-size: .6em;
 }
 
+.btn-links-articulos, .rss-subscribe{
+  display: none;
+}
 /*acerca*/
 .familia-mas{
   width: 65%;
@@ -189,6 +192,10 @@ textarea {
 }
 .a-nacimiento{
   visibility: visible;
+}
+/*Botón up*/
+.boton-subir{
+  display: none;
 }
 /* ==========================================================================
    Helper classes
@@ -342,9 +349,9 @@ textarea {
         page-break-inside: avoid;
     }
 
-    // img {
-    //     max-width: 100% !important;
-    // }
+    img {
+      max-width: 100% !important;
+    }
 
     p,
     h2,
