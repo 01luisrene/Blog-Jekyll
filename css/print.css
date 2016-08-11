@@ -84,12 +84,6 @@ textarea {
  .post-header{
     margin-top: -80px;
  }
- .site-footer{
-  display: none;
-}
-.site-header{
-    display: none !important;
-}
 /*home*/
 .front {
   clear: both;
@@ -103,9 +97,6 @@ textarea {
 .descriptio-author{
   display: block;
   padding-bottom: 2em;
-}
-.post-list{
-  display: none;
 }
 
 .lista-redes{
@@ -137,10 +128,6 @@ textarea {
   content: "(" attr(href) ")";
   text-align: center;
   font-size: .6em;
-}
-
-.btn-links-articulos, .rss-subscribe{
-  display: none;
 }
 /*acerca*/
 .familia-mas{
@@ -193,9 +180,18 @@ textarea {
 .a-nacimiento{
   visibility: visible;
 }
-/*Botón up*/
-.boton-subir{
-  display: none;
+
+/*Estilos para ocultar contenido en la impresión*/
+.site-footer,
+.site-header,
+.pub-top-01luisrene, 
+.pub-all-01luisrene,
+.post-list,
+.boton-subir,/*Botón up*/
+.btn-links-articulos, 
+.rss-subscribe
+{
+  display: none !important;
 }
 /* ==========================================================================
    Helper classes
