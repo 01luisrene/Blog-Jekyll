@@ -76,5 +76,12 @@ Si deseamos eliminar un paquete que hayamos instalado con **Chocolatey**, ejecut
 
 ![Packages Chocolatey](/assets/images/posts/chocolatey/desinstalar_nodejs.png)
 
+### Ver Paquetes Instalados
+
+Para ver los paquetes instalados con **Chocolatey** abre el **Símbolo del sistema**, escribe `choco list --local-only` y luego presiona <kbd>Enter</kbd>.
+
+Ahora podras ver la lista de paquetes instalados :)
+
+![Packages Chocolatey](/assets/images/posts/chocolatey/lista_paquetes_instalados.png)
 
 > Bueno amigos espero les sirva este artículo para que cambien su manera de trabajar en Windows, en cuanto a la instalación de aplicaciones.
