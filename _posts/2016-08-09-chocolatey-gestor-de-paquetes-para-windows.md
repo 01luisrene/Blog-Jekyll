@@ -54,27 +54,27 @@ Abrimos el **PowerShell** o **Símbolo del sistema** como administrador -> <a cl
 
 Luego escribimos el código `choco install nodejs.install` y presionamos la tecla <kbd>Enter</kbd>.
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/instalar_nodejs_631.png)
+![Instalar Node desde Chocolatey](/assets/images/posts/chocolatey/instalar_nodejs_631.png)
 
 En la siguiente ventana escriban **Y** para aceptar la licencia del paquete a instalar, de lo contrario la instalación fallara.
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/aceptar_yes.png)
+![Aceptar licensia del paquete](/assets/images/posts/chocolatey/aceptar_yes.png)
 
 Una vez terminada la instalación nos mostrara el siguiente mensaje en la **consola** de color <em>amarillo</em>.
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/mesaje_de_instalacion.png)
+![Mensaje de instalación Chocolatey](/assets/images/posts/chocolatey/mesaje_de_instalacion.png)
 
 ### Actualizar Paquete
 
 Para actualizar un paquete instalado anteriormente, ejecutamos el **PowerShell** o **Símbolo del sistema** como [administrador](https://goo.gl/ljRIjk), escribimos el siguiente comando `choco upgrade nodejs.install` - (recuerden que estamos trabajando con Node.js).
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/upgrade_nodejs.png)
+![Actualizar paquete con Chocolatey](/assets/images/posts/chocolatey/upgrade_nodejs.png)
 
 ### Eliminar Paquete
 
 Si deseamos eliminar un paquete que hayamos instalado con **Chocolatey**, ejecutamos el siguiente código `choco uninstall nodejs.install`, en el **Símbolo del sistema** como [administrador](https://goo.gl/ljRIjk).
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/desinstalar_nodejs.png)
+![Desinstalar paquete con Chocolatey](/assets/images/posts/chocolatey/desinstalar_nodejs.png)
 
 ### Ver Paquetes Instalados
 
@@ -82,6 +82,6 @@ Para ver los paquetes instalados con **Chocolatey** abre el **Símbolo del siste
 
 Ahora podras ver la lista de paquetes instalados :)
 
-![Packages Chocolatey](/assets/images/posts/chocolatey/lista_paquetes_instalados.png)
+![Listar paquetes instalados con Chocolatey](/assets/images/posts/chocolatey/lista_paquetes_instalados.png)
 
 > Bueno amigos espero les sirva este artículo para que cambien su manera de trabajar en Windows, en cuanto a la instalación de aplicaciones.
