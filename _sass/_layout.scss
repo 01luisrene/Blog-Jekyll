@@ -765,7 +765,7 @@ div iframe {margin-bottom: 1em;}
   }
 }
 .lista-ordenada, .lista-desordenada{
-  padding-left: 1.7em;
+  padding-left: 2.5em;
   @include media-query($on-smartphone) {
     overflow-x: scroll;
   }
