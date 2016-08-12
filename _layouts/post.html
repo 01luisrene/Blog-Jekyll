@@ -8,26 +8,28 @@ layout: null
   </head>
   <body>
     {% include header.html %}
+    
+    <!-- Publicidad -->
+    {% if jekyll.environment == "production" %}
+    <div align="center" class="wrapper pub-top-01luisrene">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!--Publish-001 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3311622925293570"
+           data-ad-slot="4058532046"
+           data-ad-format="auto"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+    {% endif %}
+    <!-- Fin publicidad -->
+
     <div class="post-content">
       <div class="wrapper inner-post">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
           <header class="post-header">
-						<!-- Publicidad -->
-						{% if jekyll.environment == "production" %}
-            <div align="center" class="pub-top-01luisrene">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	            <!--Publish-001 -->
-	            <ins class="adsbygoogle"
-	                 style="display:block"
-	                 data-ad-client="ca-pub-3311622925293570"
-	                 data-ad-slot="4058532046"
-	                 data-ad-format="auto"></ins>
-	          <script>
-					  	(adsbygoogle = window.adsbygoogle || []).push({});
-					  </script>
-	          </div>
-            {% endif %}
-            <!-- Fin publicidad -->
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             <p class="post-meta"><i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
             {% if jekyll.environment == "production" %}
