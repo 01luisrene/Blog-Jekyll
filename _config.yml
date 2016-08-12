@@ -7,8 +7,6 @@ autor_name: Luis Rene Mas Mas
 
 description: > # Descripción de 01luisrene
   01luisrene: es el nombre de usuario que utilizo en las redes sociales (Twitter, Facebook, Google+); este sitio web a sido desarrollado para poder compartir contenidos de algunos lenguajes de programación (HTML5, CSS3, JAVASCRIPT, RUBY), PREPROCESADORES y mucho más.
-description_author: > # description author
-  Hola, soy Técnico en Computación e Informática, me apasiona el desarrollo Front End (<b>HTM5</b>, <b>CSS3</b>, <b>JAVASCRIPT</b>, <b>Responsive Design</b>), me encanta aprender programación web ya que es el futuro.
 
 port: 3000
 host: localhost

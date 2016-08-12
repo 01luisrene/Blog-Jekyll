@@ -45,7 +45,7 @@
   margin-top: 6px;
   margin-bottom: 4px;
   width: 7%;
-  @include media-query($on-desktop-resolution-lower){
+  @include media-query($content-width){
      width: 50%;
   }
   //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
@@ -87,7 +87,7 @@
   background:$bg-menu;
   display: block;
   width: 77%;
-  @include media-query($on-desktop-resolution-lower){
+  @include media-query($content-width){
     display: none;
   }
 }
@@ -122,7 +122,7 @@
   background: transparent;
   margin-top: 5px;
   width: 15%;
-  @include media-query($on-desktop-resolution-lower){
+  @include media-query($content-width){
     width: 50%;
   }
   //ESTILOS PARA SMARTPHONE MENORES O IGUAL 480PX
@@ -139,7 +139,7 @@
     text-decoration: none;
     margin-top: 3px;
     
-    @include media-query($on-desktop-resolution-lower){
+    @include media-query($content-width){
       margin-right: 15px;
     }
   }
@@ -155,7 +155,7 @@
   height: 37px;
   padding: 10px;
   cursor: pointer;
-  @include media-query($on-desktop-resolution-lower){
+  @include media-query($content-width){
     display: block;
   }
 }
@@ -320,10 +320,22 @@ bottom: -7px
   width: 120px;
 }
 
-.descriptio-author{
+.description-author{
+  border-radius: 10px;
+  padding: 10px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
+  max-width: 940px;
+  @include media-query($on-palm){
+    font-size: 1.2em;
+    max-width: 100%;
+  }
+  @include media-query($on-smartphone){
+    font-size: 1em;
+  }
 }
 .lista-redes{
   display: -webkit-flex;
@@ -381,10 +393,50 @@ bottom: -7px
 /**
  post
  */
-.page-content{
+.page-content, .post-content{
   padding: 1em 0;
   position:relative;
   z-index: 2;
+}
+.page-content .wrapper{
+  max-width: 940px;
+}
+
+.inner-post{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+  .post{
+    width: 68%;
+    @include media-query($content-width){
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .widget-content{
+    border: thin solid #CECBCB;
+    margin-left: 2%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right:5px;
+    width: 30%;
+    @include media-query($content-width){
+      margin-left: 0;
+      width: 100%;
+    }
+    .widget{
+      margin-bottom: 1em;
+    }
+    .google-plus{
+      margin-left:auto;
+      margin-right: auto;
+      width: 300px;
+    }
+  }
 }
 /*
 .post{

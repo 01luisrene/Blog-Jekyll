@@ -8,8 +8,8 @@ layout: null
   </head>
   <body>
     {% include header.html %}
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="post-content">
+      <div class="wrapper inner-post">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
           <header class="post-header">
 						<!-- Publicidad -->
@@ -61,7 +61,9 @@ layout: null
             </figure>
             <section class="author">
               <h3><a href="{{site.url}}/">Luis Rene Mas Mas</a></h3>
-                <p>{{ site.description_author }}</p>
+                <p>
+                Hola, soy Técnico en Computación e Informática, me apasiona el desarrollo Frontend (<strong>HTM5</strong>, <strong>CSS3</strong>, <strong>JAVASCRIPT</strong>, <strong>Responsive Design</strong>), me encanta aprender programación web ya que es el futuro.
+                </p>
               <div class="author-meta">
                 <span class="author-location">
                   <i class="fa fa-map-marker"></i>
@@ -75,6 +77,44 @@ layout: null
               {% include disqus.html %}
           {% endif %}
         </article>
+        <aside class="widget-content">
+          {% if jekyll.environment == "production" %}
+          <div align="center" class="widget">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- publisher-widget-top -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3311622925293570"
+                 data-ad-slot="7551565243"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+          {% endif %}
+          <div class="widget google-plus">
+            <!-- Inserta esta etiqueta donde quieras que aparezca widget. -->
+            <div class="g-person" data-href="//plus.google.com/u/0/103985641320231803151" data-rel="author"></div>
+          </div>
+          <div class="widget ultimos-tweets">
+            <h2>Ultimos Tweets</h2>
+            <a class="twitter-timeline" href="https://twitter.com/01luisrene" data-tweet-limit="7" data-chrome="noborders  nofooter noheader transparent">Tweets by 01luisrene</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          {% if jekyll.environment == "production" %}
+          <div align="center" class="widget">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- publisher-widget-bottom -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3311622925293570"
+                 data-ad-slot="9028298448"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+          {% endif %}
+        </aside>
       </div>
     </div>
     <!-- suscripción newsletter -->
@@ -85,6 +125,10 @@ layout: null
     {% endif %}
     
     <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
+    <!-- Badge de Google Plus -->
+    <script src="https://apis.google.com/js/platform.js" async defer>
+              {lang: 'es'}
+            </script>
     {% include autoreload-in-debug.html %}
     
   </body>
