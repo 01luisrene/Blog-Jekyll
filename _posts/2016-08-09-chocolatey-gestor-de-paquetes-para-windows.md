@@ -46,7 +46,7 @@ Realizamos una búsqueda el es esta página y elegimos la versión de Node.js qu
 
 ![Packages Chocolatey](/assets/images/posts/chocolatey/pagina_packages.png)
 
-### Instalar
+### Instalar Paquete
 
 Para este tutorial voy a instalar **Node.js** en su **versión 6.3.1**, de la siguiente manera - (cabe recalcar que la versión puede cambiar para cuando usted este viendo este artículo).
 
@@ -64,13 +64,13 @@ Una vez terminada la instalación nos mostrara el siguiente mensaje en la **cons
 
 ![Packages Chocolatey](/assets/images/posts/chocolatey/mesaje_de_instalacion.png)
 
-### Actualizar
+### Actualizar Paquete
 
 Para actualizar un paquete instalado anteriormente, ejecutamos el **PowerShell** o **Símbolo del sistema** como [administrador](https://goo.gl/ljRIjk), escribimos el siguiente comando `choco upgrade nodejs.install` - (recuerden que estamos trabajando con Node.js).
 
 ![Packages Chocolatey](/assets/images/posts/chocolatey/upgrade_nodejs.png)
 
-### Eliminar
+### Eliminar Paquete
 
 Si deseamos eliminar un paquete que hayamos instalado con **Chocolatey**, ejecutamos el siguiente código `choco uninstall nodejs.install`, en el **Símbolo del sistema** como [administrador](https://goo.gl/ljRIjk).
 
