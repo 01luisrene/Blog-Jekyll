@@ -54,4 +54,4 @@ Te pedirá una contraseña escribe una que sea segura, presiona <kbd>Enter</kbd>
 
 **Nota**: con el comando anterior puedes asignar y cambiar la contraseña del **usuario Administrador**.
 
-> Para finalizar quiero decirles que no es recomendable activar el **Usuario Administrador** y trabajar desde dicho usuario, ya que pueden borrar archivos esenciales para el funcionamiento del sistema operativo, entre otras muchas casos.
+> Para finalizar quiero decirles que no es recomendable activar el **Usuario Administrador** y trabajar desde dicho usuario, ya que pueden borrar archivos esenciales para el funcionamiento del sistema operativo, entre otros muchos casos.
