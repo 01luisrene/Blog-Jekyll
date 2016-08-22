@@ -189,7 +189,8 @@ textarea {
 .post-list,
 .boton-subir,/*Botón up*/
 .btn-links-articulos, 
-.rss-subscribe
+.rss-subscribe,
+.widget-content
 {
   display: none !important;
 }
