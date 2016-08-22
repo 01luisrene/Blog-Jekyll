@@ -206,7 +206,7 @@ var
   ,
  // 01luisrene javascripts initialization
   init = function () {
-    setTimeout(function(){loading()}, 1000);
+    setTimeout(function(){loading()}, 500);
     userAgentInit();
     headroom();
     displayMenu();
