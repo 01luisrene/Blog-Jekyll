@@ -180,7 +180,9 @@ textarea {
 .a-nacimiento{
   visibility: visible;
 }
-
+.inner-post .post{
+  width: 100% !important;
+}
 /*Estilos para ocultar contenido en la impresión*/
 .site-footer,
 .site-header,
