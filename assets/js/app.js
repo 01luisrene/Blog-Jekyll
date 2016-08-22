@@ -4,13 +4,6 @@ var agente = navigator.userAgent.toLowerCase();
 var cerounoluisrene = (function ($) {
 
 var
-  loading = function(){
-    $(".status").fadeOut(); 
-    $(".preloader").delay(1000).fadeOut("slow");
-  },
-  userAgentInit = function() {
-    document.documentElement.setAttribute('data-useragent', navigator.userAgent);
-  },
   headroom = function(){
     $('#header').headroom({
       'tolerance': {
@@ -206,8 +199,6 @@ var
   ,
  // 01luisrene javascripts initialization
   init = function () {
-    setTimeout(function(){loading()}, 500);
-    userAgentInit();
     headroom();
     displayMenu();
     closeMenu();
