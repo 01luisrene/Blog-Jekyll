@@ -8,7 +8,7 @@
           <div class="separador"></div>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
-        <img src="{{'/assets/images/logo_footer.png' | prepend: site.url }}" alt="Logo 01LuisRene" title="Imagen Logo" style="display: block; margin: 0 auto;" width="100">
+        <img src="{{'/assets/images/logo.png' | prepend: site.url }}" alt="Logo" title="Logo" style="display: block; margin: 0 auto;" width="100">
       </div>
 
       <div class="footer-col footer-col-2">
@@ -49,15 +49,37 @@
 <a href="#" id="js_up" class="boton-subir">
   <i class="fa fa-rocket" aria-hidden="true"></i>
 </a>
-<!-- SCRIPTS -->
-<script src="{{ "/assets/js/app.min.js" | prepend: site.url }}"></script>
 
+<script src="{{ "/assets/js/app.min.js" | prepend: site.url }}"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-3311622925293570",
     enable_page_level_ads: true
   });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', load, false);
+  function load() {
+    loadCSS('/assets/css/styles.css');
+    loadCSS('/assets/css/vendor.css');
+    loadCSS('//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+    loadCSS('//fonts.googleapis.com/css?family=Noto+Sans:400,700');
+    loadCSS('//fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+  }
+  function loadCSS(href, before, media) {
+    'use strict';
+    var css = window.document.createElement('link');
+    var ref = before || window.document.getElementsByTagName("script")[0];
+    css.rel = "stylesheet";
+    css.href = href;
+    css.media = "only x";
+    ref.parentNode.insertBefore(css, ref );
+    setTimeout( function(){
+      css.media = media || "all";
+    });
+    return css;
+  }
 </script>
 
 {% if jekyll.environment == "production" %}

@@ -92,16 +92,12 @@ layout: null
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
           </div>
-          {% endif %}
-          <div class="widget">
-            <h3>Google Plus</h3>
-            <!-- Inserta esta etiqueta donde quieras que aparezca widget. -->
-            <div class="g-person" data-href="//plus.google.com/103985641320231803151" data-layout="landscape" data-rel="author"></div>
-          </div>
+           {% endif %}
           <div class="widget ultimos-tweets">
             <h3>Últimos Tweets</h3>
             <a class="twitter-timeline" href="https://twitter.com/01luisrene" data-tweet-limit="7" data-chrome="noborders  nofooter noheader transparent">Tweets by 01luisrene</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
+         
           {% if jekyll.environment == "production" %}
           <div align="center" class="widget">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -121,16 +117,18 @@ layout: null
     </div>
     
     {% include footer.html %}
-
+    <script src="{{ "/assets/js/highlight.js" | prepend: site.url }}"></script>
+    <script>
+      $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+    <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
     {% if jekyll.environment == "production" %}
       {% include addthis.html %}
     {% endif %}
-    
-    <script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
-    <!-- Badge de Google Plus -->
-    <script src="https://apis.google.com/js/platform.js" async defer>
-      {lang: 'es'}
-    </script>    
   </body>
 </html>
 
