@@ -25,7 +25,7 @@ Bueno si sabes de lo que estoy escribiendo anteriormente pues te quiero hacer de
 
 <a class="link" href="http://gulpjs.com/" target="_blank">Página oficial de Gulp</a>
 
-Para poder trabajar con **Gulp** tenemos que tener instalado [Node:js](http://01luisrene.com/blog/2016/05/15/instalar-nodejs-en-windows/), ya que **Gulp** trabaja en este entorno.
+Para poder trabajar con **Gulp** tenemos que tener instalado [Node.js](http://01luisrene.com/blog/2016/05/15/instalar-nodejs-en-windows/), ya que **Gulp** trabaja en este entorno.
 
 **Primero**: abre una consola y ejecuta el siguiente comando para instalar la interfaz de línea de comandos **Gulp** de forma global.
 
@@ -82,8 +82,8 @@ $ npm install --save-dev gulp
   },
   "author": "Luis Rene Mas Mas",
   "license": "ISC",
-  "devDependencies": { //Agregado
-    "gulp": "^3.9.1"
+  "devDependencies": {
+    "gulp": "^3.9.1"	//Gulp agregado en nuestro proyecto
   }
 }
 
@@ -244,7 +244,7 @@ gulp.task('default',['watch', 'compress-js']);
 
 ### Comprimir Imágenes
 
-Para poder ayudar en la carga de nuestra página web al momento de de ser renderizado en el navegador es aconsejable comprimir las imágenes para producción.
+Para poder ayudar en la carga de nuestra página web al momento de ser renderizado en el navegador es aconsejable comprimir las imágenes para producción.
 
 Pero realizar esta tarea puede ser engorrosa o hasta aburrida, pero gracias a **Gulp** esta tarea es mas fácil.
 
@@ -314,7 +314,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
 
-//Tarea para comprimir imágenes
+//Tarea para unir ó concatenar archivos
 gulp.task('unir-files', function() {
  return gulp.src('./css/*.css') //Origen
   .pipe(concat('all.css'))	//Concatenado los archivos 
@@ -354,7 +354,7 @@ Al unir las tareas **Gulp** que realizamos en este tutorial quedaría de la sigu
   },
   "author": "Luis Rene Mas Mas",//Modifica el nombre
   "license": "ISC",
-  "devDependencies": { //Nombre de plugin Gulp instalados
+  "devDependencies": { //Nombre de los plugins Gulp instalados
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
@@ -420,7 +420,7 @@ gulp.task('images', function() {
     .pipe(notify("La compresión de imágenes a culminado!"));;
 });
 
-//Tarea para comprimir imágenes
+//Tarea para unir ó concatenar archivos
 gulp.task('unir-files', function() {
  return gulp.src('./css/*.css') //Origen
   .pipe(concat('all.css'))  //Concatenado los archivos 
