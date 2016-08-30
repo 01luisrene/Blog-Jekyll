@@ -32,6 +32,8 @@ Mi sitio web esta basado en este generador de contenido estático muy potente, q
 
 [CODEPEN](http://codepen.io/)
 
+[highlight.js](https://highlightjs.org/)
+
 ## Mensajería email
 
 [FORMSPREE](http://formspree.io/)
