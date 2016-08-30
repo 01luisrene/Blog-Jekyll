@@ -75,6 +75,6 @@ $ ruby -v
 $ ruby --version
 ```
 
-Este comando nos debe mostrar la versión instalada de **Ruby**  y funcionar de cualquier ruta porque agregamos la variable de entorno apuntando a **Ruby**.
+Este comando nos debe mostrar la versión instalada de **Ruby**  y debe funcionar de cualquier ruta porque agregamos la variable de entorno apuntando a **Ruby**.
 
 ![Test Ruby](/assets/images/posts/rubyinstaller/test_ruby.png)
