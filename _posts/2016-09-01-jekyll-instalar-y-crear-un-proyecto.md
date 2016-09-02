@@ -83,4 +83,4 @@ $ bundle exec jekyll serve
 
 ![localhost](/assets/images/posts/jekyll/localhost.png)
 
-Bueno mis amigos ahora ya podrán realizar la personalización y configuración en su proyecto **Jekyll**
+Bueno mis amigos ahora ya podrán realizar la personalización y configuración en su proyecto **Jekyll**.
