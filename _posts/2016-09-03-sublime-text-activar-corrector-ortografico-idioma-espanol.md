@@ -55,9 +55,9 @@ C:\...\Sublime Text 3\Packages
 
 **Quinto**: abre **Sublime Text** ya sea la versión 2 ó 3.
 
-Para poder activar el corrector ortográfico del idioma español nos dirigimos al <kbd>menú Sublime Text</kbd> + <kbd>View</kbd> + <kbd>Dictionary</kbd> + <kbd>Language - Spanish ></kbd> + <kbd>es_ANY</kbd>
+Para seleccionar el diccionario del idioma español nos dirigimos al <kbd>menú Sublime Text</kbd> + <kbd>View</kbd> + <kbd>Dictionary</kbd> + <kbd>Language - Spanish ></kbd> + <kbd>es_ANY</kbd>
 
-![Activar Diccionario Español en Sublime Text](/assets/images/posts/sublime_text-corrector_ortografico/activar_diccionario_es.png)
+![Seleccionar Diccionario Español en Sublime Text](/assets/images/posts/sublime_text-corrector_ortografico/activar_diccionario_es.png)
 
 Ahora ya esta activado.
 
