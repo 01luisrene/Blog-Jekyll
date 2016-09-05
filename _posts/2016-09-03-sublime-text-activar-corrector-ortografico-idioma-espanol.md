@@ -63,6 +63,8 @@ Ahora ya esta activado.
 
 ***
 
-**Sexto** : para activarlo o desactivarlo presiona la tecla <kbd>F6</kbd> ó la combinación de teclas <kbd>Fn + F6</kbd>
+**Sexto** : para revisar nuestra ortografía presiona la tecla <kbd>F6</kbd> ó la combinación de teclas <kbd>Fn + F6</kbd>
 
 ![Test Corrector Ortográfico](/assets/images/posts/sublime_text-corrector_ortografico/test.png)
+
+> Para desactivarlo vuelve a realizar el **Quinto** paso.
