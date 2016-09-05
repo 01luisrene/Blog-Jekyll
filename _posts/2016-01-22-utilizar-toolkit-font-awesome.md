@@ -17,7 +17,7 @@ Utilizar el **Toolkit Font Awesome** es extremadamente fácil, pero la verdad yo
 
 Vamos a utilizarlo desde su CDN es más practico y ayuda en la carga de tu web te lo aseguro.
 
-Copiamos el link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**, **PHP**, etc.
+Copiamos el siguiente link dentro de la etiqueta `head` en nuestro archivo ya sea **HTML**, **PHP**, etc.
 
 ``` html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -33,9 +33,19 @@ Una vez ingresado a su página principal presionas en el botón <kbd><b>Download
 
 ### Iconos Font Awesome
 
-Te recomiendo visitar este link **<a class="link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank" rel="nofollow">Iconos Font Awesome</a>** para ver los nombre de los iconos.
+Te recomiendo visitar el siguiente link **<a class="link" href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank" rel="nofollow">Iconos Font Awesome</a>** para ver todos los iconos disponibles que puedes utilizar en tus proyectos web.
 
-Elige el icono que vas a utilizar y dale clic; en la siguiente página te mostrara el código que debes de usar, como por ejemplo: <code>&#60;i class="fa fa-black-tie" aria-hidden="true"&#62;&#60;/i&#62;</code>.
+Busca el icono que vas a utilizar y para ver su código haz <em>clic</em> sobre el icono elegido.
+
+![Seleccionar Icono Font Awesome](/assets/images/posts/font_awesome/seleccionar_icon.png)
+
+ En esta página se nos mostrara el código que debes de usar para generar el icono, como por ejemplo: 
+
+```
+<i class="fa fa-black-tie" aria-hidden="true"></i>
+```
+
+ ![Código del Icono Font Awesome](/assets/images/posts/font_awesome/code_icon.png)
 
 Así de simple mi amigo(a), espero que te sea de utilidad para tus proyectos.
 

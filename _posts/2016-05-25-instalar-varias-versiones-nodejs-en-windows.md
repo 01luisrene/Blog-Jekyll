@@ -73,31 +73,43 @@ Comandos de uso para [NVM](https://github.com/coreybutler/nvm-windows#usage).
 
 Ver la versión instalada de **NVM**.
 
-Comando: `nvm version`
+```
+$ nvm version
+```
 
 ![Ver la versión de NVM](/assets/images/posts/nvm_node/version_nvm.png)
 
-Instalar más versiones de **Node.js**. Lista de versiones **Node.js** [nodeversions](https://github.com/coreybutler/nodedistro/blob/master/nodeversions.json)
+Instalar más versiones de **Node.js**. Lista de versiones [**Node.js**](https://github.com/coreybutler/nodedistro/blob/master/nodeversions.json)
 
-Comando: `nvm install <Node version>`
+
+```
+$ nvm install <Node version>
+```
 
 ![Agregar versiones de Node.js en NVM](/assets/images/posts/nvm_node/add_node_nvm.png)
 
 Ver la lista de las versiones de **Node.js** instaladas en **NVM**.
 
-Comando: `nvm list`
+
+```
+$ nvm list
+```
 
 ![Lista de versiones Node.js instalados en NVM](/assets/images/posts/nvm_node/lista_nvm.png)
 
 Cambiar de versión de **Node.js** a utilizar.
 
-Comando: `nvm use <Node version>`
+```
+$ nvm use <Node version>
+```
 
 ![Cambiar de versión Node.js instalado en NVM](/assets/images/posts/nvm_node/cambiar_node_version_nvm.png)
 
 Desinstalar una versión de **Node.js** instalada en  **NVM**.
 
-Comando: `nvm uninstall <Node version>`
+```
+$ nvm uninstall <Node version>
+```
 
 ![Desinstalar Node.js instalado en NVM](/assets/images/posts/nvm_node/uninstall_node_nvm.png)
 
