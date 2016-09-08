@@ -1,7 +1,7 @@
 		<meta charset="utf-8"/>
 
 	<!-- Metadata -->
-	<title>{% if page.title %}{{ page.title }} &#171; {{ site.title }}{% else %}{{site.title}} &#187; Blog de desarrollo web y móvil{% endif %}</title>
+	<title>{% if page.title %}{{ page.title }}{% else %}{{site.title}} &#187; Blog de desarrollo web{% endif %}</title>
 	<!--
 		01LUISRENE
 	-->
@@ -23,7 +23,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="01luisrene" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="og:description" content="{% if content %}{{ site.description }}{% else  %}{{ post.description  | strip_html}}{% endif %}" />
+  <meta name="og:description" content="{% if page.description %}{{ page.description }}{% else if content %}{{ site.description }}{% endif %}" />
 	<meta property="og:image" content="{% if page.photo_url %}{{site.url}}{{ page.photo_url }}{% else %}{{site.url}}{{ site.photo_url }}{% endif %}" />
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 	<meta property="fb:app_id" content="128181427574206" />
