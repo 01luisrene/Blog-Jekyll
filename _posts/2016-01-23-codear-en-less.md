@@ -5,7 +5,7 @@ date:   2016-01-23 09:41:41 -0500
 categories: Preprocesadores
 tumblr_id: articulo-02
 photo_url : "/assets/images/portadas/less.jpg"
-description: "**LESS** es un preprocesador que extiende las posibilidades del CSS, es gracias a esta herramienta podemos tener un mejor control de nuestro código CSS y podemos crear (variables, mezclas, operaciones, reglas anidadas, ...)"
+description: "LESS es un preprocesador que extiende las posibilidades del CSS, es gracias a esta herramienta podemos tener un mejor control de nuestro código CSS y podemos crear (variables, mezclas, operaciones, reglas anidadas, ...)"
 ---
 **LESS** es un preprocesador que extiende las posibilidades del __CSS__, es gracias a esta herramienta podemos tener un mejor control de nuestro código __CSS__ y podemos crear (**variables**, **mezclas**, **operaciones**, **reglas anidadas**, ...).
 
