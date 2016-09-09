@@ -44,6 +44,11 @@ Para comprobar si se instalo de forma correcta en nuestro sistema, ejecuta en la
 ```
 $ npm init
 ```
+<b>No olvidar: </b>
+
+```
+entry point: (gulpfile.js)
+```
 
 <small>Te pedirá una serie de datos llena los campos que desees, para saltarte los datos que no desees llenar pulsa la tecla <kbd>Enter</kbd>, al culminar se abra creado el archivo con el nombre `package.json` con contenido similar al código siguiente.</small>
 
