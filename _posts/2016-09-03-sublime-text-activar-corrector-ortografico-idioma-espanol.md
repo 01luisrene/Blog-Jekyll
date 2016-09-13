@@ -67,4 +67,4 @@ Ahora ya esta activado.
 
 ![Test Corrector Ortográfico](/assets/images/posts/sublime_text-corrector_ortografico/test.png)
 
-> Para desactivarlo vuelve a realizar el **Quinto** paso.
+> Para desactivarlo vuelve a realizar el **Sexto** paso.
