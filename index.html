@@ -20,8 +20,6 @@ photo_url: "/assets/images/cover_home.jpg"
     <section class="loop-description">
       {% if post.description %}
       <p class="loop-body">{{ post.description | strip_html}}...</p>
-      {% else %}
-      <p class="loop-body">{{ post.excerpt | strip_html }}...</p>
       {% endif %}
     </section>
     <footer class="loop-footer">
@@ -34,4 +32,4 @@ photo_url: "/assets/images/cover_home.jpg"
  <a href="/lista-articulos/">Ver más artículos...</a>
 </div>
 
-<p class="rss-subscribe">Suscribe <a class="fa fa-rss-square fa-2x" href="{{ "/rss.xml" | prepend: site.url }}" target="_blank"></a> vía rss</p>
+<p class="rss-subscribe">Suscribete <a class="fa fa-rss-square fa-2x" href="{{ "/rss.xml" | prepend: site.url }}" target="_blank"></a> vía rss</p>
