@@ -1,5 +1,5 @@
 # Site settings
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 title: 01LuisRene
 email: contacto@01luisrene.com
 01luisrene_version: 0.3.0
