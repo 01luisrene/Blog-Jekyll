@@ -16,9 +16,6 @@ url: http://01luisrene.com
 # Build settings
 markdown: kramdown
 
-#analítica
-google_analytics_id: UA-73408981-1
-
 #usuarios de redes sociales
 twitter: https://twitter.com/01luisrene
 github:  https://github.com/01luisrene
