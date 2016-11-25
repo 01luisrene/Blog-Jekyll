@@ -164,59 +164,59 @@ Ver la información completa sobre [Twitter Card Tags](https://dev.twitter.com/c
 Para este ejemplo usaremos la estructura HTML5.
 
 <pre><code class="html">
-&#60;!DOCTYPE html&#62;
-&#60;!--EL atributo lang indica el idioma o lenguaje que utiliza la página web--&#62;
-&#60;html lang="es"&#62;
-&#60;head&#62;
+<!DOCTYPE html>
+<!--EL atributo lang indica el idioma o lenguaje que utiliza la página web-->
+<html lang="es">
+<head>
 
-	&#60;meta charset="UTF-8"&#62;
+	<meta charset="UTF-8">
 
-	&#60;meta name="description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda"&#62;
+	<meta name="description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda">
 
-	&#60;title&#62;SEO - Meta Etiquetas html&#60;/title&#62;
+	<title>SEO - Meta Etiquetas html</title>
 
-	&#60;meta name="author" content="Luis Rene Mas Mas"&#62;
+	<meta name="author" content="Luis Rene Mas Mas">
 
-	&#60;meta name="robots" content="INDEX, FOLLOW"&#62;
+	<meta name="robots" content="INDEX, FOLLOW">
 
-	&#60;link rel="canonical" href="http://www.tudominio.com/"&#62;
+	<link rel="canonical" href="http://www.tudominio.com/">
 
-	&#60;meta name="viewport" content="width=device-width,initial-scale=1"&#62;
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
-	&#60;!--Geo Tgas--&#62;
+	<!--Geo Tgas-->
 
-	&#60;meta name="geo.region" content="PE" /&#62;
-	&#60;meta name="geo.position" content="-9.189967;-75.015152" /&#62;
-	&#60;meta name="ICBM" content="-9.189967, -75.015152" /&#62;
+	<meta name="geo.region" content="PE" />
+	<meta name="geo.position" content="-9.189967;-75.015152" />
+	<meta name="ICBM" content="-9.189967, -75.015152" />
 
-	&#60;!--OpenGraph--&#62;
-	&#60;meta property="og:type" content="website" /&#62;
-	&#60;meta property="og:site_name" content="01luisrene" /&#62;
-	&#60;meta property="og:title" content="SEO - Meta Etiquetas html" /&#62;
-	&#60;meta name="og:description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda" /&#62;
-	&#60;meta property="og:image" content="path/images/seo-meta-tags.jpg" /&#62;
-	&#60;meta property="og:url" content="http://tudominio.com" /&#62;
+	<!--OpenGraph-->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="01luisrene" />
+	<meta property="og:title" content="SEO - Meta Etiquetas html" />
+	<meta name="og:description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda" />
+	<meta property="og:image" content="path/images/seo-meta-tags.jpg" />
+	<meta property="og:url" content="http://tudominio.com" />
 
-	&#60;!--Twitter OpenGraph--&#62;
-	&#60;meta property="twitter:card" content="summary" /&#62;
-	&#60;meta property="twitter:site" content="@twitter-user" /&#62;
-	&#60;meta property="twitter:title" content="SEO - Meta Etiquetas html" /&#62;
-	&#60;meta property="twitter:description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda" /&#62;
-	&#60;meta property="twitter:image" content="path/images/seo-meta-tags.jpg" /&#62;
-	&#60;meta property="twitter:url" content="http://tudominio.com" /&#62;
+	<!--Twitter OpenGraph-->
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:site" content="@twitter-user" />
+	<meta property="twitter:title" content="SEO - Meta Etiquetas html" />
+	<meta property="twitter:description" content="Meta Etiquetas usadas para facilitar la información a los motores de busqueda" />
+	<meta property="twitter:image" content="path/images/seo-meta-tags.jpg" />
+	<meta property="twitter:url" content="http://tudominio.com" />
 	
-	&#60;!-- Favicon --&#62;
-	&#60;link rel="shortcut icon" href="http://tudominio.com/favicon.ico" /&#62;
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://tudominio.com/favicon.ico" />
 
-	&#60;!--Fuentes y Estilos--&#62;
+	<!--Fuentes y Estilos-->
 
-&#60;/head&#62;
-&#60;body&#62;
-	&#60;!-- Contenido HTML--&#62;
+</head>
+<body>
+	<!-- Contenido HTML-->
 
-	&#60;!-- Archivos JavaScript --&#62;
-&#60;/body&#62;
-&#60;/html&#62;
+	<!-- Archivos JavaScript -->
+</body>
+</html>
 </code></pre>
 
 ### Info
